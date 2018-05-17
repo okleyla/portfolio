@@ -60,6 +60,10 @@ body {
 }
 
 /*TEXT */
+h1 {
+  font-size: 2.4rem;
+}
+
 h1, h2 {
   font-family: 'Rozha one', serif;
   min-height: 100%;
@@ -82,62 +86,4 @@ footer {
 
 footer .connect {
   color: white;
-}
-
-/* About Page*/
-
-.about-description-table {
-  display: table;
-  position: absolute;
-  left: 10rem;
-  right: 10rem;
-  height: 550px;
-}
-
-.about-description-table img {
-  width: 50%;
-  height: auto;
-}
-
-.about-container {
-  display: table-cell;
-  position: relative;
-  height: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  vertical-align: middle;
-  letter-spacing: 0.05rem;
-}
-
-.about-description-text {
-  background-color: #6ABE93;
-  width: 50%;
-  height: auto;
-  float: right;
-  text-align: center;
-  padding:  30% 5% 0 5%;
-  margin: auto;
-}
-
-.about-icons {
-  margin-right: 10rem;
-  margin-top: 600px;
-  float:right;
-}
-
-.about-content{
-  display: block;
-  margin: auto;
-  position: relative;
-  width: 50%;
-  padding: 10px;
-}
-
-.mooboard {
-  position: relative;
-}
-
-.moodboard img {
-  width: 100%;
-  height: auto;
 }

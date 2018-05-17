@@ -1,0 +1,68 @@
+/* About Page*/
+
+.about-description-table {
+  display: table;
+  position: absolute;
+  height: 25rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: -3.5rem;
+  z-index: -1;
+}
+
+.about-description-table img {
+  float: left;
+  width: 50%;
+}
+
+.about-container {
+  display: table-cell;
+  height: auto;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.about-description-text {
+  background-color: #6ABE93;
+  width: 50%;
+  text-align: center;
+  padding:  30% 5% 0 5%;
+  margin: auto;
+  float: right;
+}
+
+.about-icons {
+  clear: both;
+  position: relative;
+  float: right;
+}
+
+.about-content {
+  clear:both;
+  margin: auto;
+  width: 50%;
+  padding: 5rem;
+}
+
+.about-content-text {
+  position: relative;
+  display: block;
+  color: purple;
+}
+
+.mooboard clearfix{
+  position: relative;
+}
+
+.moodboard img {
+  width: 100%;
+  height: auto;
+}
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
