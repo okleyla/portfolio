@@ -1,0 +1,57 @@
+.hero-content {
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+}
+/* project list */
+.project-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.project-list li {
+  margin-bottom: 3rem;
+  height: 500px;
+  background: radial-gradient(918.12px at 51.18% 53.56%, #A3D9BD 0%, #66C091 100%);
+}
+
+.project-image, .project-text {
+  display: block;
+  clear: none;
+  margin-right: -100%;
+  vertical-align: middle;
+}
+
+.project-list .project-image {
+  display: inline-block;
+  shadow: 2px 2px 50px #110804;
+}
+
+.project-list .project-text {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 35%;
+  margin-left: 50%;
+}
+
+/*contact*/
+.contact {
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+  display: block;
+}
+
+.icon {
+  list-style: none;
+  display: inline-block;
+}
+
+.contact i {
+  color: #6ABE93;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 30px;
+  letter-spacing: 0.966667px;
+  padding: 1rem;
+}

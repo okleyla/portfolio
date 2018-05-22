@@ -75,15 +75,65 @@ h3, body {
   min-height: 100%;
 }
 
-.title {
-  margin-left: 10rem;
+h5 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
 }
+
+
 
 /* footer */
-footer {
+.footer-info {
   background-color: #6ABE93;
+  padding: 0.5rem;
+  display: block;
 }
 
-footer .connect {
+.footer-contact-list {
+  display: inline-block;
+  list-style: none;
+  font-family: FontAwesome;
+  margin-left: 3rem;
+}
+
+.footer-contact-list i {
   color: white;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.right-side-footer {
+  text-align: right;
+  padding-right: 1rem;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 400rem;
+  vertical-align: middle;
+}
+
+/* GRID system */
+.column {
+  float: left;
+  padding: 3rem 3rem 3rem 3rem;
+
+}
+.column .full { width: 100%; }
+.column .two-thirds { width: 66.7%; }
+.column .half { width: 50%; }
+.column .third { width: 33.3%; }
+.column .fourth { width: 25%; }
+.column .flow-opposite { float: right; }
+ }
+
+/* MEDIA Queries */
+@media (min-width: 640px) {
+  html { font-size: 112%; }
+}
+
+@media (min-width:1024px) {
+  html { font-size: 120%; }
 }
