@@ -28,7 +28,7 @@ header {
   padding: 50px;
 }
 
-.intro, .contact {
+.hero, .contact {
     margin: auto;
     width: 56.4236111111111%;
     padding-top: 5rem;
@@ -119,6 +119,11 @@ button:hover {
   width: 100%;
   position: fixed;
   bottom: 0;
+}
+
+.footer-info .icons {
+  display: inline-block;
+  float: left;
 }
 
 .footer-info .icons li {

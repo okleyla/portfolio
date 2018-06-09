@@ -8,32 +8,34 @@
      <link rel="stylesheet" type="text/css" href="styles/normalize.css">
      <link rel="stylesheet" type="text/css" href="styles/main.css">
      <link rel="stylesheet" type="text/css" href="styles/about.css">
-     <link rel="stylesheet" type="text/css" href="styles/landing.css">
+     <script src="javascript/script.js"></script>
 
   </head>
-  <body class="about me">
-      <nav class="navbar">
-          <a href="index.html" class="logo">
-              <img src="images/spring.png" alt="gulbahar okuyan logo">
-          </a>
-          <div class="links-container">
-                <a href="index.html" class="navbar-link">portfolio</a>
-                <a href="about.html" class="navbar-link">about</a>
-                <a href="contact.html" class="navbar-link">contact</a>
-          </div>
-      </nav>
 
-      <section class="hero container">
-          <div class="hero-content">
-                <div class="hero-image column third">
-                    <img src="images/photo.png">
-                </div>
-                <h1 class="title column two-thirds">Gulbahar Okuyan-Waugh</h1>
-          </div>
-      </section>
+  <body class="about-me">
+      <header>
+          <nav>
+              <a href="index.html" class="logo">
+                  <img src="images/spring.png" alt="gulbahar okuyan logo">
+              </a>
+              <ul class="nav-bar" id="topnav">
+                  <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                  <li><a href="index.html">portfolio</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li><a href="contact.html">contact</a></li>
+                  </a>
+              </ul>
+          </nav>
+          <section class="hero">
+                <h1>gulbahar okuyan-waugh</h1>
+          </section>
+          <section class="photo">
+                <img src="images/photo.png">
+          </section>
+      </header>
 
-      <section class="about-content">
-          <div class="about-content-text">
+      <section class="about">
             <h2>you can call me rose or G</h2>
             <p>I am a UX designer with 8 years’ experience in
             strategy and project development. I work full-time at WOCCU, where I
@@ -58,7 +60,6 @@
               <p>I love traveling, getting to know people, and learning new things.
                 Most recently, I was in rural Philippines interviewing women
                 entrepreneurs. And my next trip is Milan!</p>
-          </div>
       </section>
 
       <section class="moodboard">
@@ -66,16 +67,18 @@
       </section>
 
       <footer class="footer-info">
-          <ul class="footer-contact-list">
+          <ul class="icons">
                 <li><a href="https://www.linkedin.com/in/gulokuyan/" alt="linkedin">
                     <i class="fab fa-linkedin-in"></i> </a>
+                </li>
+                <li><a href="mailto:gokuyan@gmail.com" alt="email me">
+                    <i class="fas fa-envelope"></i></a>
                 </li>
                 <li><a href="https://github.com/okleyla" alt="github">
                     <i class="fab fa-github"></i> </a>
                 </li>
-                <li>
           </ul>
-          <p class="right-side-footer">content and design. &copy 2018 Gulbahar Okuyan-Waugh
+          <p class="copyright">content and design. &copy 2018 Gulbahar Okuyan-Waugh
           </p>
       </footer>
   </body>
