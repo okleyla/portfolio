@@ -1,0 +1,20 @@
+.contact-me .hero {
+  padding-bottom: 0;
+}
+
+
+.hero .contact-icons {
+  float: left;
+}
+
+.hero .contact-icons li {
+  display: inline-block;
+}
+
+.hero .contact-icons li a i {
+  font-family: FontAwesome;
+}
+
+.hero .contact-icons li a i:hover {
+  color: #950444;
+}
