@@ -1,57 +1,123 @@
-.hero-content {
-  margin-left: 10rem;
-  margin-bottom: 3rem;
+nav .rose-branch {
+  clear: both;
+  padding-top: 0;
 }
+
+.rose-branch li {
+  padding-right: 3.3rem;
+}
+
+.rose-branch img {
+  height: 30px;
+}
+
 /* project list */
-.project-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
+.intro .learn-more {
+  font-size: 1.2rem;
 }
 
-.project-list li {
-  margin-bottom: 3rem;
-  height: 500px;
-  background: radial-gradient(918.12px at 51.18% 53.56%, #A3D9BD 0%, #66C091 100%);
+a {
+  color: black;
 }
 
-.project-image, .project-text {
-  display: block;
-  clear: none;
-  margin-right: -100%;
-  vertical-align: middle;
+a:hover {
+  color: #950444;
 }
 
-.project-list .project-image {
-  display: inline-block;
-  shadow: 2px 2px 50px #110804;
+section {
+  clear: both;
 }
 
-.project-list .project-text {
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  width: 35%;
-  margin-left: 50%;
+.projects {
+  margin: auto;
+  width: 77.041666666667%;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 
-/*contact*/
-.contact {
-  margin-left: 10rem;
-  margin-bottom: 3rem;
-  display: block;
+.first {
+  padding-bottom: 5rem;
 }
 
-.icon {
-  list-style: none;
-  display: inline-block;
+.first .img img {
+  float: left;
+  display: inline;
+  width: 47.1142520612485%;
+  height:auto;
 }
 
-.contact i {
-  color: #6ABE93;
-  display: inline-block;
-  font-family: FontAwesome;
-  font-size: 30px;
-  letter-spacing: 0.966667px;
-  padding: 1rem;
+.first .text {
+  float: right;
+  display: inline;
+  width: 50.6711409395973%;
+  margin-top: 0;
+}
+
+.text a:hover {
+  text-decoration: none;
+  color: #950444;
+}
+
+.second {
+  padding-top: 5rem;
+  clear: both;
+}
+
+.second .text {
+  float: left;
+  width: 50.6711409395973%;
+}
+
+.second .img img {
+  float: right;
+  width: 47.1142520612485%;
+  height: auto;
+}
+
+/*OVERLAYs*/
+.projects .overlay {
+  opacity: 0;
+  width: 36.5%;
+  height: 25%;
+  transition: .10s ease-in-out;
+}
+
+.projects .img:hover .overlay {
+  opacity: .85;
+}
+
+.overlay .text {
+  color: white;
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: auto;
+}
+
+.case-study {
+  color: white;
+  position: absolute;
+  margin: 1rem;
+  top: 70%;
+}
+
+.projects .first .overlay {
+  position: absolute;
+  background: rgb(89,51,75);
+  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
+  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+}
+
+/*Second overlay*/
+.projects .second .overlay {
+  position: absolute;
+  left: 52%;
+  transition: .10s ease-in-out;
+  background: rgb(229,58,32);
+  background: linear-gradient(112deg, rgba(229,58,32,1) 0%, rgba(212,176,140,1) 38%,
+  rgba(172,216,217,1) 100%);
+}
+
+.second .img:hover .overlay {
+  float: right;
 }
