@@ -9,6 +9,7 @@
      <link rel="stylesheet" type="text/css" href="styles/normalize.css">
      <link rel="stylesheet" type="text/css" href="styles/main.css">
      <link rel="stylesheet" type="text/css" href="styles/landing.css">
+     <script src="javascript/script.js"></script>
   </head>
 
   <body>
@@ -17,15 +18,13 @@
               <a href="index.html" class="logo">
                   <img src="images/spring.png" alt="gulbahar okuyan logo">
               </a>
-              <ul class="nav-bar">
+              <ul class="nav-bar" id="topnav">
                   <li><a href="index.html">portfolio</a></li>
                   <li><a href="about.html">about</a></li>
                   <li><a href="contact.html">contact</a></li>
-              </ul>
-              <ul class="rose-branch">
-                  <li><img src="images/rose-branch.png" alt="roses"></li>
-                  <li></li>
-                  <li></li>
+                  <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                     <i class="fa fa-bars"></i>
+                  </a>
               </ul>
           </nav>
           <section class="intro">

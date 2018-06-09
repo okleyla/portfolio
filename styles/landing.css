@@ -11,7 +11,6 @@ nav .rose-branch {
   height: 30px;
 }
 
-/* project list */
 .intro .learn-more {
   font-size: 1.2rem;
 }
@@ -28,6 +27,7 @@ section {
   clear: both;
 }
 
+/* project list */
 .projects {
   margin: auto;
   width: 77.041666666667%;
@@ -120,4 +120,54 @@ section {
 
 .second .img:hover .overlay {
   float: right;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 600px) {
+  .projects {
+    width: 100%;
+    display: block;
+  }
+
+  .projects .overlay{
+    display: none;
+  }
+  .projects .text {
+    width: 100%;
+    margin:auto;
+    display: block;
+    position: relative;
+    padding: 3rem;
+  }
+
+  .projects .first img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    padding: 3rem;
+    margin: auto;
+    background: rgb(89,51,75);
+    background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
+    rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+    }
+
+  .projects .second img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    padding: 3rem;
+    margin: auto;
+    background: rgb(229,58,32);
+    background: linear-gradient(112deg, rgba(229,58,32,1) 0%, rgba(212,176,140,1) 38%,
+    rgba(172,216,217,1) 100%);
+    }
+
+    .projects .second {
+      padding-top: 0rem;
+    }
+
+
+
 }
