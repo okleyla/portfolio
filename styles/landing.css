@@ -35,22 +35,9 @@ section {
   padding-bottom: 10rem;
 }
 
-.first {
-  padding-bottom: 5rem;
-}
-
-.first .img img {
-  float: left;
-  display: inline;
-  width: 47.1142520612485%;
-  height:auto;
-}
-
-.first .text {
-  float: right;
-  display: inline;
+.projects .text {
   width: 50.6711409395973%;
-  margin-top: 0;
+  padding: 2rem;
 }
 
 .text a:hover {
@@ -58,23 +45,51 @@ section {
   color: #950444;
 }
 
+.projects .img img {
+  width: 47.1142520612485%;
+  height:auto;
+  padding: 3rem;
+}
+
+.first .img img {
+  float: left;
+  display: inline;
+  background: rgb(89,51,75);
+  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
+  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+}
+
+.first .text {
+  float: right;
+  display: inline;
+}
+
 .second {
-  padding-top: 5rem;
+  padding-top: 10rem;
   clear: both;
 }
 
 .second .text {
   float: left;
-  width: 50.6711409395973%;
 }
 
 .second .img img {
   float: right;
-  width: 47.1142520612485%;
-  height: auto;
+  background: rgb(229,58,32);
+  background: linear-gradient(112deg, rgba(229,58,32,1) 0%, rgba(212,176,140,1) 38%,
+  rgba(172,216,217,1) 100%);
 }
 
 /*OVERLAYs*/
+.projects .overlay {
+  display: none;
+}
+
+.projects:hover .overlay {
+  display: none;
+}
+
+/*
 .projects .overlay {
   opacity: 0;
   width: 36.5%;
@@ -108,7 +123,7 @@ section {
   rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
 }
 
-/*Second overlay*/
+/*Second overlay
 .projects .second .overlay {
   position: absolute;
   left: 52%;
@@ -120,10 +135,10 @@ section {
 
 .second .img:hover .overlay {
   float: right;
-}
+} */
 
 /*Media Queries*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 783px) {
   .projects {
     width: 100%;
     display: block;
