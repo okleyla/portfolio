@@ -19,6 +19,48 @@
   padding-bottom: 5rem;
 }
 
+.capabilities {
+  padding-bottom: 15rem;
+  background: rgb(102,191,145);
+  background: linear-gradient(166deg, rgba(102,191,145,0.67) 0%,
+  rgba(245,203,205,0.78) 65%,
+  rgba(251,234,89,0.38) 100%);
+}
+
+.capabilities .caps {
+  margin: auto;
+  width: 56.4236111111111%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: block;
+}
+
+.capabilities div {
+  width: 48%;
+}
+
+.capabilities .skills {
+  display: inline-block;
+  float: left;
+  padding-right: 1rem;
+  margin-right: .5rem;
+}
+
+.capabilities .software {
+  display: inline-block;
+  float: right;
+  position: relative;
+  padding-left: 1rem;
+  margin-left: .5rem;
+}
+
+.moodboard h2 {
+  margin: auto;
+  width: 56.4236111111111%;
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+}
+
 .moodboard img {
   width: 100%;
   height: auto;
@@ -27,8 +69,18 @@
 
 /*Media Queries*/
 @media screen and (max-width: 783px) {
-  .about {
+  .about, .hero, .moodboard h2 {
     width: 100%;
     display: block;
     padding: 3rem;
+  }
+
+  .capabilities {
+    padding-bottom: 30rem;
+  }
+
+  .capabilities .skills, .capabilities .software {
+    display: block;
+    width: 100%;
+    padding-left: 0;
   }
