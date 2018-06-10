@@ -1,0 +1,120 @@
+.hero img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.case-study-button {
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+}
+
+hero, .intro, .conclusion, .contact {
+    margin: auto;
+    width: 56.4236111111111%;
+    padding-bottom: 1rem;
+}
+
+section {
+  clear: both;
+  padding-top: 5rem;
+}
+
+
+.competition ul {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.competition .box {
+  margin-top: 3rem;
+  height: 160px;
+  background: rgb(89,51,75);
+  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
+  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+}
+
+.competition li img {
+  width: 15%;
+  height: 15%;
+  display: inline-block;
+  float: left;
+  box-shadow: -2px 2px 30px rgba(0, 0, 0, 0.5);
+}
+
+.competition p, h3 {
+  clear: both;
+  padding-top: 2rem;
+  width: 56.4236111111111%;
+  margin: auto;
+}
+
+.user-research {
+  width: 56.4236111111111%;
+  margin: auto;
+}
+
+.user-research h3 {
+  width: 100%;
+}
+
+.user-research ul {
+  padding: 0;
+  width: 95%;
+  margin-top: 0;
+}
+
+.user-research li span {
+  font-family: "Rozha one", serif;
+}
+
+.user-research p {
+  clear: both;
+}
+
+.user-boxes {
+  width: 77.6041666666667%;
+  margin: auto;
+}
+
+.users .user-boxes img {
+  width: 50%;
+  display: inline-block;
+  margin: 0 auto;
+  float: left;
+  padding: 1rem;
+}
+
+.info-arch h3 {
+  width: 56.4236111111111%;
+  margin: auto;
+}
+
+
+.full img {
+  width: 56.4236111111111%;
+  padding: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.more-full img {
+  width: 77.6041666666667%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.rfs-case-study header {
+  color: white;
+  background: rgb(89,51,75);
+  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
+  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+  padding-bottom: 2rem;
+  }
+}
