@@ -1,3 +1,7 @@
+.hero-text {
+  padding-bottom: 1rem;
+}
+
 .hero img {
   width: 100%;
   margin-bottom: 2rem;
@@ -9,7 +13,9 @@
   display: block;
 }
 
-hero, .intro, .conclusion, .contact {
+.intro, .conclusion, .competition p, .competition h3, .info-arch h3,
+.info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
+.prototype h2, .prototype h3, .users h3, .membership p {
     margin: auto;
     width: 56.4236111111111%;
     padding-bottom: 1rem;
@@ -18,46 +24,80 @@ hero, .intro, .conclusion, .contact {
 section {
   clear: both;
   padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* images */
+.full {
+  width: 56.4236111111111%;
+  margin: auto;
+  display: block;
+  padding: 2rem;
+}
+
+.more-full {
+  width: 77.6041666666667%;
+  display: block;
+  margin: auto;
+  padding: 2rem;
+}
+
+.first {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  padding: 1rem;
+}
+
+.second {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  padding: 1rem;
+  clear: none;
+}
+
+.third {
+  width: 33%;
+  display: inline-block;
+  float: left;
+  padding: 1rem;
+  clear: none;
 }
 
 
-.competition ul {
-  width: 100%;
-  display: inline-block;
+.competition .inspo {
+  clear: both;
+  width: 77.6041666666667%;
+  padding: 0;
   margin: 0 auto;
-  padding-top: 1rem;
+  float: none;
+}
+
+.inspo img {
+  padding: 0;
 }
 
 .competition .box {
   margin-top: 3rem;
-  height: 160px;
+  margin-bottom: 2rem;
+  height: 200px;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
   rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
 }
 
-.competition li img {
-  width: 15%;
-  height: 15%;
-  display: inline-block;
-  float: left;
-  box-shadow: -2px 2px 30px rgba(0, 0, 0, 0.5);
-}
-
-.competition p, h3 {
-  clear: both;
-  padding-top: 2rem;
-  width: 56.4236111111111%;
-  margin: auto;
-}
-
 .user-research {
   width: 56.4236111111111%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .user-research h3 {
   width: 100%;
+}
+
+.user-research .survey-results {
+  margin-top: 3rem;
 }
 
 .user-research ul {
@@ -77,44 +117,167 @@ section {
 .user-boxes {
   width: 77.6041666666667%;
   margin: auto;
+  display: block;
 }
 
-.users .user-boxes img {
-  width: 50%;
+.final-logos {
+  width: 56.4236111111111%;
+  display: block;
+  margin: auto;
+  clear: both;
+}
+
+.colors {
+  clear: both;
+  width: 100%;
+
+}
+
+.colors ul {
   display: inline-block;
-  margin: 0 auto;
+  padding: 1rem;
+  float: none;
+  width: 100%;
+}
+
+.colors img {
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+
+.other-branding {
+  clear: both;
+  width: 77.6041666666667%;
+  margin: auto;
+  display: block;
+}
+
+.left-full {
+  width: 100%;
+  display: inline-block;
   float: left;
   padding: 1rem;
 }
 
-.info-arch h3 {
+.type {
+  width: 60%;
+  display: inline-block;
+  float: left;
+  padding: 1rem;
+}
+
+.button, .mock {
+  display: inline-block;
+  float: left;
+  padding: 1rem;
+  clear: none;
+  width: 30%;
+}
+
+.top-bottom {
+  width: 95%;
+}
+
+.user-feedback {
   width: 56.4236111111111%;
+  display: block;
   margin: auto;
 }
 
-
-.full img {
-  width: 56.4236111111111%;
-  padding: 1rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.prototype h3 {
+  color: white;
 }
 
-.more-full img {
+.prototype-images {
+  clear: both;
   width: 77.6041666666667%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0;
+  margin: 0 auto;
+  float: none;
 }
 
+.membership {
+  clear: both;
+}
 
+.arrows {
+  width: 90%;
+  margin: auto;
+}
 
-.rfs-case-study header {
+.arrows img {
+  height: 40px;
+}
+
+.right {
+  float: right;
+}
+
+.navigation .case-studies .first {
+  padding: 3rem;
+  background: rgb(89,51,75);
+  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
+  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+}
+
+.navigation .case-studies .second {
+  padding: 3rem;
+  background: rgb(229,58,32);
+  background: linear-gradient(112deg, rgba(229,58,32,1) 0%, rgba(212,176,140,1) 38%,
+  rgba(172,216,217,1) 100%);
+}
+
+.rfs-case-study header, .prototype {
   color: white;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
   rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
   padding-bottom: 2rem;
+  }
+}
+
+
+/* Media Queries */
+@media screen and (min-width: 600px) {
+  .inspo {
+    width: 100%;
+  }
+  .inspo img {
+    width: 15%;
+  }
+
+}
+
+@media screen and (max-width: 783px) {
+  .user-boxes {
+    width: 100%;
+    margin: auto;
+  }
+
+  .users .user-boxes img {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    float: left;
+    padding: 1rem;
+  }
+
+  .colors img {
+    width: 30%;
+  }
+
+  .left-full {
+    width: 100%;
+  }
+
+  .top-bottom {
+    width: 50%;
+  }
+
+  .other-branding {
+    clear: both;
+    width: 100%;
+    margin: auto;
   }
 }
