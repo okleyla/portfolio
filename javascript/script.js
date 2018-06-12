@@ -1,5 +1,3 @@
-
-
 function myFunction() {
     var x = document.getElementById("topnav");
     if (x.className === "nav-bar") {
@@ -7,4 +5,8 @@ function myFunction() {
     } else {
         x.className = "nav-bar";
     }
+}
+
+function closeNav() {
+    document.getElementById("topnav").style.width = "0%";
 }

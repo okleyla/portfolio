@@ -19,6 +19,10 @@
   padding-bottom: 5rem;
 }
 
+.about a {
+  color: #950444;
+}
+
 .capabilities {
   padding-bottom: 15rem;
   background: rgb(102,191,145);

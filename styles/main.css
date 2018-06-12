@@ -70,6 +70,10 @@ nav .hamburger {
   display: none;
 }
 
+nav .closebtn {
+  display: none;
+}
+
 .logo img {
   height: 75px;
 }
@@ -124,11 +128,18 @@ button:hover {
   width: 100%;
   position: fixed;
   bottom: 0;
+  padding: 0 10px;
+}
+
+.footer-info p {
+  padding-right: 1rem;
+  color: #eaeaea;
 }
 
 .footer-info .icons {
   display: inline-block;
   float: left;
+  padding: 0;
 }
 
 .footer-info .icons li {
@@ -139,6 +150,7 @@ button:hover {
 .icons li a i {
   color: white;
   font-family: FontAwesome;
+  font-size: 30px;
 }
 
 .icons li a i:hover {
@@ -158,42 +170,82 @@ button:hover {
   h1 {
     line-height: 3rem;
   }
+
+  .nav-bar a {
+    display: none;
+  }
+
+  nav li {
+    height: 20%;
+    padding-top: 3.5rem;
+  }
+
   nav.hamburger a:not(:first-child) {
     display: none;
   }
   nav a.hamburger {
     float: right;
     display: block;
+    margin-right: 2rem;
   }
-  .nav-bar a {
-    display: none;
-  }
+
   .nav-bar.responsive {
-    position: relative;
-  }
-  nav.responsive a.hamburger {
-    position: absolute;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
     right: 0;
     top: 0;
-    }
+    background-color: #6ABE93;
+    transition: .3s;
+  }
+
+  .nav-bar.responsive a:hover {
+    font-weight: bold;
+    color: #950444;
+  }
+
+  .nav-bar.responsive a.hamburger {
+    float: right;
+    display: block;
+    margin-top: 3.5rem;
+    margin-right: 2.5rem;
+  }
 
   .nav-bar.responsive li a {
+    clear: both;
     text-decoration: none;
     float: none;
     display: block;
-    text-align: left;
-    padding-right: 3rem;
+    text-align: right;
+    padding-top: 1rem;
+    font-size: 30px;
+    margin-right: 1.5rem;
+ }
+
+  .hero, .contact {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .projects img {
+    width: 100%;
   }
 
   /*footer*/
   .footer-info .copyright {
     display: none;
   }
-  .footer-info {
+
+  .footer-info .icons ul {
 
   }
 
+  .footer-info .icons li {
+  }
+
 }
+
 @media screen and (min-width: 600px) {
   nav li {
     display: inline-block;
