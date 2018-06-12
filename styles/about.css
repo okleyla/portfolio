@@ -22,8 +22,8 @@
 .capabilities {
   padding-bottom: 15rem;
   background: rgb(102,191,145);
-  background: linear-gradient(166deg, rgba(102,191,145,0.67) 0%,
-  rgba(245,203,205,0.78) 65%,
+  background: linear-gradient(166deg, rgba(129,241,183,0.67) 0%,
+  rgba(255,211,213,0.78) 65%,
   rgba(251,234,89,0.38) 100%);
 }
 
