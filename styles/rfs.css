@@ -13,10 +13,10 @@
   display: block;
 }
 
-.intro, .conclusion, .competition p, .competition h3, .info-arch h3,
+.intro, .conclusion, .competition p, .competition h3, .user-research, .info-arch h3,
 .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
 .prototype h2, .prototype h3, .users h3, .membership p {
-    margin: auto;
+    margin: 0 auto;
     width: 56.4236111111111%;
     padding-bottom: 1rem;
 }
@@ -57,34 +57,30 @@ section {
   clear: none;
 }
 
+
 .third {
   width: 33%;
   display: inline-block;
   float: left;
-  padding: 1rem;
   clear: none;
+  padding: 1rem;
 }
 
 
 .competition .inspo {
-  clear: both;
-  width: 77.6041666666667%;
+  width: 100%;
   padding: 0;
   margin: 0 auto;
   float: none;
 }
 
-.inspo img {
-  padding: 0;
-}
-
-.competition .box {
+/*.competition .box {
   margin-top: 3rem;
-  margin-bottom: 2rem;
-  height: 200px;
+  margin-bottom: 3rem;
+  height: 150px;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
-  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);*/
 }
 
 .user-research {
@@ -127,6 +123,11 @@ section {
   clear: both;
 }
 
+.final-logos img {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .colors {
   clear: both;
   width: 100%;
@@ -153,7 +154,7 @@ section {
   display: block;
 }
 
-.left-full {
+.type img {
   width: 100%;
   display: inline-block;
   float: left;
@@ -167,7 +168,7 @@ section {
   padding: 1rem;
 }
 
-.button, .mock {
+.button {
   display: inline-block;
   float: left;
   padding: 1rem;
@@ -175,8 +176,19 @@ section {
   width: 30%;
 }
 
-.top-bottom {
-  width: 95%;
+.button img {
+  width: 50%;
+}
+
+.mock {
+  clear: both;
+  width: 56.4236111111111%;
+  margin: 0;
+}
+
+.mock img {
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .user-feedback {
@@ -246,16 +258,52 @@ section {
   .inspo img {
     width: 15%;
   }
-
 }
 
 @media screen and (max-width: 783px) {
+  .intro, .conclusion, .competition p, .competition h3, .user-research, .info-arch h3,
+  .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
+  .prototype h2, .prototype h3, .users h3, .user-feedback, .membership p {
+      width: 80%;
+  }
+
+  .more-full, .full, .third {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+
+  .competition .inspo {
+    clear: both;
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .competition .inspo img {
+    width: 33%;
+  }
+
+  .competition .box {
+    display: none;
+  }
+
+  .third {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    clear: none;
+  }
+
   .user-boxes {
     width: 100%;
     margin: auto;
   }
 
-  .users .user-boxes img {
+  .first, .second {
     width: 100%;
     display: inline-block;
     margin: 0 auto;
@@ -263,16 +311,16 @@ section {
     padding: 1rem;
   }
 
-  .colors img {
-    width: 30%;
-  }
-
-  .left-full {
-    width: 100%;
-  }
-
-  .top-bottom {
+   .colors img {
     width: 50%;
+  }
+
+  .final-logos img {
+    padding: 3rem;
+  }
+
+  .type, .button {
+    width: 100%;
   }
 
   .other-branding {
@@ -280,4 +328,6 @@ section {
     width: 100%;
     margin: auto;
   }
+
+
 }
