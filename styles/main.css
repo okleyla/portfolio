@@ -29,16 +29,38 @@ header {
   padding: 50px;
 }
 
-.hero, .contact {
-    margin: auto;
-    width: 56.4236111111111%;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+.hero {
+  width: 80%;
+  margin: 0 auto;
 }
 
+.hero p {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.contact {
+    margin: 0 auto;
+    padding: 5rem;
+}
+
+main {
+  margin: 0 auto;
+}
+
+section {
+  clear: both;
+  margin-top: 20px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+
 h1 {
-  font-size: 2.4rem;
-  padding-bottom: 2rem;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
 }
 
 h1, h2 {
@@ -51,8 +73,20 @@ h3 {
   color: black;
   min-height: 100%;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: bold;
   padding-top: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #950444;
 }
 
 
@@ -100,16 +134,7 @@ li a:hover {
   color: #6ABE93;
 }
 
-section {
-  clear: both;
-  margin-top: 20px;
-}
-
-.contact {
-  padding-top: 5rem;
-  padding-bottom: 10rem;
-}
-
+/*other universal features*/
 button {
   background: #66BF91;
   color: white;
@@ -121,6 +146,10 @@ button:hover {
   background: #950444;
 }
 
+.contact {
+  padding-bottom: 12rem;
+  padding-top: 10rem;
+}
 
 /* Footer */
 .footer-info {
@@ -223,12 +252,14 @@ button:hover {
     margin-right: 1.5rem;
  }
 
-  .hero, .contact {
-    width: 80%;
-    margin: 0 auto;
+
+/*other*/
+  h1, .hero p{
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  .projects img {
+  main {
     width: 100%;
   }
 
@@ -237,11 +268,15 @@ button:hover {
     display: none;
   }
 
-  .footer-info .icons ul {
-
+  .footer-info ul.icons {
+    margin: 0 auto;
+    padding: 2rem;
+    float: none;
   }
 
   .footer-info .icons li {
+    float: none;
+    margin: 0 auto;
   }
 
 }
