@@ -306,7 +306,7 @@ section {
   rgba(172,216,217,1) 100%);
 }
 
-.rfs-case-study header, .prototype {
+.rfs-case-study header, .prototype, .box {
   color: white;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(89,51,75,1) 0%,

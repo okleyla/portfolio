@@ -1,0 +1,382 @@
+.hero img {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hero-text {
+  padding-bottom: 2rem;
+}
+
+.case-study-button {
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+}
+
+/* images */
+.full {
+  width: 65%;
+  margin: auto;
+  display: block;
+  padding: 2rem;
+}
+
+.more-full {
+  width: 77.6041666666667%;
+  display: block;
+  margin: auto;
+  padding: 2rem;
+}
+
+.first {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  padding: 1rem;
+  clear: both;
+}
+
+.second {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  padding: 1rem;
+  clear: none;
+}
+
+
+.third {
+  width: 33%;
+  display: inline-block;
+  float: left;
+  clear: none;
+  padding: 1rem;
+}
+
+.sixth {
+  width: 15%;
+  display: inline-block;
+  float: left;
+  clear: none;
+  margin: 0 auto;
+}
+
+/* Throughout the page*/
+section {
+  clear: both;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.intro h2, .intro h3, .intro p, .user-research, .users, .conclusion,  .info-arch h3,
+.info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
+.prototype h2, .prototype h3, .prototype p, .membership p {
+    margin: 0 auto;
+    width: 65%;
+    padding-bottom: 1rem;
+}
+
+/*competition*/
+.competition .inspo {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  float: none;
+}
+
+.competition p {
+  clear: both;
+}
+
+.competition li {
+
+}
+/*
+
+
+.intro h2, .intro h3 {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.intro p {
+  clear: both;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+
+.survey-results p {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.survey-results ul {
+  margin-bottom: 0;
+}
+}*/
+
+/* user research*/
+.user-research p, .user-research h3 {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.user-research ul {
+  padding: 0;
+  width: 100%;
+  margin-top: 0;
+}
+
+.user-research li {
+  display: list-item;
+  margin-left: 3rem;
+}
+
+.user-research p {
+  clear: both;
+}
+
+/* users */
+.users h3 {
+  width: 100%;
+}
+
+.user-boxes {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.john .second, .elaine .first, .marta .second {
+  font-size: 1.2rem;
+  padding-top: 3rem;
+}
+
+/*information architecture*/
+.mapping {
+  width: 77.6041666666667%;
+  margin: 0 auto;
+}
+
+.mapping h3 {
+  clear: both;
+}
+
+/*branding*/
+.branding {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.final-logos {
+  width: 65%;
+  display: block;
+  margin: auto;
+  clear: both;
+}
+
+.final-logos img {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.coop-logo-formation {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+  padding: 1rem;
+}
+
+.colors {
+  clear: both;
+}
+
+.colors ul {
+  display: inline-block;
+  padding: 1rem;
+  float: none;
+  width: 100%;
+}
+
+.type {
+  clear: both;
+  margin: 0 auto;
+  display: block;
+  float: left;
+  margin-bottom: 5rem;
+}
+
+.type li {
+  padding-bottom: 2rem;
+}
+
+.h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 48px;
+}
+
+.h2 {
+  font-size: 36px;
+}
+
+.h3 {
+  font-size: 28px;
+}
+
+.body {
+  font-family: 'Lora', serif;
+}
+
+/*
+.type img {
+  padding-left: 15rem;
+  padding-right: 10rem;
+  padding-bottom: 5rem;
+}
+
+
+.user-feedback {
+  width: 65%;
+  display: block;
+  margin: auto;
+}
+
+.prototype {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.prototype h2, .prototype p {
+  width: 80%;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  display: block;
+  margin: 0 auto;
+}*/
+
+
+.prototype-images {
+  clear: both;
+  width: 77.6041666666667%;
+  padding: 0;
+  margin: 0 auto;
+  float: none;
+}
+
+.membership {
+  clear: both;
+}
+
+.arrows {
+  width: 90%;
+  margin: auto;
+}
+
+.arrows img {
+  height: 40px;
+}
+
+.right {
+  float: right;
+}
+
+.navigation .case-studies .first {
+  padding: 3rem;
+  background: rgb(89,51,75);
+  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
+  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+}
+
+.navigation .case-studies .second {
+  padding: 3rem;
+  background: rgb(172,216,217);
+  background: linear-gradient(132deg, rgba(172,216,217,1) 27%, rgba(212,176,140,1) 80%, rgba(224,106,77,1) 100%);
+}
+
+.coop-case-study header, .prototype, .box {
+  padding-bottom: 2rem;
+  background: rgb(172,216,217);
+  background: linear-gradient(132deg, rgba(172,216,217,1) 27%, rgba(212,176,140,1) 80%, rgba(224,106,77,1) 100%);
+}
+
+
+/* Media Queries */
+@media screen and (min-width: 600px) {
+  .inspo {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 783px) {
+  .intro h2, .intro h3, .intro p, .user-research, .users, .conclusion,  .info-arch h3,
+  .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
+  .prototype h2, .prototype h3, .prototype p, .membership p {
+    width: 95%;
+
+  }
+
+  .more-full, .full, .third {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+
+  .third {
+    padding: 0;
+  }
+
+  .competition .inspo {
+    clear: both;
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .competition .box {
+    display: none;
+  }
+
+  .user-boxes {
+    width: 100%;
+    margin: auto;
+  }
+
+  .first, .second {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    float: left;
+    padding:1rem;
+  }
+
+  .john .second, .elaine .first, .marta .second {
+    padding-top: 0;
+
+  }
+   .colors img {
+    width: 50%;
+  }
+
+  .final-logos img {
+    padding: 3rem;
+  }
+
+  .type, {
+    width: 100%;
+  }
+
+
+
+}

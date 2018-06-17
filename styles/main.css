@@ -73,8 +73,12 @@ h3 {
   color: black;
   min-height: 100%;
   text-transform: uppercase;
-  font-weight: bold;
   padding-top: 1rem;
+  clear: both;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 p {
