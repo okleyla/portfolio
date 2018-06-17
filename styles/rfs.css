@@ -34,14 +34,16 @@
   width: 50%;
   display: inline-block;
   float: left;
-  padding: 1rem;
+  padding: 1rem 10rem;
+  padding-right: .5rem;
 }
 
 .second {
   width: 50%;
   display: inline-block;
   float: right;
-  padding: 1rem;
+  padding: 1rem 10rem;
+  padding-left: .5rem;
   clear: none;
 }
 
@@ -55,10 +57,11 @@
 }
 
 .sixth {
-  width: 15%;
+  width: 16.37%;
   display: inline-block;
   float: left;
   clear: none;
+  padding: .5rem;
   margin: 0 auto;
 }
 
@@ -80,13 +83,17 @@ section {
 /*competition*/
 .competition .inspo {
   width: 100%;
-  padding: 0;
   margin: 0 auto;
+  margin-bottom: 1rem;
   float: none;
 }
 
 .competition p {
   clear: both;
+}
+
+.box p {
+  padding: 0;
 }
 /*
 .competition .box {
@@ -136,11 +143,7 @@ section {
   width: 50%;
 }*/
 
-
-.user-research h3 {
-  width: 100%;
-}
-
+/*user research*/
 .user-research .survey-results {
   margin-top: 3rem;
 }
@@ -160,13 +163,14 @@ section {
   clear: both;
 }
 
+/* users*/
 .user-boxes {
   width: 100%;
   margin: auto;
   display: block;
 }
 
-
+/*branding*/
 .final-logos {
   width: 65%;
   display: block;
@@ -306,12 +310,11 @@ section {
   rgba(172,216,217,1) 100%);
 }
 
-.rfs-case-study header, .prototype, .box {
+.rfs-case-study header, .prototype, .box, .inspo {
   color: white;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
   rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
-  padding-bottom: 2rem;
   }
 }
 

@@ -72,6 +72,7 @@ h3 {
   font-family: 'Quicksand', sans-serif;
   color: black;
   min-height: 100%;
+  font-weight: normal;
   text-transform: uppercase;
   padding-top: 1rem;
   clear: both;

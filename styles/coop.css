@@ -90,39 +90,6 @@ section {
   clear: both;
 }
 
-.competition li {
-
-}
-/*
-
-
-.intro h2, .intro h3 {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 2rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.intro p {
-  clear: both;
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-
-
-.survey-results p {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-.survey-results ul {
-  margin-bottom: 0;
-}
-}*/
 
 /* user research*/
 .user-research p, .user-research h3 {
