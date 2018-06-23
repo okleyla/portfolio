@@ -81,63 +81,6 @@ nav .rose-branch {
   color: white;
 }
 
-/*OVERLAYs*/
-.projects .overlay {
-  display: none;
-}
-
-.projects:hover .overlay {
-  display: none;
-}
-
-/*
-.projects .overlay {
-  opacity: 0;
-  width: 36.5%;
-  height: 25%;
-  transition: .10s ease-in-out;
-}
-
-.projects .img:hover .overlay {
-  opacity: .85;
-}
-
-.overlay .text {
-  color: white;
-  position: absolute;
-  margin-left: 1rem;
-  margin-top: 1rem;
-  width: auto;
-}
-
-.case-study {
-  color: white;
-  position: absolute;
-  margin: 1rem;
-  top: 70%;
-}
-
-.projects .first .overlay {
-  position: absolute;
-  background: rgb(89,51,75);
-  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
-  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
-}
-
-/*Second overlay
-.projects .second .overlay {
-  position: absolute;
-  left: 52%;
-  transition: .10s ease-in-out;
-  background: rgb(229,58,32);
-  background: linear-gradient(112deg, rgba(229,58,32,1) 0%, rgba(212,176,140,1) 38%,
-  rgba(172,216,217,1) 100%);
-}
-
-.second .img:hover .overlay {
-  float: right;
-} */
-
 /*Media Queries*/
 @media screen and (max-width: 783px) {
   .projects {
@@ -147,46 +90,17 @@ nav .rose-branch {
     padding-right: 0;
   }
 
-  .projects .overlay{
-    display: none;
+  .first, .second {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    float: left;
+    padding: 1rem;
   }
+}
 
-  .projects .text {
-    width: 100%;
-    margin:auto;
-    display: block;
-    position: relative;
-    padding: 3rem;
+@media screen and (max-width: 1024px) {
+  .first, .second {
+    padding: 1rem;
   }
-
-  .projects .first img {
-    width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
-    padding: 3rem;
-    margin: auto;
-    background: rgb(89,51,75);
-    background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
-    rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
-    }
-
-  .projects .second img {
-    width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
-    padding: 3rem;
-    margin: auto;
-    background: rgb(229,58,32);
-    background: linear-gradient(112deg, rgba(229,58,32,1) 0%, rgba(212,176,140,1) 38%,
-    rgba(172,216,217,1) 100%);
-    }
-
-    .projects .second {
-      padding-top: 0rem;
-    }
-
-
-
 }
