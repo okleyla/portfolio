@@ -1,3 +1,10 @@
+.case-hero {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  color: #eaeaea;
+}
+
 .hero img {
   margin: 0 auto;
   width: 100%;
@@ -13,6 +20,15 @@
   text-decoration: none;
   margin: 0 auto;
   display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
 }
 
 /* images */

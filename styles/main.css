@@ -13,85 +13,38 @@ body {
   background-color: #FFFCFC;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 header {
   background: rgb(102,191,145);
-  background: linear-gradient(166deg, rgba(102,191,145,0.67) 0%,
-  rgba(245,203,205,0.78) 65%,
-  rgba(251,234,89,0.38) 100%);
+  background: linear-gradient(166deg, rgba(102,191,145,1) 0%,
+  rgba(245,203,205,1) 65%,
+  rgba(251,234,89,.5) 100%);
   padding-top: 3rem;
   padding-bottom: 5rem;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
 }
 
-.logo {
-  padding: 50px;
-}
 
-.hero {
+/* home-hero*/
+.home-hero {
+  height: 100%;
   width: 80%;
-  margin: 0 auto;
+  margin: auto;
+  padding: 20vh 0px;
+  color: #eaeaea;
+}
+
+.home-hero span {
+  color: rgba(102,191,145,1)
 }
 
 .hero p {
-  padding-right: 5rem;
-  padding-left: 5rem;
-}
-
-.contact {
-    margin: 0 auto;
-    padding: 5rem;
-}
-
-main {
-  margin: 0 auto;
-}
-
-section {
-  clear: both;
-  margin-top: 20px;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-
-h1 {
-  font-size: 2.5rem;
-  padding-bottom: 1rem;
-  padding-right: 5rem;
-  padding-left: 5rem;
-}
-
-h1, h2 {
-  font-family: 'Rozha one', serif;
-  min-height: 100%;
-}
-
-h3 {
-  font-family: 'Quicksand', sans-serif;
-  color: black;
-  min-height: 100%;
-  font-weight: normal;
-  text-transform: uppercase;
-  padding-top: 1rem;
-  clear: both;
-}
-
-h4 {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.2rem;
-}
-
-a {
-  color: black;
-}
-
-a:hover {
-  color: #950444;
+  font-size: 25px;
+  line-height: 35px;
 }
 
 
@@ -113,8 +66,12 @@ nav .closebtn {
   display: none;
 }
 
+.logo {
+  padding: 50px;
+}
+
 .logo img {
-  height: 75px;
+  height: 45px;
 }
 
 ul {
@@ -139,6 +96,64 @@ li a:hover {
   color: #6ABE93;
 }
 
+main {
+  margin: 0 auto;
+}
+/*
+section {
+  clear: both;
+  margin-top: 20px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}*/
+
+
+h1 {
+  font-size: 48px;
+  line-height: 3rem;
+
+}
+
+h1, h2 {
+  font-family: 'Rozha one', serif;
+  min-height: 100%;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  min-height: 100%;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  clear: both;
+  font-size: 25px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #950444;
+}
+
+
+
+
 /*other universal features*/
 button {
   background: #66BF91;
@@ -151,10 +166,15 @@ button:hover {
   background: #950444;
 }
 
+
 .contact {
+  clear: both;
+  margin: 0 auto;
   padding-bottom: 12rem;
   padding-top: 10rem;
+  width: 80%;
 }
+
 
 /* Footer */
 .footer-info {
