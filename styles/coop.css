@@ -271,7 +271,6 @@ section {
 }
 
 .coop-case-study header, .prototype, .box {
-  padding-bottom: 2rem;
   background: rgb(172,216,217);
   background: linear-gradient(132deg, rgba(172,216,217,1) 27%, rgba(212,176,140,1) 80%, rgba(224,106,77,1) 100%);
 }

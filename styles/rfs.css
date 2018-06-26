@@ -5,6 +5,10 @@
   color: #eaeaea;
 }
 
+h1 {
+  text-align: center;
+}
+
 .hero img {
   margin: 0 auto;
   width: 100%;
@@ -26,10 +30,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 20px;
-  line-height: 30px;
-}
 
 /* images */
 .full {
@@ -63,7 +63,6 @@ p {
   clear: none;
 }
 
-
 .third {
   width: 33%;
   display: inline-block;
@@ -73,12 +72,11 @@ p {
 }
 
 .sixth {
-  width: 16.37%;
+  width: 15%;
   display: inline-block;
   float: left;
   clear: none;
-  padding: .5rem;
-  margin: 0 auto;
+  margin: 0 .5rem;
 }
 
 section {
@@ -92,7 +90,6 @@ section {
 .prototype h2, .prototype h3, .membership p {
     margin: 0 auto;
     width: 65%;
-    padding-bottom: 1rem;
 }
 
 
@@ -100,17 +97,27 @@ section {
 .competition .inspo {
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 1rem;
   float: none;
 }
 
 .competition p {
   clear: both;
+  padding: 2rem 0;
+}
+
+.inspo p {
+  padding: .5rem;
 }
 
 .competition img {
   box-shadow: -2px 2px 30px rgba(0, 0, 0, 0.5);
+}
 
+.competition li {
+  padding-right: 0;
+}
+.competition .third {
+  padding: 0;
 }
 
 .box p {

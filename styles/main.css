@@ -42,11 +42,6 @@ header {
   color: rgba(102,191,145,1)
 }
 
-.hero p {
-  font-size: 25px;
-  line-height: 35px;
-}
-
 
 /* NAV BAR*/
 nav {
@@ -121,6 +116,7 @@ h1, h2 {
 
 h2 {
   font-size: 36px;
+  line-height: 50px;
 }
 
 h3 {
@@ -132,15 +128,18 @@ h3 {
   padding-top: 1rem;
   clear: both;
   font-size: 25px;
+  line-height: 40px;
 }
 
 h4 {
   font-weight: bold;
   font-size: 25px;
+  line-height: 40px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
+  line-height: 40px;
 }
 
 a {
@@ -160,6 +159,7 @@ button {
   color: white;
   padding: 15px;
   border: 0;
+  font-size: 20px;
 }
 
 button:hover {
