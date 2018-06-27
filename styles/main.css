@@ -28,21 +28,6 @@ header {
   width: 100%;
 }
 
-
-/* home-hero*/
-.home-hero {
-  height: 100%;
-  width: 80%;
-  margin: auto;
-  padding: 20vh 0px;
-  color: #eaeaea;
-}
-
-.home-hero span {
-  color: rgba(102,191,145,1)
-}
-
-
 /* NAV BAR*/
 nav {
   height: 100px;
@@ -143,7 +128,7 @@ p {
 }
 
 a {
-  color: black;
+  color: #4c4c4c;
 }
 
 a:hover {
@@ -170,7 +155,7 @@ button:hover {
 .contact {
   clear: both;
   margin: 0 auto;
-  padding-bottom: 12rem;
+  padding-bottom: 15rem;
   padding-top: 10rem;
   width: 80%;
 }
@@ -188,6 +173,7 @@ button:hover {
 .footer-info p {
   padding-right: 1rem;
   color: #eaeaea;
+  font-size: 16px;
 }
 
 .footer-info .icons {
@@ -218,7 +204,8 @@ button:hover {
 
 
 
-/* MEDIA Queries*/
+
+/* MEDIA Queries */
 /*nav bar*/
 @media screen and (max-width: 600px) {
   h1 {
@@ -277,7 +264,6 @@ button:hover {
     margin-right: 1.5rem;
  }
 
-
 /*other*/
   h1, .hero p{
     padding-left: 0;
@@ -289,14 +275,18 @@ button:hover {
   }
 
   /*footer*/
+  .footer-info {
+    padding: 20px;
+  }
+
   .footer-info .copyright {
     display: none;
   }
 
   .footer-info ul.icons {
     margin: 0 auto;
-    padding: 2rem;
     float: none;
+    padding-left: 4rem;
   }
 
   .footer-info .icons li {
@@ -309,5 +299,25 @@ button:hover {
 @media screen and (min-width: 600px) {
   nav li {
     display: inline-block;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  nav {
+    width: 80%;
+    padding: 0;
+    margin: auto;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .logo {
+    padding: 0;
+  }
+
+  .hero {
+    padding: 0;
   }
 }

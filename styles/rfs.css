@@ -5,6 +5,10 @@
   color: #eaeaea;
 }
 
+.nav-bar a {
+  color: white;
+}
+
 h1 {
   text-align: center;
 }
@@ -40,27 +44,14 @@ a {
 }
 
 .more-full {
-  width: 77.6041666666667%;
+  width: 100%;
   display: block;
   margin: auto;
-  padding: 2rem;
-}
-
-.first {
-  width: 50%;
-  display: inline-block;
-  float: left;
-  padding: 1rem 10rem;
-  padding-right: .5rem;
+  padding: 3rem;
 }
 
 .second {
-  width: 50%;
-  display: inline-block;
-  float: right;
-  padding: 1rem 10rem;
-  padding-left: .5rem;
-  clear: none;
+  padding: 1rem;
 }
 
 .third {
@@ -87,108 +78,83 @@ section {
 
 .intro h2, .intro h3, .intro p, .user-research li, .conclusion,  .info-arch h3,
 .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
-.prototype h2, .prototype h3, .membership p {
+.prototype h2, .prototype h3, .membership p, h4 {
     margin: 0 auto;
     width: 65%;
+    padding-bottom: 1rem;
+}
+
+.intro-text, .competition, .user-research, .users, .mapping, .flows, .sketching,
+.case-logos, .colors, .other-branding, .prototype-container, .conclusion-container,
+.landing-container, .about-container, .purchasing-container, .membership {
+  padding: 5rem 0;
+  clear: both;
 }
 
 
 /*competition*/
 .competition .inspo {
   width: 100%;
+  padding: 0;
   margin: 0 auto;
   float: none;
 }
 
 .competition p {
   clear: both;
-  padding: 2rem 0;
 }
 
-.inspo p {
-  padding: .5rem;
-}
-
-.competition img {
-  box-shadow: -2px 2px 30px rgba(0, 0, 0, 0.5);
-}
-
-.competition li {
-  padding-right: 0;
-}
-.competition .third {
-  padding: 0;
-}
-
-.box p {
-  padding: 0;
-}
-/*
-.competition .box {
-  width: 100%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  background: rgb(89,51,75);
-  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
-  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
-}
-
-.intro h2, .intro h3 {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 2rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.intro p {
-  clear: both;
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-
-
-.survey-results p {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-.survey-results ul {
-  margin-bottom: 0;
-}
-
-.survey-results li {
-  display: block;
-  margin-left: 15rem;
-  margin-top: 0;
-  margin-bottom: 0;
-  letter-spacing: 0.05rem;
-  text-decoration: none;
-  float: left;
-  width: 50%;
-}*/
 
 /*user research*/
 .user-research .survey-results {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .user-research ul {
-  padding: 0;
   width: 95%;
   margin-top: 0;
 }
 
+.user-research li {
+  display: list-item;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 .user-research li span {
   font-family: "Rozha one", serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .user-research p {
   clear: both;
+}
+
+.survey-results {
+  margin: 2rem 0;
+}
+
+.options {
+  padding: 2rem;
+}
+
+.options .first, .user-research .second {
+  padding: 1rem;
+}
+
+.options .first h4, .user-research .second h4 {
+  text-align: center;
+}
+
+.options .first ul, .user-research .second ul {
+  width: 100%;
+  padding-left: 3rem;
+}
+
+.options .first li, .user-research .second li {
+  padding: 0;
+  line-height: 35px;
+  font-size: 20px
 }
 
 /* users*/
@@ -275,10 +241,18 @@ section {
 }
 
 
+/*prototype*/
+
 .user-feedback {
   width: 65%;
   display: block;
   margin: auto;
+}
+
+.quotes {
+  width: 90%;
+  margin: auto;
+  display: block;
 }
 
 /*
@@ -338,7 +312,7 @@ section {
   rgba(172,216,217,1) 100%);
 }
 
-.rfs-case-study header, .prototype, .box, .inspo {
+.rfs-case-study header, .prototype, .box {
   color: white;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
@@ -358,46 +332,47 @@ section {
 }
 
 @media screen and (max-width: 783px) {
-  .intro, .conclusion, .competition p, .competition h3, .user-research, .info-arch h3,
-  .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
+  .intro, .conclusion, .competition p, .competition h3, .user-research, .info-arch,
+  .info-arch h2, .info-arch p, .sketch, .branding,
   .prototype h2, .prototype h3, .users h3, .user-feedback, .membership p {
     width: 80%;
+    margin: auto;
   }
 
-  .more-full, .full, .third {
+  .more-full, .full, .third, .final-logos,  {
     width: 100%;
     float: none;
     clear: both;
+    padding: 0;
+  }
+
+  .third {
+    padding: 0;
   }
 
   .competition .inspo {
     clear: both;
-    width: 80%;
     padding: 0;
     margin: 0 auto;
     float: none;
-  }
-
-  .competition .inspo img {
-    width: 33%;
   }
 
   .competition .box {
     display: none;
   }
 
-  .third {
-    width: 100%;
-    display: inline-block;
-    float: left;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    clear: none;
-  }
-
   .user-boxes {
     width: 100%;
     margin: auto;
+  }
+
+  .survey {
+    padding: 0;
+    width: 100%;
+  }
+
+  .user-research li {
+    display: block;
   }
 
   .first, .second {
@@ -407,7 +382,10 @@ section {
     float: left;
     padding: 1rem;
   }
-
+  .colors ul {
+    padding: 0;
+    margin: 0;
+  }
    .colors img {
     width: 50%;
   }
@@ -416,14 +394,66 @@ section {
     padding: 3rem;
   }
 
-  .type, .button {
+  .type, .button, .type img, .mock {
     width: 100%;
+    padding: 1rem 0;
   }
 
   .other-branding {
     clear: both;
     width: 100%;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .intro h2, .intro h3, .intro p, .user-research li, .conclusion,  .info-arch h3,
+  .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
+  .membership p, h4 {
+      width: 100%;
+  }
+
+  .intro-text, .competition, .user-research, .users, .mapping, .flows, .sketching,
+  .case-logos, .colors, .other-branding, .prototype-container, .conclusion-container,
+  .landing-container, .about-container, .purchasing-container, .membership {
+    padding: 1rem 0;
+  }
+
+  .user-research {
+    margin: 0;
+    width: 100%;
+  }
+
+  .options {
+    padding: 0;
+  }
+
+  .options .first ul, .user-research .second ul {
+    padding: 0;
+  }
+
+  .user-research li, .options .first li, .user-research .second li {
+    padding: 0;
+    line-height: 25px;
+    font-size: 16px;
+    display: list-item;
+  }
+
+  .user-research li span {
+    font-size: 20px;
+  }
+
+  .user-boxes img {
+    padding: 1rem 0;
+  }
+
+  .full {
+    padding: 0;
   }
 
 

@@ -11,6 +11,20 @@ nav .rose-branch {
   height: 30px;
 }
 
+/* home-hero*/
+.home-hero {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  padding: 20vh 0px;
+  color: #eaeaea;
+}
+
+.home-hero span {
+  color: rgba(102,191,145,1)
+}
+
+
 /* project list */
 .projects {
   clear: both;
@@ -21,6 +35,16 @@ nav .rose-branch {
 .text a:hover {
   text-decoration: none;
   color: #950444;
+}
+
+.projects h3 {
+  padding: 0;
+}
+
+.projects p {
+  color: black;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .project-block-rfs {
@@ -78,7 +102,6 @@ nav .rose-branch {
 
 .second a {
   text-decoration: none;
-  color: white;
 }
 
 /*Media Queries*/
@@ -102,5 +125,19 @@ nav .rose-branch {
 @media screen and (max-width: 1024px) {
   .first, .second {
     padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .home-hero {
+    padding: 0;
+  }
+
+  .content {
+    padding: 5rem 0;
+  }
+
+  .project-block-rfs, .project-block-coop {
+    padding: 0;
   }
 }
