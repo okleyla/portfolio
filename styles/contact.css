@@ -1,5 +1,8 @@
 .contact-me .hero {
-  padding-bottom: 15rem;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  padding: 20vh 0px;
 }
 
 .hero .contact-icons {
