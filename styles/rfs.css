@@ -21,6 +21,7 @@ h1 {
 }
 
 .hero-text {
+  padding: 0 4rem;
   padding-bottom: 2rem;
 }
 
@@ -85,8 +86,7 @@ section {
 }
 
 .intro-text, .competition, .user-research, .users, .mapping, .flows, .sketching,
-.case-logos, .colors, .other-branding, .prototype-container, .conclusion-container,
-.landing-container, .about-container, .purchasing-container, .membership {
+.case-logos, .colors, .other-branding, .prototype-container, .conclusion-container {
   padding: 5rem 0;
   clear: both;
 }
@@ -135,26 +135,24 @@ section {
 }
 
 .options {
-  padding: 2rem;
+  width: 80%;
+  margin: auto;
 }
 
 .options .first, .user-research .second {
   padding: 1rem;
 }
 
-.options .first h4, .user-research .second h4 {
-  text-align: center;
-}
 
 .options .first ul, .user-research .second ul {
   width: 100%;
-  padding-left: 3rem;
 }
 
 .options .first li, .user-research .second li {
   padding: 0;
   line-height: 35px;
-  font-size: 20px
+  font-size: 20px;
+  width: 100%;
 }
 
 /* users*/
@@ -198,7 +196,7 @@ section {
 
 .other-branding {
   clear: both;
-  width: 77.6041666666667%;
+  width: 80%;
   margin: auto;
   display: block;
 }
@@ -275,7 +273,7 @@ section {
 
 .prototype-images {
   clear: both;
-  width: 77.6041666666667%;
+  width: 80%;
   padding: 0;
   margin: 0 auto;
   float: none;
@@ -292,6 +290,7 @@ section {
 
 .arrows img {
   height: 40px;
+  margin: 1rem;
 }
 
 .right {
@@ -412,15 +411,19 @@ section {
     line-height: 25px;
   }
 
-  .intro h2, .intro h3, .intro p, .user-research li, .conclusion,  .info-arch h3,
-  .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
-  .membership p, h4 {
+  .hero-text {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  .intro h2, .intro h3, .intro p, .intro-text img, .intro-text, .user-research li,
+  .conclusion,  .info-arch h3, .info-arch h2, .info-arch p, .sketch h2, .sketch h3,
+  .branding h2, .branding h3, .membership p, h4 {
       width: 100%;
   }
 
   .intro-text, .competition, .user-research, .users, .mapping, .flows, .sketching,
-  .case-logos, .colors, .other-branding, .prototype-container, .conclusion-container,
-  .landing-container, .about-container, .purchasing-container, .membership {
+  .case-logos, .colors, .other-branding, .prototype-container, .conclusion-container {
     padding: 1rem 0;
   }
 

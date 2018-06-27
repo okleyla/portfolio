@@ -85,7 +85,7 @@ h4 {
 }
 
 /*Media Queries*/
-@media screen and (max-width: 783px) {
+@media screen and (max-width: 768px) {
   .about, .hero, .moodboard h2 {
     width: 100%;
     display: block;

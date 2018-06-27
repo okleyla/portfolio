@@ -1,3 +1,13 @@
+.case-hero {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
 .hero img {
   margin: 0 auto;
   width: 100%;
@@ -6,6 +16,7 @@
 }
 
 .hero-text {
+  padding: 0 4rem;
   padding-bottom: 2rem;
 }
 
@@ -15,19 +26,23 @@
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* images */
 .full {
   width: 65%;
   margin: auto;
   display: block;
-  padding: 2rem;
+  /*padding: 2rem;*/
 }
 
 .more-full {
-  width: 77.6041666666667%;
+  width: 100%;
   display: block;
   margin: auto;
-  padding: 2rem;
+  /*padding: 3rem;*/
 }
 
 .first {
@@ -56,7 +71,7 @@
 }
 
 .sixth {
-  width: 15%;
+  width: 16%;
   display: inline-block;
   float: left;
   clear: none;
@@ -70,12 +85,18 @@ section {
   padding-bottom: 5rem;
 }
 
-.intro h2, .intro h3, .intro p, .user-research, .users, .conclusion,  .info-arch h3,
+.intro h2, .intro h3, .intro p, .user-research h3, .user-research p, .users h3, .conclusion,  .info-arch h3,
 .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
 .prototype h2, .prototype h3, .prototype p, .membership p {
     margin: 0 auto;
     width: 65%;
     padding-bottom: 1rem;
+}
+
+.intro-text, .competition, .user-research, .users, .mapping, .flows, .sketching,
+.case-logos, .colors, .other-branding, .prototype-container, .conclusion-container {
+  padding: 5rem 0;
+  clear: both;
 }
 
 /*competition*/
@@ -92,10 +113,8 @@ section {
 
 
 /* user research*/
-.user-research p, .user-research h3 {
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
+.user-research {
+  padding-bottom: 0;
 }
 
 .user-research ul {
@@ -106,37 +125,87 @@ section {
 
 .user-research li {
   display: list-item;
-  margin-left: 3rem;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .user-research p {
   clear: both;
 }
 
-/* users */
-.users h3 {
+.options {
+  padding-bottom: 15rem;
+  background: rgb(172,216,217);
+  background: linear-gradient(132deg, rgba(172,216,217,1) 27%, rgba(212,176,140,1) 80%,
+  rgba(224,106,77,1) 100%);
+  }
+}
+
+.options ul {
+  padding: 0;
   width: 100%;
 }
 
+.options li {
+  font-size: 20px;
+  line-height: 30px;
+  display: list-item;
+}
+
+.options-container {
+  margin: auto;
+  width: 80%;
+  display: block;
+  height: 100%;
+  padding-bottom: 20vh;
+}
+
+.options .first, .options .second {
+  width: 48%;
+}
+
+.options .first {
+  display: inline-block;
+  float: left;
+  padding-right: 1rem;
+  margin-right: .5rem;
+}
+
+.options .second {
+  display: inline-block;
+  float: right;
+  position: relative;
+  padding-left: 1rem;
+  margin-left: .5rem;
+}
+
+/* users */
+
 .user-boxes {
-  width: 100%;
+  width: 80%;
   margin: auto;
   display: block;
 }
 
 .john .second, .elaine .first, .marta .second {
-  font-size: 1.2rem;
-  padding-top: 3rem;
+  padding: 1rem;
+  padding-bottom: 5rem;
 }
 
 /*information architecture*/
 .mapping {
-  width: 77.6041666666667%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .mapping h3 {
   clear: both;
+}
+
+#smaller {
+  height: 300px;
+  width: auto;
+  margin-left: 3rem;
 }
 
 /*branding*/
@@ -175,12 +244,17 @@ section {
   width: 100%;
 }
 
-.type {
+.other-branding {
   clear: both;
-  margin: 0 auto;
+  width: 80%;
+  margin: auto;
   display: block;
+}
+
+.type {
+  display: inline-block;
   float: left;
-  margin-bottom: 5rem;
+  padding: 1rem;
 }
 
 .type li {
@@ -204,37 +278,14 @@ section {
   font-family: 'Lora', serif;
 }
 
-/*
-.type img {
-  padding-left: 15rem;
-  padding-right: 10rem;
-  padding-bottom: 5rem;
-}
-
-
-.user-feedback {
-  width: 65%;
-  display: block;
-  margin: auto;
-}
-
+/* prototype */
 .prototype {
-  width: 100%;
-  margin: 0 auto;
+  padding-bottom: 15rem;
 }
-
-.prototype h2, .prototype p {
-  width: 80%;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  display: block;
-  margin: 0 auto;
-}*/
-
 
 .prototype-images {
   clear: both;
-  width: 77.6041666666667%;
+  width: 80%;
   padding: 0;
   margin: 0 auto;
   float: none;
@@ -251,6 +302,7 @@ section {
 
 .arrows img {
   height: 40px;
+  margin: 1rem;
 }
 
 .right {
@@ -284,7 +336,7 @@ section {
 
 }
 
-@media screen and (max-width: 783px) {
+@media screen and (max-width: 768px) {
   .intro h2, .intro h3, .intro p, .user-research, .users, .conclusion,  .info-arch h3,
   .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
   .prototype h2, .prototype h3, .prototype p, .membership p {
@@ -315,7 +367,7 @@ section {
   }
 
   .user-boxes {
-    width: 100%;
+    width: 80%;
     margin: auto;
   }
 
@@ -327,10 +379,22 @@ section {
     padding:1rem;
   }
 
-  .john .second, .elaine .first, .marta .second {
-    padding-top: 0;
-
+  .options {
+    padding-bottom: 30rem;
   }
+  .options .first, .options .second {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+  }
+  .options ul {
+    float: left;
+  }
+
+  .john .second, .elaine .first, .marta .second {
+    display: none;
+  }
+
    .colors img {
     width: 50%;
   }
@@ -342,7 +406,59 @@ section {
   .type, {
     width: 100%;
   }
+}
 
+@media screen and (max-width: 425px) {
+  p {
+    font-size: 16px;
+    line-height: 25px;
+  }
 
+  .hero-text {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
 
+  .intro h2, .intro h3, .intro p, .intro-text img, .intro-text, .user-research li,
+  .conclusion,  .info-arch h3, .info-arch h2, .info-arch p, .sketch h2, .sketch h3,
+  .branding h2, .branding h3, .membership p, h4 {
+      width: 100%;
+  }
+
+  .intro-text, .competition, .user-research, .users, .mapping, .flows, .sketching,
+  .case-logos, .colors, .other-branding, .prototype-container, .conclusion-container {
+    padding: 1rem 0;
+  }
+
+  .user-research {
+    margin: 0;
+    width: 100%;
+  }
+/*
+  .options {
+    padding: 0;
+  }
+
+  .options .first ul, .user-research .second ul {
+    padding: 0;
+  }
+
+  .user-research li, .options .first li, .user-research .second li {
+    padding: 0;
+    line-height: 25px;
+    font-size: 16px;
+    display: list-item;
+  }
+*/
+  .user-research li span {
+    font-size: 20px;
+  }
+
+  .user-boxes img {
+    padding: 1rem 0;
+  }
+
+  .full {
+    padding: 0;
+  }
 }
