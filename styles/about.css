@@ -1,11 +1,14 @@
-/* About Page*/
-
 .about-me .hero {
-  padding-bottom: 0;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  padding-top: 20vh;
+  text-align: center;
 }
 
 .about-me header {
   padding-bottom: 0;
+  background: none;
 }
 
 .photo img {
@@ -14,13 +17,18 @@
 
 .about {
   margin: auto;
-  width: 56.4236111111111%;
+  width: 65%;
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 }
 
 .about a {
   color: #950444;
+}
+
+h4 {
+  margin-bottom: 0;
+  padding-top: 1rem;
 }
 
 .capabilities {
@@ -33,10 +41,11 @@
 
 .capabilities .caps {
   margin: auto;
-  width: 56.4236111111111%;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  width: 80%;
   display: block;
+  height: 100%;
+  padding: 20vh 0px;
+  margin-bottom: 7rem;
 }
 
 .capabilities div {
@@ -58,9 +67,13 @@
   margin-left: .5rem;
 }
 
+.moodboard {
+  padding: 5rem 0;
+}
+
 .moodboard h2 {
   margin: auto;
-  width: 56.4236111111111%;
+  width: 65%;
   padding-bottom: 2rem;
   padding-top: 5rem;
 }
@@ -88,3 +101,39 @@
     width: 100%;
     padding-left: 0;
   }
+}
+@media screen and (max-width: 1024px) {
+  .first, .second {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about-me .hero {
+    padding: 0;
+  }
+
+  .photo img {
+    width: 180%;
+    float: right;
+    padding-bottom: 5rem;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .caps {
+    margin-bottom: 0;
+  }
+
+  .buttons {
+    padding-bottom: 5rem;
+  }
+
+  button {
+    margin-bottom: 1rem;
+  }
+
+}
