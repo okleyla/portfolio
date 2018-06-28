@@ -330,7 +330,7 @@ section {
   }
 }
 
-@media screen and (max-width: 783px) {
+@media screen and (max-width: 768px) {
   .intro, .conclusion, .competition p, .competition h3, .user-research, .info-arch,
   .info-arch h2, .info-arch p, .sketch, .branding,
   .prototype h2, .prototype h3, .users h3, .user-feedback, .membership p {

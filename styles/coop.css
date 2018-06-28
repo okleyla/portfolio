@@ -85,7 +85,7 @@ section {
   padding-bottom: 5rem;
 }
 
-.intro h2, .intro h3, .intro p, .user-research h3, .user-research p, .users h3, .conclusion,  .info-arch h3,
+.intro-text, .user-research, .users h3, .conclusion,  .info-arch h3,
 .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
 .prototype h2, .prototype h3, .prototype p, .membership p {
     margin: 0 auto;
@@ -134,7 +134,7 @@ section {
 }
 
 .options {
-  padding-bottom: 15rem;
+  padding-bottom: 20rem;
   background: rgb(172,216,217);
   background: linear-gradient(132deg, rgba(172,216,217,1) 27%, rgba(212,176,140,1) 80%,
   rgba(224,106,77,1) 100%);
@@ -144,11 +144,17 @@ section {
 .options ul {
   padding: 0;
   width: 100%;
+  float: left;
+}
+
+ul.survey {
+  padding: 0;
+  float: left;
 }
 
 .options li {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 25px;
+  line-height: 40px;
   display: list-item;
 }
 
@@ -182,14 +188,16 @@ section {
 /* users */
 
 .user-boxes {
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: block;
+  padding: 1rem;
 }
 
 .john .second, .elaine .first, .marta .second {
   padding: 1rem;
   padding-bottom: 5rem;
+  display: none;
 }
 
 /*information architecture*/
@@ -285,10 +293,14 @@ section {
 
 .prototype-images {
   clear: both;
-  width: 80%;
+  width: 100%;
   padding: 0;
   margin: 0 auto;
   float: none;
+}
+
+.prototype .third {
+  padding: 0;
 }
 
 .membership {
@@ -337,17 +349,25 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-  .intro h2, .intro h3, .intro p, .user-research, .users, .conclusion,  .info-arch h3,
+  .intro, .user-research, .users, .conclusion,  .info-arch h3,
   .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
   .prototype h2, .prototype h3, .prototype p, .membership p {
-    width: 95%;
-
+    width: 80%;
+    margin: auto;
   }
 
-  .more-full, .full, .third {
+  .more-full {
     width: 100%;
     float: none;
     clear: both;
+    padding: 3rem;
+  }
+
+  .full, .third {
+    width: 100%;
+    float: none;
+    clear: both;
+    padding: 0;
   }
 
   .third {
@@ -356,7 +376,6 @@ section {
 
   .competition .inspo {
     clear: both;
-    width: 80%;
     padding: 0;
     margin: 0 auto;
     float: none;
@@ -401,15 +420,31 @@ section {
 
   .final-logos img {
     padding: 3rem;
+    width: 50%;
   }
 
-  .type, {
+  .coop-logo-formation {
+    width: 60%;
+  }
+
+  .type, .type h3 {
     width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.type-fonts {
+    float: left;
+    padding: 0;
   }
 }
 
 @media screen and (max-width: 425px) {
-  p {
+  .case-hero {
+    padding: 0;
+  }
+
+  p, .options li {
     font-size: 16px;
     line-height: 25px;
   }
@@ -419,10 +454,16 @@ section {
     padding-bottom: 2rem;
   }
 
-  .intro h2, .intro h3, .intro p, .intro-text img, .intro-text, .user-research li,
-  .conclusion,  .info-arch h3, .info-arch h2, .info-arch p, .sketch h2, .sketch h3,
-  .branding h2, .branding h3, .membership p, h4 {
+  .intro-text, .user-research li,
+  .conclusion-container,  .info-arch h3, .info-arch h2, .info-arch p,
+  .membership p, h4 {
       width: 100%;
+      margin: auto;
+  }
+
+  .sketch h2, .sketch h3, .branding h2, .branding h3 {
+    width: 80%;
+    margin: auto;
   }
 
   .intro-text, .competition, .user-research, .users, .mapping, .flows, .sketching,
@@ -434,22 +475,7 @@ section {
     margin: 0;
     width: 100%;
   }
-/*
-  .options {
-    padding: 0;
-  }
 
-  .options .first ul, .user-research .second ul {
-    padding: 0;
-  }
-
-  .user-research li, .options .first li, .user-research .second li {
-    padding: 0;
-    line-height: 25px;
-    font-size: 16px;
-    display: list-item;
-  }
-*/
   .user-research li span {
     font-size: 20px;
   }
@@ -461,4 +487,15 @@ section {
   .full {
     padding: 0;
   }
+
+  .type, .type h3 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .type li {
+    padding: 1rem 0;
+  }
+
 }
