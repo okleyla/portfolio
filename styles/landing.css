@@ -17,11 +17,12 @@ nav .rose-branch {
   width: 80%;
   margin: auto;
   padding: 20vh 0px;
-  color: #eaeaea;
+  color: #2f2f2f;
 }
 
 .home-hero span {
-  color: rgba(102,191,145,1)
+  text-decoration: underline;
+  text-decoration-color: rgba(251,234,89,.5);
 }
 
 
@@ -33,18 +34,13 @@ nav .rose-branch {
 }
 
 .text a:hover {
-  text-decoration: none;
   color: #950444;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .projects h3 {
   padding: 0;
-}
-
-.projects p {
-  color: black;
-  font-size: 20px;
-  line-height: 30px;
 }
 
 .project-block-rfs {
@@ -74,10 +70,6 @@ nav .rose-branch {
   clear: none;
 }
 
-.content p {
-  clear: both;
-}
-
 .first {
   width: 50%;
   display: inline-block;
@@ -96,7 +88,7 @@ nav .rose-branch {
   width: 50%;
   display: inline-block;
   float: right;
-  padding: 5rem;
+  padding: 0 3rem;
   clear: none;
 }
 

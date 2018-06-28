@@ -28,6 +28,84 @@ header {
   width: 100%;
 }
 
+main {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+h1, h2 {
+  font-family: 'Rozha one', serif;
+  min-height: 100%;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 46px;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  min-height: 100%;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+a {
+  color: #2f2f2f;
+  text-decoration-color: #950444;
+}
+
+a:hover {
+  color: #950444;
+  font-weight: 700;
+  text-decoration-color: #950444;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*other universal features*/
+button {
+  background: #66BF91;
+  color: white;
+  padding: 15px;
+  border: 0;
+  font-size: 20px;
+}
+
+button:hover {
+  background: #950444;
+  border: white;
+}
+
+.contact {
+  clear: both;
+  margin: 0 auto;
+  padding-bottom: 15rem;
+  padding-top: 10rem;
+  width: 80%;
+}
+
 /* NAV BAR*/
 nav {
   height: 100px;
@@ -54,11 +132,11 @@ nav .closebtn {
   height: 45px;
 }
 
-ul {
+ul#topnav.nav-bar {
   float: right;
 }
 
-li {
+nav li {
   display: block;
   height: 100%;
   padding-left: 1rem;
@@ -66,98 +144,14 @@ li {
   letter-spacing: 0.05rem;
 }
 
-li a {
+nav li a {
   text-decoration: none;
-  color: black;
+  color: #2f2f2f;
 }
 
-li a:hover {
+nav li a:hover {
   font-weight: 700;
   color: #6ABE93;
-}
-
-main {
-  margin: 0 auto;
-}
-/*
-section {
-  clear: both;
-  margin-top: 20px;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}*/
-
-
-h1 {
-  font-size: 48px;
-  line-height: 3rem;
-
-}
-
-h1, h2 {
-  font-family: 'Rozha one', serif;
-  min-height: 100%;
-}
-
-h2 {
-  font-size: 36px;
-  line-height: 50px;
-}
-
-h3 {
-  font-family: 'Quicksand', sans-serif;
-  color: black;
-  min-height: 100%;
-  font-weight: normal;
-  text-transform: uppercase;
-  padding-top: 1rem;
-  clear: both;
-  font-size: 25px;
-  line-height: 30px;
-}
-
-h4 {
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 40px;
-}
-
-p {
-  font-size: 25px;
-  line-height: 40px;
-}
-
-a {
-  color: #4c4c4c;
-}
-
-a:hover {
-  color: #950444;
-}
-
-
-
-
-/*other universal features*/
-button {
-  background: #66BF91;
-  color: white;
-  padding: 15px;
-  border: 0;
-  font-size: 20px;
-}
-
-button:hover {
-  background: #950444;
-}
-
-
-.contact {
-  clear: both;
-  margin: 0 auto;
-  padding-bottom: 15rem;
-  padding-top: 10rem;
-  width: 80%;
 }
 
 
@@ -311,6 +305,12 @@ button:hover {
 
   h1 {
     margin-top: 0;
+  }
+
+
+  p {
+    font-size: 16px;
+    line-height: 25px;
   }
 
   .logo {
