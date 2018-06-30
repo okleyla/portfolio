@@ -17,12 +17,12 @@
      <link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
      <link rel="stylesheet" type="text/css" href="styles/normalize.css">
      <link rel="stylesheet" type="text/css" href="styles/main.css">
-     <link rel="stylesheet" type="text/css" href="styles/landing.css">
+     <link rel="stylesheet" type="text/css" href="styles/case-study.css">
      <link rel="stylesheet" type="text/css" href="styles/rfs.css">
      <script src="javascript/script.js"></script>
   </head>
 
-  <body class="rfs-case-study">
+  <body class="case-study">
       <header>
           <nav>
               <a href="index.html" class="logo">
@@ -39,23 +39,23 @@
           </nav>
           <section class="hero">
               <div class="case-hero">
-                  <h1>classics reimagined</h1>
                   <img src="images/rfs-laptop.png">
-                  <div class="hero-text">
-                      <p>The entrepreneur (Darcy) behind ReFated Shoes, or RF, is an artist with
-                        impeccable style. Bored of the basic blacks and browns, he hand-painted his
-                        own shoes in vibrant hues, patina patterns, and however else inspiration took
-                        hold of his paint brush. To his surprise, colleagues and passersby were offering
-                        to buy the shoes off his feet. So, he decided to take his hobby online.
-                      <p>After a successful stint on Etsy, the entrepreneur decided that it was time to
-                        host his own site and define his brand. Enter: me. My role was to help him with
-                        strategy, marketing, and design.</p>
-                    </div>
-                    <a href="#"><button class="case-study-button">view prototype</button></a>
+                  <a href="#"><button class="case-study-button">view prototype</button></a>
               </div>
           </section>
       </header>
       <main>
+          <div class="hero-text">
+            <h1>classics reimagined</h1>
+            <p>The entrepreneur (Darcy) behind ReFated Shoes, or RF, is an artist with
+              impeccable style. Bored of the basic blacks and browns, he hand-painted his
+              own shoes in vibrant hues, patina patterns, and however else inspiration took
+              hold of his paint brush. To his surprise, colleagues and passersby were offering
+              to buy the shoes off his feet. So, he decided to take his hobby online.
+            <p>After a successful stint on Etsy, the entrepreneur decided that it was time to
+              host his own site and define his brand. Enter: me. My role was to help him with
+              strategy, marketing, and design.</p>
+          </div>
           <section class="intro">
               <div class="intro-text">
                   <h2>starting from the sole up</h2>
@@ -69,7 +69,7 @@
                   <h3>Who's Out There?</h3>
                   <p>During the stakeholder interview, Darcy identified a few other companies
                   with a similar business model:</p>
-                  <p>
+                  <div class="clearfix"></div>
                   <div class="inspo">
                       <li><img src="images/inspo1.png" class="third"></li>
                       <li><img src="images/inspo2.png" class="third"></li>
@@ -78,8 +78,8 @@
                       <li><img src="images/comp2.png" class="third"></li>
                       <!--<li><img src="images/comp3.png" class="sixth"></li>-->
                   </div>
-                  <div class="box"><p></p></div>
-                  <p>
+                  <!--<div class="box"><p></p></div>-->
+                  <div class="clearfix"></div>
                   <p>Design pattern: the direct competitors use stone/slate textures and colors,
                     while the sources of inspiration rely on a black and white color scheme with
                     brightly colored calls-to-action.</p>
@@ -114,45 +114,49 @@
                         on hand-painted. This term tested well during the website prototype.</p>
                   </div>
           </section>
-          <section class="options">
-              <div class="options-container">
+          <section class="environment">
+              <div class="environment-container">
+                      <div class="clearfix"></div>
                       <div class="first">
                           <h3>Challenges</h3>
                           <ul class="survey">
-                              <li>The word "refurbished"</li>
-                              <li>Ambiguity behind the refurbishing process</li>
+                              <li><p>The word "refurbished"</p></li>
+                              <li><p>Ambiguity behind the refurbishing process</p></li>
                           </ul>
                       </div>
                       <div class="second">
                           <h3>Solutions</h3>
                               <ul class="survey">
-                                  <li>Replace "refurbished" with "hand-painted"</li>
-                                  <li>Show before / after pictures</li>
-                                  <li>Explain the process </li>
+                                  <li><p>Replace "refurbished" with "hand-painted"</p></li>
+                                  <li><p>Show before / after pictures</p></li>
+                                  <li><p>Explain the process</p></li>
                               </ul>
                       </div>
+                      <div class="clearfix"></div>
               </div>
           </section>
           <section class="users">
-              <div class="users">
+              <div class="users-container">
                   <h3>Who Are They?</h3>
                   <div class="user-boxes">
                       <img src="images/vincent.png" class="first">
                       <img src="images/jean.png" class="second">
                   </div>
+                  <div class="clearfix"></div>
               </div>
           </section>
           <section class="info-arch">
-              <div class="mapping">
-                  <h2>information architecture</h2>
-                  <h3>Mapping</h3>
-                  <p>We conducted a card sort to help organize the website and discover
-                    whether additional pages were needed. We learned that the potential
-                    customer wanted to learn more about the product, with multiple survey
-                    respondents suggesting a section devoted to hand-painting techniques.</p>
-                  <img src="images/rfs-site-map.png" class="full">
-              </div>
-              <div class="mapping">
+              <div class="info-arch-container">
+                  <div class="mapping">
+                      <h2>information architecture</h2>
+                      <h3>Mapping</h3>
+                      <p>We conducted a card sort to help organize the website and discover
+                        whether additional pages were needed. We learned that the potential
+                        customer wanted to learn more about the product, with multiple survey
+                        respondents suggesting a section devoted to hand-painting techniques.</p>
+                      <img src="images/rfs-site-map.png" class="full">
+                  </div>
+                  <div class="mapping">
                   <h3>Flows</h3>
                   <p>Based on our user personas, we decided to target the Vincent’s and
                     Marcus' through Instagram and Facebook, while the Jean's would learn
@@ -160,6 +164,7 @@
                     reflect the journey the shopper will take once they click on that link.</p>
                   <img src="images/rfs-user-flows.png" class="full">
               </div>
+            </div>
           </section>
           <section class="sketch">
               <div class="sketching">
@@ -169,29 +174,33 @@
               </div>
           </section>
           <section class="branding">
-              <div class="case-logos">
-                  <h2>branding</h2>
-                  <h3>Logo Formation</h3>
-                  <img src="images/logo-formation.png" class="more-full">
-                  <h3>Logo Details</h3>
-                  <div class="final-logos">
-                      <img src="images/logo-styles.png" class="first">
-                      <img src="images/logo-details.png" class="second">
+              <div class="branding-container">
+                  <div class="case-logos">
+                      <h2>branding</h2>
+                      <h3>Logo Formation</h3>
+                      <img src="images/logo-formation.png" class="more-full">
                   </div>
-              </div>
-              <div class="colors">
-                  <h3>Colors</h3>
-                  <div class="color-samples">
-                      <ul class="images">
-                          <li><img src="images/001.png"></li>
-                          <li><img src="images/002.png"></li>
-                          <li><img src="images/003.png"></li>
-                          <li><img src="images/004.png"></li>
-                          <li><img src="images/005.png"></li>
-                      </ul>
+                  <div class="case-logos">
+                      <h3>Logo Details</h3>
+                      <div class="final-logos">
+                          <img src="images/logo-styles.png" class="first">
+                          <img src="images/logo-details.png" class="second">
+                          <div class="clearfix"></div>
+                      </div>
                   </div>
-              </div>
-              <div class="other-branding">
+                  <div class="colors">
+                      <h3>Colors</h3>
+                      <div class="color-samples">
+                          <ul class="images">
+                              <li><img src="images/001.png" class="sixth"></li>
+                              <li><img src="images/002.png" class="sixth"></li>
+                              <li><img src="images/003.png" class="sixth"></li>
+                              <li><img src="images/004.png" class="sixth"></li>
+                              <li><img src="images/005.png" class="sixth"></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="other-branding">
                   <div class="type">
                       <h3>Typography</h3>
                       <img src="images/fonts.png">
@@ -205,53 +214,60 @@
                       <img src="images/mockup.png">
                   </div>
               </div>
+              </div>
           </section>
           <section class="prototype">
               <div class="prototype-container">
                   <h2>prototype</h2>
                   <!-- insert video -->
-
-                  <h3>User Feedback</h3>
-                  <div class="quotes">
-                      <p class="first">"Nice layout, clean crisp lines. [I] like the color scheme."</p>
-                      <p class="second">“Love the concept. Everyone loves to have originality in their style.”</p>
-                  </div>
                   <div class="user-feedback">
+                      <h3>User Feedback</h3>
+                          <div class="quotes">
+                              <p class="first">"Nice layout, clean crisp lines. [I] like the color scheme."</p>
+                              <p class="second">“Love the concept. Everyone loves to have originality in their style.”</p>
+                          </div>
+                      <div class="clearfix"></div>
                       <p>We conducted multiple rounds of guerilla testing and online user testing
-                        through Invision. Overall, we received positive feedback on the shoes and
-                        the website. Survey respondents were intrigued by the concept and the
-                        entrepreneur, while others were keen to order shoes from the prototype.
-                        Negative comments were mostly directed towards the concept, rather than
-                        the design. This was alleviated by providing additional information on the
-                        dyeing process and on the specific shoes that are being sold.</p>
+                      through Invision. Overall, we received positive feedback on the shoes and
+                      the website. Survey respondents were intrigued by the concept and the
+                      entrepreneur, while others were keen to order shoes from the prototype.
+                      Negative comments were mostly directed towards the concept, rather than
+                      the design. This was alleviated by providing additional information on the
+                      dyeing process and on the specific shoes that are being sold.</p>
                   </div>
-              </div>
-              <div class="prototype-container">
-                  <h3>Landing Page</h3>
-                  <img src="images/homepage.png" class="full">
-              </div>
-              <div class="prototype-container">
-                  <h3>About, Contact, FAQ</h3>
-                  <ul class="prototype-images">
-                      <li><img src="images/about-refated.png" class="third"></li>
-                      <li><img src="images/contact-page.png" class="third"></li>
-                      <li><img src="images/FAQ.png" class="third"></li>
-                  </ul>
-              </div>
-              <div class="prototype-container">
-                  <h3>Purchasing Flow</h3>
-                  <ul class="prototype-images">
-                      <li><img src="images/rfs-detail.png" class="third"></li>
-                      <li><img src="images/rfs-cart.png" class="third"></li>
-                      <li><img src="images/payment.png" class="third"></li>
-                      <li><img src="images/rfs-confirmation.png" class="third"></li>
-                  </ul>
-              <div class="prototype-container">
-                  <h3>Membership</h3>
-                  <p class="user-feedback">Darcy’s goal is to include membership services once he builds a
-                    larger following. So, we planned for the future and designed an
-                    account page.</p>
-                  <img src="images/rfs-account.png" class="full">
+                  <div class="landing-page">
+                      <h3>Landing Page</h3>
+                      <img src="images/homepage.png" class="full">
+                      <div class="clearfix"></div>
+                  </div>
+                  <div class="about-page">
+                      <h3>About, Contact, FAQ</h3>
+                      <ul class="prototype-images">
+                          <li><img src="images/about-refated.png" class="third"></li>
+                          <li><img src="images/contact-page.png" class="third"></li>
+                          <li><img src="images/FAQ.png" class="third"></li>
+                          <div class="clearfix"></div>
+                      </ul>
+
+                  </div>
+                  <div class="purchasing-page">
+                      <h3>Purchasing Flow</h3>
+                      <ul class="prototype-images">
+                          <li><img src="images/rfs-detail.png" class="third"></li>
+                          <li><img src="images/rfs-cart.png" class="third"></li>
+                          <li><img src="images/payment.png" class="third"></li>
+                          <li><img src="images/rfs-confirmation.png" class="third"></li>
+                      </ul>
+                      <div class="clearfix"></div>
+                  </div>
+                  <div class="membership-page">
+                      <h3>Membership</h3>
+                      <p class="user-feedback">Darcy’s goal is to include membership services once he builds a
+                        larger following. So, we planned for the future and designed an
+                        account page.</p>
+                      <img src="images/rfs-account.png" class="full">
+                      <div class="clearfix"></div>
+                  </div>
               </div>
           </section>
 

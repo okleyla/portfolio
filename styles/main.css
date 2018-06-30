@@ -35,6 +35,7 @@ main {
 h1 {
   font-size: 48px;
   line-height: 58px;
+  text-align: center;
 }
 
 h1, h2 {
@@ -106,6 +107,65 @@ button:hover {
   width: 80%;
 }
 
+/*images*/
+
+.first {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  padding: 1rem;
+  clear: both;
+}
+
+.first img {
+  float: left;
+  display: inline;
+  width: 100%;
+}
+
+.second {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  padding: 0 3rem;
+  clear: none;
+}
+
+.second a {
+  text-decoration: none;
+}
+
+.third {
+  width: 33%;
+  display: inline-block;
+  float: left;
+  clear: none;
+  padding: 2rem 1rem;
+}
+
+.sixth {
+  width: 20%;
+  display: inline-block;
+  float: left;
+  clear: none;
+  margin: 0 auto;
+}
+
+.full {
+  width: 65%;
+  margin: auto;
+  display: block;
+  padding: 2rem;
+}
+
+.more-full {
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding: 0 3rem 3rem;
+}
+
+
 /* NAV BAR*/
 nav {
   height: 100px;
@@ -161,24 +221,25 @@ nav li a:hover {
   width: 100%;
   position: fixed;
   bottom: 0;
-  padding: 0 10px;
 }
 
 .footer-info p {
-  padding-right: 1rem;
   color: #eaeaea;
   font-size: 16px;
+  margin: 20px;
 }
 
 .footer-info .icons {
   display: inline-block;
   float: left;
   padding: 0;
+  margin: 7px;
 }
 
 .footer-info .icons li {
   display: inline-block;
   float: left;
+  padding: 10px;
 }
 
 .icons li a i {
@@ -200,7 +261,7 @@ nav li a:hover {
 
 
 /* MEDIA Queries */
-/*nav bar*/
+
 @media screen and (max-width: 600px) {
   h1 {
     line-height: 3rem;
@@ -270,7 +331,7 @@ nav li a:hover {
 
   /*footer*/
   .footer-info {
-    padding: 20px;
+    padding: 0;
   }
 
   .footer-info .copyright {
@@ -278,14 +339,14 @@ nav li a:hover {
   }
 
   .footer-info ul.icons {
-    margin: 0 auto;
+    margin: 0;
     float: none;
-    padding-left: 4rem;
+    display: block;
+    text-align: center;
   }
 
   .footer-info .icons li {
     float: none;
-    margin: 0 auto;
   }
 
 }

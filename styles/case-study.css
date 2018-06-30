@@ -1,0 +1,85 @@
+.case-hero {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.case-hero img {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hero-text {
+  padding: 5rem 0;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.case-study-button {
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  clear: both;
+}
+
+h2, h3 {
+  padding-bottom: 1rem;
+}
+
+/* images */
+.second {
+  padding: 1rem;
+}
+
+/* page sizes*/
+
+
+/*competition*/
+.competition .inspo {
+  width: 80%;
+  padding: 0;
+  margin: 0 auto;
+  float: none;
+}
+
+.competition p {
+  clear: both;
+}
+
+/* navigation */
+.arrows {
+  width: 90%;
+  margin: auto;
+}
+
+.arrows img {
+  height: 40px;
+  margin: 1rem;
+}
+
+.right {
+  float: right;
+}
+
+.navigation .case-studies .first {
+  padding: 3rem;
+  background: rgb(89,51,75);
+  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
+  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+}
+
+.navigation .case-studies .second {
+  padding: 3rem;
+  background: rgb(229,58,32);
+  background: linear-gradient(112deg, rgba(229,58,32,1) 0%, rgba(212,176,140,1) 38%,
+  rgba(172,216,217,1) 100%);
+}

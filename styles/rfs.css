@@ -1,7 +1,11 @@
+.case-study header, .prototype, .box {
+  color: white;
+  background: rgb(89,51,75);
+  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
+  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+}
+
 .case-hero {
-  height: 100%;
-  width: 80%;
-  margin: auto;
   color: #eaeaea;
 }
 
@@ -9,233 +13,168 @@
   color: white;
 }
 
-h1 {
-  text-align: center;
-}
-
-.hero img {
-  margin: 0 auto;
-  width: 100%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.hero-text {
-  padding: 0 4rem;
-  padding-bottom: 2rem;
-}
-
-.case-study-button {
-  text-decoration: none;
-  margin: 0 auto;
-  display: block;
-}
-
-a {
-  text-decoration: none;
-}
-
-
 /* images */
-.full {
-  width: 65%;
-  margin: auto;
-  display: block;
-  padding: 2rem;
-}
 
-.more-full {
-  width: 100%;
-  display: block;
-  margin: auto;
-  padding: 3rem;
-}
 
-.second {
-  padding: 1rem;
-}
-
-.third {
-  width: 33%;
-  display: inline-block;
-  float: left;
-  clear: none;
-  padding: 1rem;
-}
-
-.sixth {
-  width: 15%;
-  display: inline-block;
-  float: left;
-  clear: none;
-  margin: 0 .5rem;
-}
-
-section {
-  clear: both;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
+/* page sizes */
 .intro h2, .intro h3, .intro p, .user-research li, .conclusion,  .info-arch h3,
 .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
 .prototype h2, .prototype h3, .membership p, h4, .users h3 {
     margin: 0 auto;
     width: 65%;
-    padding-bottom: 1rem;
 }
 
-.intro-text, .competition, .user-research, .users, .mapping, .flows, .sketching,
-.case-logos, .colors, .other-branding, .prototype-container, .conclusion-container {
+.intro-text, .competition, .user-research, .users-container, .info-arch-container, .sketching,
+.prototype-container, .conclusion-container {
   padding: 5rem 0;
   clear: both;
 }
 
-
-/*competition*/
-.competition .inspo {
-  width: 100%;
-  padding: 0;
-  margin: 0 auto;
-  float: none;
+/*intro */
+.intro-text {
+  background: rgba(89,51,75,1);
+  color: #eaeaea;
 }
 
-.competition p {
-  clear: both;
+.competition { /* maybe the gradient but inverse? */
+  background: rgba(163, 134, 152, 0.25);
+}
+
+.inspo li {
+  display: block;
 }
 
 
-/*user research*/
-.user-research .survey-results {
-  margin-top: 1rem;
-}
-
+/* user research */
 .user-research ul {
-  width: 95%;
-  margin-top: 0;
+  padding: 2rem 0;
 }
 
 .user-research li {
   font-size: 20px;
   line-height: 40px;
-  margin-right: 0;
-  margin-left: 10rem;
+  display: block;
 }
 
 .user-research li span {
   font-family: "Rozha one", serif;
   font-size: 2.5rem;
+  color: rgba(89,51,75,1);
+  display: inline-block;
+  text-align: right;
+  width: 20%;
+  width: 20%;
+  margin-right: 15px;
+  line-height: 40px;
 }
 
 .user-research p {
   clear: both;
 }
 
-.survey-results {
-  margin: 2rem 0;
-}
-
-.options {
-  padding-bottom: 10rem;
+/*challenges & solutions */
+.environment {
   color: white;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
   rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
 }
-.options h3 {
-  color: white;
-}
-.options ul.survey {
-  padding: 0;
-  width: 100%;
-  float: left;
-}
 
-ul.survey {
-  padding: 0 5rem;
-  float: left;
-}
-
-.options li {
-  font-size: 25px;
-  line-height: 40px;
-  display: list-item;
-}
-
-.options-container {
+.environment-container {
   margin: auto;
   width: 80%;
   display: block;
   height: 100%;
-  padding-bottom: 20vh;
+  padding: 5rem 0;
 }
 
-.options .first, .options .second {
+.environment .first, .environment .second {
   width: 48%;
+  display: inline-block;
 }
 
-.options .first {
-  display: inline-block;
+.environment h3 {
+  color: white;
+}
+
+.environment p {
+  margin: 0;
+}
+
+.environment .first {
   float: left;
-  padding-right: 1rem;
-  margin-right: .5rem;
 }
 
-.options .second {
-  display: inline-block;
+.environment .second {
   float: right;
   position: relative;
-  padding-left: 1rem;
-  margin-left: .5rem;
 }
+
+.environment ul.survey {
+  width: 100%;
+}
+
+.environment li {
+  display: list-item;
+}
+
 
 /* users*/
 .user-boxes {
-  width: 100%;
+  width: 80%;
   margin: auto;
   display: block;
-  padding: 0 5rem;
 }
 
+/*info arch */
+.info-arch {
+  background: rgb(232, 223, 227);
+}
+
+/* sketch */
+.sketch {
+  background: rgb(89,51,75);
+  color: white;
+}
+
+
 /*branding*/
+.branding-container {
+  padding: 5rem 0;
+}
+
 .final-logos {
   width: 65%;
   display: block;
   margin: auto;
-  clear: both;
 }
 
-.final-logos img {
-  padding-left: 4rem;
-  padding-right: 4rem;
+.final-logos {
+  padding-bottom: 3rem;
 }
 
 .final-logos img.second {
-  width: 375px;
+  width: 35%;
 }
 
 .colors {
   clear: both;
   width: 100%;
-
 }
 
 .colors ul {
-  display: inline-block;
-  padding: 1rem;
+  padding: 0;
   float: none;
   width: 100%;
 }
 
-.colors img {
-  width: 20%;
-  display: inline-block;
-  float: left;
+.colors li {
+  display: block;
 }
 
 .other-branding {
   clear: both;
-  width: 80%;
+  width: 65%;
   margin: auto;
   display: block;
 }
@@ -251,7 +190,11 @@ ul.survey {
   width: 60%;
   display: inline-block;
   float: left;
-  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.type h3, .button h3, .mock h3 {
+  width: 100%;
 }
 
 .button {
@@ -263,7 +206,7 @@ ul.survey {
 }
 
 .button img {
-  width: 50%;
+  width: 65%;
 }
 
 .mock {
@@ -284,12 +227,21 @@ ul.survey {
   width: 65%;
   display: block;
   margin: auto;
+  padding-bottom: 1rem;
+}
+
+.user-feedback h3 {
+  width: 100%;
 }
 
 .quotes {
-  width: 90%;
   margin: auto;
   display: block;
+}
+
+.quotes p {
+  padding: 0 1rem;
+  font-size: 16px;
 }
 
 .prototype h3 {
@@ -304,45 +256,15 @@ ul.survey {
   float: none;
 }
 
-.membership {
-  clear: both;
+.prototype li {
+  display: block;
 }
 
-.arrows {
-  width: 90%;
-  margin: auto;
+.landing-page, .about-page {
+  padding-bottom: 1rem;
 }
 
-.arrows img {
-  height: 40px;
-  margin: 1rem;
-}
 
-.right {
-  float: right;
-}
-
-.navigation .case-studies .first {
-  padding: 3rem;
-  background: rgb(89,51,75);
-  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
-  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
-}
-
-.navigation .case-studies .second {
-  padding: 3rem;
-  background: rgb(229,58,32);
-  background: linear-gradient(112deg, rgba(229,58,32,1) 0%, rgba(212,176,140,1) 38%,
-  rgba(172,216,217,1) 100%);
-}
-
-.rfs-case-study header, .prototype, .box {
-  color: white;
-  background: rgb(89,51,75);
-  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
-  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
-  }
-}
 
 
 /* Media Queries */
@@ -350,17 +272,21 @@ ul.survey {
   .inspo {
     width: 100%;
   }
-  .inspo img {
-    width: 15%;
-  }
+
 }
 
 @media screen and (max-width: 768px) {
-  .intro, .conclusion, .competition p, .competition h3, .info-arch,
-  .info-arch h2, .info-arch p, .sketch, .branding, .conclusion,
-  .prototype h2, .prototype h3, .users h3, .user-feedback {
+  .hero-text, .intro h2, .intro h3, .intro p, .conclusion, .competition p,
+  .competition h3, .user-research, .info-arch h3, .branding h2, .branding h3,
+  .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .conclusion,
+  .prototype h2, .prototype h3, .users h3, .user-feedback, .environment-container {
     width: 80%;
     margin: auto;
+  }
+
+  .user-research h3, .user-research p {
+    margin: 0;
+    width: 100%;
   }
 
   .more-full, .full, .third, .final-logos,  {
@@ -382,7 +308,7 @@ ul.survey {
   }
 
   .user-boxes {
-    width: 100%;
+    width: 80%;
     margin: auto;
   }
 
@@ -392,39 +318,27 @@ ul.survey {
   }
 
   .user-research li {
-    display: block;
-    font-size: 20px;
     line-height: 30px;
-    margin: 0;
+    width: 100%;
   }
 
-  .options {
-    padding-bottom: 30rem;
-  }
-
-  .options .first, .options .second {
+  .environment .first, .environment .second {
     display: block;
     width: 100%;
     padding-left: 0;
   }
-  .options ul {
+
+  .environment ul {
     float: left;
   }
 
-  .first, .second {
-    width: 100%;
-    display: inline-block;
-    margin: 0 auto;
-    float: left;
-    padding: 1rem;
+  .environment p {
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .info-arch, .mapping {
     padding-bottom: 0;
-  }
-
-  .sketching img.more-full {
-    padding: 0;
   }
 
   .colors ul {
@@ -444,23 +358,29 @@ ul.survey {
     width: 50%;
   }
 
+  .other-branding {
+    clear: both;
+    width: 80%;
+    margin: auto;
+  }
+
   .type, .button, .type img, .mock {
     width: 100%;
     padding: 1rem 0;
+  }
+
+  .other-branding h3 {
+    width: 100%;
   }
 
   .button img {
     width: 30%;
   }
 
-  .other-branding {
-    clear: both;
-    width: 100%;
-    margin: auto;
-  }
 
-  .quotes {
-    width: 80%;
+  .user-feedback h3 {
+    width: 100%;
+    margin: 0;
   }
 
   p {
@@ -472,16 +392,17 @@ ul.survey {
     padding: 0;
     padding-bottom: 2rem;
   }
-
+/*
   .intro h2, .intro h3, .intro p, .intro-text img, .intro-text, .user-research li,
   .conclusion-container, .info-arch h3, .info-arch h2, .info-arch p, .sketch h2, .sketch h3,
   .branding h2, .branding h3, .membership p, h4 {
       width: 100%;
   }
+  */
 }
 
 @media screen and (max-width: 425px) {
-  .intro-text, .competition, .user-research, .users, .mapping, .flows, .sketching,
+  .intro-text h2, .intro-text p, .competition, .user-research, .users, .mapping, .flows, .sketching,
   .case-logos, .colors, .other-branding, .prototype-container, .conclusion-container {
     padding: 1rem 0;
   }
@@ -491,15 +412,15 @@ ul.survey {
     width: 100%;
   }
 
-  .options {
+  .environment {
     padding: 0;
   }
 
-  .options .first ul, .user-research .second ul {
+  .environment .first ul, .user-research .second ul {
     padding: 0;
   }
 
-  .user-research li, .options .first li, .user-research .second li {
+  .user-research li, .environment .first li, .user-research .second li {
     padding: 0;
     line-height: 25px;
     font-size: 16px;
@@ -512,6 +433,15 @@ ul.survey {
 
   .user-boxes img {
     padding: 1rem 0;
+  }
+
+
+  .first, .second {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    float: left;
+    padding: 1rem;
   }
 
   .full {

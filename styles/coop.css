@@ -1,90 +1,13 @@
-.case-hero {
-  height: 100%;
-  width: 80%;
-  margin: auto;
-}
-
-h1 {
-  text-align: center;
-}
-
-.hero img {
-  margin: 0 auto;
-  width: 100%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.hero-text {
-  padding: 0 4rem;
-  padding-bottom: 2rem;
-}
-
-.case-study-button {
-  text-decoration: none;
-  margin: 0 auto;
-  display: block;
-}
-
-a {
-  text-decoration: none;
-}
-
 /* images */
 .full {
-  width: 65%;
-  margin: auto;
-  display: block;
-  /*padding: 2rem;*/
+  padding: 0;
 }
 
 .more-full {
-  width: 100%;
-  display: block;
-  margin: auto;
-  /*padding: 3rem;*/
+  padding: 0;
 }
 
-.first {
-  width: 50%;
-  display: inline-block;
-  float: left;
-  padding: 1rem;
-  clear: both;
-}
-
-.second {
-  width: 50%;
-  display: inline-block;
-  float: right;
-  padding: 1rem;
-  clear: none;
-}
-
-
-.third {
-  width: 33%;
-  display: inline-block;
-  float: left;
-  clear: none;
-  padding: 1rem;
-}
-
-.sixth {
-  width: 16%;
-  display: inline-block;
-  float: left;
-  clear: none;
-  margin: 0 auto;
-}
-
-/* Throughout the page*/
-section {
-  clear: both;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
+/* Page width*/
 .intro-text, .user-research, .users h3, .conclusion,  .info-arch h3,
 .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
 .prototype h2, .prototype h3, .prototype p, .membership p {
@@ -99,17 +22,7 @@ section {
   clear: both;
 }
 
-/*competition*/
-.competition .inspo {
-  width: 100%;
-  padding: 0;
-  margin: 0 auto;
-  float: none;
-}
 
-.competition p {
-  clear: both;
-}
 
 
 /* user research*/
@@ -131,7 +44,7 @@ section {
 
 .user-research p {
   clear: both;
-}
+} /*make this clearfix*/
 
 .options {
   padding-bottom: 20rem;
@@ -307,32 +220,8 @@ ul.survey {
   clear: both;
 }
 
-.arrows {
-  width: 90%;
-  margin: auto;
-}
 
-.arrows img {
-  height: 40px;
-  margin: 1rem;
-}
 
-.right {
-  float: right;
-}
-
-.navigation .case-studies .first {
-  padding: 3rem;
-  background: rgb(89,51,75);
-  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
-  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
-}
-
-.navigation .case-studies .second {
-  padding: 3rem;
-  background: rgb(172,216,217);
-  background: linear-gradient(132deg, rgba(172,216,217,1) 27%, rgba(212,176,140,1) 80%, rgba(224,106,77,1) 100%);
-}
 
 .coop-case-study header, .prototype, .box {
   background: rgb(172,216,217);

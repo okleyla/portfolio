@@ -70,33 +70,21 @@ nav .rose-branch {
   clear: none;
 }
 
-.first {
-  width: 50%;
-  display: inline-block;
-  float: left;
-  padding: 1rem;
-  clear: both;
-}
-
-.first img {
-  float: left;
-  display: inline;
-  width: 100%;
-}
-
-.second {
-  width: 50%;
-  display: inline-block;
-  float: right;
-  padding: 0 3rem;
-  clear: none;
-}
-
-.second a {
-  text-decoration: none;
-}
-
 /*Media Queries*/
+@media screen and (max-width: 425px) {
+  .home-hero {
+    padding: 0;
+  }
+
+  .content {
+    padding: 5rem 0;
+  }
+
+  .project-block-rfs, .project-block-coop {
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 783px) {
   .projects {
     width: 100%;
@@ -120,16 +108,8 @@ nav .rose-branch {
   }
 }
 
-@media screen and (max-width: 425px) {
-  .home-hero {
-    padding: 0;
-  }
-
-  .content {
-    padding: 5rem 0;
-  }
-
-  .project-block-rfs, .project-block-coop {
-    padding: 0;
+@media screen and (min-width: 1200px) {
+  .second {
+    padding: 3rem;
   }
 }
