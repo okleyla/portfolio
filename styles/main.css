@@ -79,6 +79,7 @@ a:hover {
   color: #950444;
   font-weight: 700;
   text-decoration-color: #950444;
+  cursor: pointer;
 }
 
 .clearfix {
@@ -97,6 +98,7 @@ button {
 button:hover {
   background: #950444;
   border: white;
+  cursor: pointer;
 }
 
 .contact {
@@ -212,6 +214,7 @@ nav li a {
 nav li a:hover {
   font-weight: 700;
   color: #6ABE93;
+  cursor: pointer;
 }
 
 
@@ -299,6 +302,7 @@ nav li a:hover {
   .nav-bar.responsive a:hover {
     font-weight: bold;
     color: #950444;
+    cursor: pointer;
   }
 
   .nav-bar.responsive a.hamburger {

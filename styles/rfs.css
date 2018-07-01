@@ -1,4 +1,4 @@
-.case-study header, .prototype, .box {
+.case-study header, .prototype {
   color: white;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
@@ -12,9 +12,6 @@
 .nav-bar a {
   color: white;
 }
-
-/* images */
-
 
 /* page sizes */
 .intro h2, .intro h3, .intro p, .user-research li, .conclusion,  .info-arch h3,
@@ -71,6 +68,7 @@
 .user-research p {
   clear: both;
 }
+
 
 /*challenges & solutions */
 .environment {
@@ -137,7 +135,6 @@
   color: white;
 }
 
-
 /*branding*/
 .branding-container {
   padding: 5rem 0;
@@ -163,13 +160,18 @@
 }
 
 .colors ul {
-  padding: 0;
-  float: none;
-  width: 100%;
+    padding: 0;
+    float: none;
+    width: 65%;
+    margin: auto;
 }
 
 .colors li {
   display: block;
+}
+
+.colors .third {
+  padding: 0;
 }
 
 .other-branding {
@@ -222,7 +224,6 @@
 
 
 /*prototype*/
-
 .user-feedback {
   width: 65%;
   display: block;
@@ -284,6 +285,16 @@
     margin: auto;
   }
 
+  p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .hero-text {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
   .user-research h3, .user-research p {
     margin: 0;
     width: 100%;
@@ -301,10 +312,6 @@
     padding: 0;
     margin: 0 auto;
     float: none;
-  }
-
-  .competition .box {
-    display: none;
   }
 
   .user-boxes {
@@ -345,6 +352,7 @@
     padding: 0;
     margin: 0;
   }
+
    .colors img {
     width: 50%;
   }
@@ -383,22 +391,6 @@
     margin: 0;
   }
 
-  p {
-    font-size: 16px;
-    line-height: 25px;
-  }
-
-  .hero-text {
-    padding: 0;
-    padding-bottom: 2rem;
-  }
-/*
-  .intro h2, .intro h3, .intro p, .intro-text img, .intro-text, .user-research li,
-  .conclusion-container, .info-arch h3, .info-arch h2, .info-arch p, .sketch h2, .sketch h3,
-  .branding h2, .branding h3, .membership p, h4 {
-      width: 100%;
-  }
-  */
 }
 
 @media screen and (max-width: 425px) {
@@ -447,6 +439,5 @@
   .full {
     padding: 0;
   }
-
 
 }

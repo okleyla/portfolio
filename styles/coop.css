@@ -1,110 +1,93 @@
+header, .prototype {
+  background: rgb(172,216,217);
+  background: linear-gradient(132deg, rgba(172,216,217,1) 27%,
+  rgba(212,176,140,1) 80%, rgba(224,106,77,1) 100%);
+}
+
 /* images */
 .full {
-  padding: 0;
+  padding: 0 2rem 2rem;
 }
 
-.more-full {
-  padding: 0;
-}
-
-/* Page width*/
-.intro-text, .user-research, .users h3, .conclusion,  .info-arch h3,
+/* page sizes*/
+.intro h2, .intro h3, .intro p, .user-research li, .conclusion,  .info-arch h3,
 .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
-.prototype h2, .prototype h3, .prototype p, .membership p {
+.prototype h2, .prototype h3, .prototype p, .membership p, h4, .users h3 {
     margin: 0 auto;
     width: 65%;
-    padding-bottom: 1rem;
 }
 
-.intro-text, .competition, .user-research, .users, .mapping, .flows, .sketching,
-.case-logos, .colors, .other-branding, .prototype-container, .conclusion-container {
+.intro-text, .competition, .user-research, .users-container, .info-arch-container, .sketching,
+.prototype-container, .conclusion-container {
   padding: 5rem 0;
   clear: both;
 }
 
+/*intro */
+.intro-text {
+  background: rgba(224,106,77,1);
+  color: white;
+}
 
+.competition { /* maybe the gradient but inverse? */
+  background: rgba(212, 176, 140, 0.33);
+}
+
+.inspo li {
+  display: block;
+}
 
 
 /* user research*/
-.user-research {
-  padding-bottom: 0;
-}
-
-.user-research ul {
-  padding: 0;
-  width: 100%;
-  margin-top: 0;
-}
-
-.user-research li {
-  display: list-item;
-  font-size: 20px;
-  line-height: 30px;
-}
-
 .user-research p {
   clear: both;
-} /*make this clearfix*/
+}
 
-.options {
-  padding-bottom: 20rem;
+.environment {
   background: rgb(172,216,217);
   background: linear-gradient(132deg, rgba(172,216,217,1) 27%, rgba(212,176,140,1) 80%,
   rgba(224,106,77,1) 100%);
-  }
 }
 
-.options ul {
-  padding: 0;
-  width: 100%;
-  float: left;
-}
-
-ul.survey {
-  padding: 0;
-  float: left;
-}
-
-.options li {
-  font-size: 25px;
-  line-height: 40px;
-  display: list-item;
-}
-
-.options-container {
+.environment-container {
   margin: auto;
   width: 80%;
   display: block;
   height: 100%;
-  padding-bottom: 20vh;
+  padding: 5rem 0;
 }
 
-.options .first, .options .second {
+.environment .first, .environment .second {
   width: 48%;
+  display: inline-block;
 }
 
-.options .first {
-  display: inline-block;
+.environment p {
+  margin: 0;
+}
+
+.environment .first {
   float: left;
-  padding-right: 1rem;
-  margin-right: .5rem;
 }
 
-.options .second {
-  display: inline-block;
+.environment .second {
   float: right;
   position: relative;
-  padding-left: 1rem;
-  margin-left: .5rem;
+}
+
+.environment ul.survey {
+  width: 100%;
+}
+
+.environment li {
+  display: list-item;
 }
 
 /* users */
-
 .user-boxes {
-  width: 100%;
+  width: 80%;
   margin: auto;
   display: block;
-  padding: 1rem;
 }
 
 .john .second, .elaine .first, .marta .second {
@@ -114,13 +97,8 @@ ul.survey {
 }
 
 /*information architecture*/
-.mapping {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.mapping h3 {
-  clear: both;
+.info-arch {
+  background: rgba(212, 176, 140, 0.33);
 }
 
 #smaller {
@@ -129,17 +107,26 @@ ul.survey {
   margin-left: 3rem;
 }
 
+.mapping-img {
+  width: 80%;
+  margin: auto;
+}
+
+/* sketch */
+.sketch {
+  background: rgb(224, 105, 76);
+  color: white;
+}
+
 /*branding*/
-.branding {
-  width: 100%;
-  margin: 0 auto;
+.branding-container {
+  padding: 5rem 0;
 }
 
 .final-logos {
   width: 65%;
   display: block;
   margin: auto;
-  clear: both;
 }
 
 .final-logos img {
@@ -156,30 +143,42 @@ ul.survey {
 
 .colors {
   clear: both;
+  width: 100%;
 }
 
 .colors ul {
-  display: inline-block;
-  padding: 1rem;
+  padding: 0;
   float: none;
-  width: 100%;
+  width: 65%;
+  margin: auto;
+}
+
+.colors li {
+  display: block;
+}
+
+.colors .third {
+  padding: 0;
 }
 
 .other-branding {
   clear: both;
-  width: 80%;
+  width: 65%;
   margin: auto;
   display: block;
 }
 
-.type {
-  display: inline-block;
-  float: left;
-  padding: 1rem;
+.type h3 {
+  width: 100%;
+}
+
+ul.type-fonts {
+  padding: 0;
 }
 
 .type li {
   padding-bottom: 2rem;
+  display: block;
 }
 
 .h1 {
@@ -199,34 +198,33 @@ ul.survey {
   font-family: 'Lora', serif;
 }
 
-/* prototype */
-.prototype {
-  padding-bottom: 30rem;
-}
 
+/* prototype */
 .prototype-images {
   clear: both;
-  width: 100%;
+  width: 80%;
   padding: 0;
   margin: 0 auto;
   float: none;
 }
 
+.prototype li {
+  display: block;
+}
+
 .prototype .third {
-  padding: 0;
+  padding: 0 0 2rem;
+}
+
+.onboard-img {
+  width: 80%;
+  margin: auto;
 }
 
 .membership {
   clear: both;
 }
 
-
-
-
-.coop-case-study header, .prototype, .box {
-  background: rgb(172,216,217);
-  background: linear-gradient(132deg, rgba(172,216,217,1) 27%, rgba(212,176,140,1) 80%, rgba(224,106,77,1) 100%);
-}
 
 
 /* Media Queries */
@@ -238,43 +236,10 @@ ul.survey {
 }
 
 @media screen and (max-width: 768px) {
-  .intro, .user-research, .users, .conclusion,  .info-arch h3,
-  .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
-  .prototype h2, .prototype h3, .prototype p, .membership p {
-    width: 80%;
-    margin: auto;
-  }
-
-  .more-full {
-    width: 100%;
-    float: none;
-    clear: both;
-    padding: 3rem;
-  }
-
-  .full, .third {
-    width: 100%;
-    float: none;
-    clear: both;
-    padding: 0;
-  }
-
-  .third {
-    padding: 0;
-  }
-
-  .competition .inspo {
-    clear: both;
-    padding: 0;
-    margin: 0 auto;
-    float: none;
-  }
-
-  .competition .box {
-    display: none;
-  }
-
-  .user-boxes {
+  .hero-text, .intro h2, .intro h3, .intro p, .conclusion, .competition p,
+  .competition h3, .user-research, .info-arch h3, .branding h2, .branding h3,
+  .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .conclusion,
+  .prototype h2, .prototype h3, .prototype p, .users h3, .user-feedback, .environment-container {
     width: 80%;
     margin: auto;
   }
@@ -287,20 +252,49 @@ ul.survey {
     padding:1rem;
   }
 
-  .options {
-    padding-bottom: 30rem;
+  .more-full, .full, .third, .final-logos,  {
+    width: 100%;
+    float: none;
+    clear: both;
+    padding: 1rem;
   }
-  .options .first, .options .second {
+
+
+  .competition .inspo {
+    clear: both;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .user-boxes {
+    width: 80%;
+    margin: auto;
+  }
+
+
+  .environment .first, .environment .second {
     display: block;
     width: 100%;
     padding-left: 0;
-  }
-  .options ul {
+   }
+
+  .environment ul {
     float: left;
+  }
+
+  .environment p {
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .john .second, .elaine .first, .marta .second {
     display: none;
+  }
+
+  .colors ul {
+    padding: 0;
+    margin: 0;
   }
 
    .colors img {
@@ -308,7 +302,7 @@ ul.survey {
   }
 
   .final-logos img {
-    padding: 3rem;
+    padding: 1rem 2.5rem;
     width: 50%;
   }
 
@@ -350,14 +344,14 @@ ul.survey {
       margin: auto;
   }
 
+  .intro-text h2, .intro-text p, .competition, .user-research, .users, .mapping, .flows, .sketching,
+  .case-logos, .colors, .other-branding, .prototype-container, .conclusion-container {
+    padding: 1rem 0;
+  }
+
   .sketch h2, .sketch h3, .branding h2, .branding h3 {
     width: 80%;
     margin: auto;
-  }
-
-  .intro-text, .competition, .user-research, .users, .mapping, .flows, .sketching,
-  .case-logos, .colors, .other-branding, .prototype-container, .conclusion-container {
-    padding: 1rem 0;
   }
 
   .user-research {
@@ -373,7 +367,12 @@ ul.survey {
     padding: 1rem 0;
   }
 
-  .full {
+
+  .environment {
+    padding: 0;
+  }
+
+  .environment .first ul, .user-research .second ul {
     padding: 0;
   }
 
@@ -385,6 +384,18 @@ ul.survey {
 
   .type li {
     padding: 1rem 0;
+  }
+
+  .first, .second {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    float: left;
+    padding: 1rem;
+  }
+
+  .full {
+    padding: 0;
   }
 
 }

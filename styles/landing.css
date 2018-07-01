@@ -14,10 +14,14 @@ nav .rose-branch {
 /* home-hero*/
 .home-hero {
   height: 100%;
-  width: 80%;
+  width: 65%;
   margin: auto;
   padding: 20vh 0px;
   color: #2f2f2f;
+}
+
+.home-hero h1 {
+  text-align: left;
 }
 
 .home-hero span {
