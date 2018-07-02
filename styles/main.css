@@ -196,6 +196,7 @@ nav .closebtn {
 
 ul#topnav.nav-bar {
   float: right;
+  padding: 0;
 }
 
 nav li {
@@ -276,7 +277,7 @@ nav li a:hover {
 
   nav li {
     height: 20%;
-    padding-top: 3.5rem;
+    padding-top: 5rem 0 3rem;
   }
 
   nav.hamburger a:not(:first-child) {
@@ -313,14 +314,11 @@ nav li a:hover {
   }
 
   .nav-bar.responsive li a {
-    clear: both;
     text-decoration: none;
-    float: none;
     display: block;
-    text-align: right;
-    padding-top: 1rem;
-    font-size: 30px;
-    margin-right: 1.5rem;
+    text-align: center;
+    font-size: 45px;
+    line-height: 55px;
  }
 
 /*other*/
