@@ -197,6 +197,7 @@ nav .closebtn {
 ul#topnav.nav-bar {
   float: right;
   padding: 0;
+  margin-top: 0;
 }
 
 nav li {
@@ -298,12 +299,14 @@ nav li a:hover {
     top: 0;
     background-color: #6ABE93;
     transition: .3s;
+    margin-top: 0;
   }
 
   .nav-bar.responsive a:hover {
     font-weight: bold;
     color: #950444;
     cursor: pointer;
+    padding-bottom: 3rem;
   }
 
   .nav-bar.responsive a.hamburger {
