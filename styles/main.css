@@ -17,12 +17,13 @@ body {
 }
 
 header {
-  background: rgb(102,191,145);
+  background: #eaeaea;
+  /*background: rgb(102,191,145);
   background: linear-gradient(166deg, rgba(102,191,145,1) 0%,
   rgba(245,203,205,1) 65%,
-  rgba(251,234,89,.5) 100%);
+  rgba(251,234,89,.5) 100%);*/
   padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-bottom: 16vh;
   height: 100%;
   min-height: 100%;
   width: 100%;
@@ -72,14 +73,14 @@ p {
 
 a {
   color: #2f2f2f;
-  text-decoration-color: #950444;
 }
 
 a:hover {
-  color: #950444;
+  color: #41735a;
   font-weight: 700;
   text-decoration-color: #950444;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .clearfix {
@@ -88,25 +89,34 @@ a:hover {
 
 /*other universal features*/
 button {
-  background: #66BF91;
-  color: white;
+  background: none;
   padding: 15px;
-  border: 0;
+  border-style: solid;
   font-size: 20px;
+  border-width: 1px;
+  border-color: #333333;
 }
 
 button:hover {
-  background: #950444;
-  border: white;
+  color: #0f0c0f;
+  border-color: #2f2f2f;
   cursor: pointer;
+  border-width: 5px;
 }
 
-.contact {
+#contact {
   clear: both;
+  background: #eaeaea;
   margin: 0 auto;
-  padding-bottom: 15rem;
-  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.contact-container {
   width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 /*images*/
@@ -187,11 +197,11 @@ nav .closebtn {
 }
 
 .logo {
-  padding: 50px;
+  padding: 20px;
 }
 
 .logo img {
-  height: 45px;
+  height: 65px;
 }
 
 ul#topnav.nav-bar {
@@ -215,22 +225,21 @@ nav li a {
 
 nav li a:hover {
   font-weight: 700;
-  color: #6ABE93;
   cursor: pointer;
+  font-size: 20px;
 }
 
 
 /* Footer */
 .footer-info {
-  background-color: #6ABE93;
   width: 100%;
   position: fixed;
   bottom: 0;
 }
 
 .footer-info p {
-  color: #eaeaea;
-  font-size: 16px;
+  color: #2f2f2f;
+  font-size: 12px;
   margin: 20px;
 }
 
@@ -248,13 +257,13 @@ nav li a:hover {
 }
 
 .icons li a i {
-  color: white;
+  color: #2f2f2f;
   font-family: FontAwesome;
   font-size: 30px;
 }
 
 .icons li a i:hover {
-  color: #950444;
+  color: #41735a;
 }
 
 .copyright {
@@ -301,6 +310,9 @@ nav li a:hover {
     transition: .3s;
     margin-top: 0;
   }
+  .nav-bar.responsive li {
+    display: block;
+  }
 
   .nav-bar.responsive a:hover {
     font-weight: bold;
@@ -332,6 +344,10 @@ nav li a:hover {
 
   main {
     width: 100%;
+  }
+
+  .contact-container {
+    width: 80%;
   }
 
   /*footer*/

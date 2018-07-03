@@ -23,32 +23,36 @@
 
   <body>
       <header>
-          <nav>
-              <a href="index.html" class="logo">
-                  <img src="images/spring.png" alt="gulbahar okuyan logo">
-              </a>
-              <ul class="nav-bar" id="topnav">
-                  <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
-                      <i class="fa fa-bars"></i>
-                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                  <div class="clearfix"></div>
-                  <li><a href="index.html">portfolio</a></li>
-                  <li><a href="about.html">about</a></li>
-                  <li><a href="contact.html">contact</a></li>
+          <div id="wrapper">
+              <nav>
+                  <a href="index.html" class="logo">
+                      <img src="images/spring.png" alt="gulbahar okuyan logo">
                   </a>
-              </ul>
-          </nav>
-          <section class="hero">
+                  <ul class="nav-bar" id="topnav">
+                      <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                          <i class="fa fa-bars"></i>
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                      <div class="clearfix"></div>
+                      <li><a data scroll href="#projects">portfolio</a></li>
+                      <li><a href="about.html">about</a></li>
+                      <li><a data scroll href="#contact">contact</a></li>
+                      </a>
+                  </ul>
+              </nav>
+              <section class="hero">
               <div class="home-hero">
-                  <h1>gulbahar okuyan-waugh is a <span>ux designer</span></h1>
-                  <p>Based in Milan, she's available for consulting in UX design, user research,
-                    & marketing. Scroll down for my <a href="index.html">portfolio</a> or
-                    <a href="about.html">learn more</a>.</p>
+                  <h1>I'm gulbahar okuyan-waugh, a ux designer & strategist</h1>
+                  <p>I focus on the big picture, synthesizing information into
+                    a palatable form. An American based in Milan, I claim NY & DC
+                    as my home bases. Scroll down to <a data scroll href "#projects">view
+                      select projects</a> or
+                    <a href="about.html">learn more about me</a>.</p>
               </div>
           </section>
+        </div>
       </header>
       <main>
-          <section class="projects">
+          <section id="projects">
               <div class="project-block-rfs">
                   <div class="content">
                       <div class="clearfix"></div>
@@ -85,9 +89,12 @@
               </div>
           </section>
 
-          <section class="contact">
-              <h2>see something you like?</h2>
-              <a href="contact.html"><button>let's chat</button></a>
+          <section id="contact">
+              <div class"contact-container">
+                  <h4>Want to chat? Work together? I would love to hear from you.</h4>
+                  <!--<a href="contact.html"><button>let's chat</button></a>-->
+                <a href="mailto:gokuyan@gmail.com"><p>gokuyan@gmail.com</p></a>
+              </div>
           </section>
       </main>
 

@@ -239,7 +239,7 @@ ul.type-fonts {
   .hero-text, .intro h2, .intro h3, .intro p, .conclusion, .competition p,
   .competition h3, .user-research, .info-arch h3, .branding h2, .branding h3,
   .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .conclusion,
-  .prototype h2, .prototype h3, .prototype p, .users h3, .user-feedback, .environment-container {
+  .final-logos, .prototype h2, .prototype h3, .prototype p, .users h3, .user-feedback, .environment-container {
     width: 80%;
     margin: auto;
   }

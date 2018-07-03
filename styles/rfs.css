@@ -1,8 +1,8 @@
 .case-study header, .prototype {
   color: white;
   background: rgb(89,51,75);
-  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
-  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+  background: linear-gradient(166deg, rgba(165,137,154,1) 20%,
+  rgba(89,51,75,1) 89%)
 }
 
 .case-hero {
