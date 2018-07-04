@@ -23,11 +23,10 @@
 
   <body>
       <header>
-          <div id="wrapper">
-              <nav>
+              <nav><!--
                   <a href="index.html" class="logo">
                       <img src="images/spring.png" alt="gulbahar okuyan logo">
-                  </a>
+                  </a>-->
                   <ul class="nav-bar" id="topnav">
                       <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
                           <i class="fa fa-bars"></i>
@@ -38,80 +37,86 @@
                       <li><a data scroll href="#contact">contact</a></li>
                       </a>
                   </ul>
+                <!--  <a href="img.html">images </a>-->
               </nav>
               <section class="hero">
               <div class="home-hero">
-                  <h1>I'm gulbahar okuyan-waugh, a ux designer & strategist</h1>
-                  <p>I focus on the big picture, synthesizing information into
-                    a palatable form. An American based in Milan, I claim NY & DC
-                    as my home bases. Scroll down to <a data scroll href "#projects">view
-                      select projects</a> or
-                    <a href="about.html">learn more about me</a>.</p>
+                  <h1>hi, i’m Gulbahar Okuyan-Waugh, a freelance ux designer</h1>
+                  <p>You can call me "G" for short and "Rose" for a translation.
+                  <br>Living in Milan, Made in NY.
+                    <div class="buttons">
+                        <a data scroll href="#projects"><button>view select projects</button></a>
+                        <a href="about.html"><button>about me</button></a>
+                    </div>
               </div>
           </section>
-        </div>
       </header>
       <main>
           <section id="projects">
-              <div class="project-block-rfs">
-                  <div class="content">
-                      <div class="clearfix"></div>
-                      <div class="first">
-                          <a href="rfs.html" class="rfs-image">
-                                <img src="images/rfs-laptop.png">
-                          </a>
+              <div class="projects-container">
+                  <div class="first">
+                      <div class="content">
+                        <a href="rfs.html" class="rfs-image">
+                              <img src="images/home-rfs.png">
+                        </a>
+                          <div class="clearfix"></div>
+                          <div class="text">
+                                <h3>refated Shoes</h3>
+                                <p>Hand-dyeing shoes to create a unique twist, this entrepreneur needed
+                                  help taking his company to the next level.</p>
+                                <a href="rfs.html"><button>see case study</button></a>
+                          </div>
+                          <div class="clearfix"></div>
                       </div>
-                      <div class="second">
-                            <a href="rfs.html"><h3>from the sole up</h3></a>
-                            <p>Hand-dyeing shoes to create a unique twist, this entrepreneur needed
-                              help taking his company to the next level.</p>
-                            <a href="rfs.html"><button>see case study</button></a>
-                      </div>
-                      <div class="clearfix"></div>
                   </div>
-              </div>
-              <div class="project-block-coop">
-                  <div class="content">
-                      <div class="clearfix"></div>
-                      <div class="first">
+                  <div class="second">
+                      <div class="content">
                           <a href="coop.html" class="coop-image">
-                                <img src="images/coop-laptop.png">
+                                <img src="images/home-coop.png">
                           </a>
+                          <div class="clearfix"></div>
+                          <div class="text">
+                                <h3>COOP</h3>
+                                <p>A platform that makes it easy to share, store, and collaborate
+                                   needed help rebranding for a new audience.</p>
+                                   <a href="coop.html"><button>see case study</button></a>
+                          </div>
+                          <div class="clearfix"></div>
                       </div>
-                      <div class="second">
-                            <a href="coop.html"><h3>A new set of wings</h3></a>
-                            <p>A platform that makes it easy to share, store, and collaborate
-                               needed help rebranding for a new audience.</p>
-                               <a href="coop.html"><button>see case study</button></a>
-                      </div>
-                      <div class="clearfix"></div>
                   </div>
+                  <div class="clearfix"></div>
               </div>
           </section>
 
           <section id="contact">
-              <div class"contact-container">
-                  <h4>Want to chat? Work together? I would love to hear from you.</h4>
-                  <!--<a href="contact.html"><button>let's chat</button></a>-->
-                <a href="mailto:gokuyan@gmail.com"><p>gokuyan@gmail.com</p></a>
+              <div class="contact-container">
+                  <div class="contact-text">
+                      <h2>If you’d like to get in touch to work or just chat about
+                        all things design & milan</h2>
+                      <a href="mailto:gokuyan@gmail.com"><button>email me</button></a>
+                  </div>
               </div>
           </section>
       </main>
+      <div class="clearfix"></div>
 
-      <footer class="footer-info">
-          <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/gulokuyan/" alt="linkedin">
-                    <i class="fab fa-linkedin-in"></i> </a>
-                </li>
-                <li><a href="mailto:gokuyan@gmail.com" alt="email me">
-                    <i class="fas fa-envelope"></i></a>
-                </li>
-                <li><a href="https://github.com/okleyla" alt="github">
-                    <i class="fab fa-github"></i> </a>
-                </li>
-          </ul>
-          <p class="copyright">content and design. &copy 2018 Gulbahar Okuyan-Waugh
-          </p>
+      <footer>
+          <div class="footer-info">
+              <div class="footer-container">
+                  <ul class="icons">
+                        <li><a href="https://www.linkedin.com/in/gulokuyan/" alt="linkedin">
+                            <i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li><a href="mailto:gokuyan@gmail.com" alt="email me">
+                            <i class="fas fa-envelope"></i></a>
+                        </li>
+                        <li><a href="https://github.com/okleyla" alt="github">
+                            <i class="fab fa-github"></i></a>
+                        </li>
+                  </ul>
+                  <p>content and design. &copy 2018 Gulbahar Okuyan-Waugh</p>
+              </div>
+          </div>
       </footer>
   </body>
 </html>

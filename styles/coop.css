@@ -1,7 +1,7 @@
 header, .prototype {
-  background: rgb(172,216,217);
-  background: linear-gradient(132deg, rgba(172,216,217,1) 27%,
-  rgba(212,176,140,1) 80%, rgba(224,106,77,1) 100%);
+  background: rgb(229,58,32);
+  background: linear-gradient(112deg, rgb(55, 96, 130) 0%, #d0cece 38%,
+  rgba(172,216,217,1) 100%);
 }
 
 /* images */

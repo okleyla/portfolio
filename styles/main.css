@@ -17,13 +17,9 @@ body {
 }
 
 header {
-  background: #eaeaea;
-  /*background: rgb(102,191,145);
-  background: linear-gradient(166deg, rgba(102,191,145,1) 0%,
-  rgba(245,203,205,1) 65%,
-  rgba(251,234,89,.5) 100%);*/
   padding-top: 3rem;
-  padding-bottom: 16vh;
+  background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%),
+  url(http://www.gowaugh.com/images/background-photo.png);
   height: 100%;
   min-height: 100%;
   width: 100%;
@@ -34,8 +30,8 @@ main {
 }
 
 h1 {
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 40px;
+  line-height: 55px;
   text-align: center;
 }
 
@@ -45,13 +41,13 @@ h1, h2 {
 }
 
 h2 {
-  font-size: 36px;
-  line-height: 46px;
+  font-size: 30px;
+  line-height: 43px;
 }
 
 h3 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 40px;
   min-height: 100%;
   font-weight: normal;
@@ -61,26 +57,27 @@ h3 {
 
 h4 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 34px;
   margin-bottom: 0;
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
 }
 
 a {
-  color: #2f2f2f;
+  color: #1f1f1f;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #41735a;
+  color: #1f1f1f;
   font-weight: 700;
-  text-decoration-color: #950444;
+  background: ;
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .clearfix {
@@ -90,33 +87,40 @@ a:hover {
 /*other universal features*/
 button {
   background: none;
-  padding: 15px;
+  padding: 10px;
   border-style: solid;
-  font-size: 20px;
+  font-size: 16px;
   border-width: 1px;
   border-color: #333333;
 }
 
 button:hover {
-  color: #0f0c0f;
+  background: #0f0c0f;
+  color: white;
   border-color: #2f2f2f;
   cursor: pointer;
-  border-width: 5px;
-}
-
-#contact {
-  clear: both;
-  background: #eaeaea;
-  margin: 0 auto;
-  padding-bottom: 10rem;
-  padding-top: 5rem;
-  text-align: center;
+  text-decoration: none;
 }
 
 .contact-container {
   width: 80%;
+}
+
+#contact {
+  clear: both;
+  background: rgb(255,252,252);
+  background: linear-gradient(171deg, rgba(255,252,252,1) 43%, rgba(98,216,184,1) 100%);
+  padding-bottom: 10rem;
+  padding-top: 5rem;
+}
+
+.contact-container {
+  width: 80%;
+}
+
+.contact-text {
+  width: 75%;
   margin: auto;
-  text-align: center;
 }
 
 /*images*/
@@ -145,6 +149,11 @@ button:hover {
 
 .second a {
   text-decoration: none;
+  box-shadow: none;
+}
+
+.second button a:hover {
+  background: none;
 }
 
 .third {
@@ -180,16 +189,17 @@ button:hover {
 
 /* NAV BAR*/
 nav {
-  height: 100px;
+  height: 50px;
   padding-top: 0.5rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   padding-bottom: 0;
   z-index: 1;
 }
 
 nav .hamburger {
   display: none;
+  box-shadow: none;
 }
 
 nav .closebtn {
@@ -198,10 +208,15 @@ nav .closebtn {
 
 .logo {
   padding: 20px;
+  box-shadow: none;
+}
+
+.logo:hover{
+  background: none;
 }
 
 .logo img {
-  height: 65px;
+  width: 100px;
 }
 
 ul#topnav.nav-bar {
@@ -221,12 +236,13 @@ nav li {
 nav li a {
   text-decoration: none;
   color: #2f2f2f;
+  box-shadow: none;
 }
 
 nav li a:hover {
-  font-weight: 700;
+  font-weight: 300;
   cursor: pointer;
-  font-size: 20px;
+  color: #000000;
 }
 
 
@@ -235,12 +251,16 @@ nav li a:hover {
   width: 100%;
   position: fixed;
   bottom: 0;
+  background: #fffcfc;
 }
 
 .footer-info p {
   color: #2f2f2f;
   font-size: 12px;
   margin: 20px;
+  text-align: right;
+  width: 50%;
+  float: right;
 }
 
 .footer-info .icons {
@@ -256,6 +276,11 @@ nav li a:hover {
   padding: 10px;
 }
 
+.icons li a {
+  box-shadow: none;
+  background: none;
+}
+
 .icons li a i {
   color: #2f2f2f;
   font-family: FontAwesome;
@@ -263,8 +288,9 @@ nav li a:hover {
 }
 
 .icons li a i:hover {
-  color: #41735a;
+  color: #000;
 }
+
 
 .copyright {
   display: inline-block;
@@ -281,6 +307,10 @@ nav li a:hover {
     line-height: 3rem;
   }
 
+  .logo img {
+    width: 65px;
+  }
+
   .nav-bar a {
     display: none;
   }
@@ -293,10 +323,12 @@ nav li a:hover {
   nav.hamburger a:not(:first-child) {
     display: none;
   }
+
   nav a.hamburger {
     float: right;
     display: block;
     margin-right: 2rem;
+    box-shadow: none;
   }
 
   .nav-bar.responsive {
@@ -306,7 +338,7 @@ nav li a:hover {
     z-index: 1;
     right: 0;
     top: 0;
-    background-color: #6ABE93;
+    background-color: #009688;
     transition: .3s;
     margin-top: 0;
   }
@@ -330,6 +362,7 @@ nav li a:hover {
 
   .nav-bar.responsive li a {
     text-decoration: none;
+    box-shadow: none;
     display: block;
     text-align: center;
     font-size: 45px;
@@ -346,8 +379,8 @@ nav li a:hover {
     width: 100%;
   }
 
-  .contact-container {
-    width: 80%;
+  .contact-container, .home-hero {
+    width: 100%;
   }
 
   /*footer*/
@@ -355,7 +388,7 @@ nav li a:hover {
     padding: 0;
   }
 
-  .footer-info .copyright {
+  .footer-info p {
     display: none;
   }
 
@@ -401,5 +434,7 @@ nav li a:hover {
 
   .hero {
     padding: 0;
+    width: 80%;
+    margin: auto;
   }
 }
