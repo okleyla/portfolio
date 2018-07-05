@@ -1,4 +1,4 @@
-header, .prototype {
+header, .environment, .prototype {
   background: rgb(229,58,32);
   background: linear-gradient(112deg, rgb(55, 96, 130) 0%, #d0cece 38%,
   rgba(172,216,217,1) 100%);
@@ -24,13 +24,13 @@ header, .prototype {
 }
 
 /*intro */
-.intro-text {
-  background: rgba(224,106,77,1);
+.intro-text, .sketch {
+  background: rgb(75, 109, 139);
   color: white;
 }
 
-.competition { /* maybe the gradient but inverse? */
-  background: rgba(212, 176, 140, 0.33);
+.competition, .info-arch {
+  background: rgba(199, 199, 201);
 }
 
 .inspo li {
@@ -43,12 +43,6 @@ header, .prototype {
   clear: both;
 }
 
-.environment {
-  background: rgb(172,216,217);
-  background: linear-gradient(132deg, rgba(172,216,217,1) 27%, rgba(212,176,140,1) 80%,
-  rgba(224,106,77,1) 100%);
-}
-
 .environment-container {
   margin: auto;
   width: 80%;
@@ -56,6 +50,7 @@ header, .prototype {
   height: 100%;
   padding: 5rem 0;
 }
+
 
 .environment .first, .environment .second {
   width: 48%;
@@ -97,9 +92,6 @@ header, .prototype {
 }
 
 /*information architecture*/
-.info-arch {
-  background: rgba(212, 176, 140, 0.33);
-}
 
 #smaller {
   height: 300px;
@@ -113,10 +105,7 @@ header, .prototype {
 }
 
 /* sketch */
-.sketch {
-  background: rgb(224, 105, 76);
-  color: white;
-}
+
 
 /*branding*/
 .branding-container {
@@ -281,6 +270,7 @@ ul.type-fonts {
 
   .environment ul {
     float: left;
+    padding-left: 0;
   }
 
   .environment p {
@@ -294,7 +284,7 @@ ul.type-fonts {
 
   .colors ul {
     padding: 0;
-    margin: 0;
+    margin: auto;
   }
 
    .colors img {
@@ -335,13 +325,6 @@ ul.type-fonts {
   .hero-text {
     padding: 0;
     padding-bottom: 2rem;
-  }
-
-  .intro-text, .user-research li,
-  .conclusion-container,  .info-arch h3, .info-arch h2, .info-arch p,
-  .membership p, h4 {
-      width: 100%;
-      margin: auto;
   }
 
   .intro-text h2, .intro-text p, .competition, .user-research, .users, .mapping, .flows, .sketching,
@@ -393,9 +376,30 @@ ul.type-fonts {
     float: left;
     padding: 1rem;
   }
+  .colors .third {
+    width: 45%;
+    display: inline-block;
+    float: left;
+  }
+
+  .third {
+    width: 65%;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding: .5rem 0;
+  }
 
   .full {
     padding: 0;
+  }
+
+  .sketching, .prototype-container, .competition, .user-research {
+    padding: 3rem 0;
+  }
+
+  .prototype h3 {
+    padding-top: 1.5rem;
   }
 
 }
