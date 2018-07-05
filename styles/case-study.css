@@ -94,3 +94,19 @@ h2, h3 {
   padding-top: 0;
   background: none;
 }
+
+@media screen and (max-width: 768px) {
+  .case-hero img {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .case-hero img {
+    padding: 3rem 0;
+  }
+
+  h1 {
+    margin-top: 0.67em;
+  }
+}

@@ -350,7 +350,6 @@
 
   .colors ul {
     padding: 0;
-    margin: 0;
   }
 
    .colors img {
@@ -400,19 +399,34 @@
   }
 
   .user-research {
-    margin: 0;
-    width: 100%;
+    margin: auto;
   }
 
-  .environment {
-    padding: 0;
+  .user-research ul {
+    padding: 10px;
+  }
+
+  .user-research li {
+    display: block;
+    font-size: 20px;
+  }
+
+  .user-research li span {
+    font-size: 25px;
+    width: 15%;
+  }
+
+  .environment p {
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .environment .first ul, .user-research .second ul {
     padding: 0;
   }
 
-  .user-research li, .environment .first li, .user-research .second li {
+
+  .environment .first li, .user-research .second li {
     padding: 0;
     line-height: 25px;
     font-size: 16px;
@@ -420,7 +434,7 @@
   }
 
   .user-research li span {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .user-boxes img {
@@ -437,7 +451,33 @@
   }
 
   .full {
-    padding: 0;
+    padding: 2rem 0;
+  }
+
+  .colors .third {
+    width: 45%;
+    display: inline-block;
+    float: left;
+  }
+
+  .third {
+    width: 65%;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding: .5rem 0;
+  }
+
+  .info-arch-container {
+    padding-bottom: 0;
+  }
+
+  .sketching, .prototype-container, .competition, .user-research {
+    padding: 3rem 0;
+  }
+
+  .prototype h3 {
+    padding-top: 1.5rem;
   }
 
 }
