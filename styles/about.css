@@ -1,48 +1,26 @@
-.about-me header {
-  padding-bottom: 0;
-  background: none;
+header.about-me {
+    background: none;
 }
 
-.about-container {
-  text-align: left;
-  padding-bottom: 2rem;
+.about-text {
+  width: 80%;
+  float: left;
 }
-
 
 .about-container {
   width: 80%;
   padding-bottom: 3rem;
 }
 
-.about-text {
-  width: 75%;
-  margin: auto;
-}
-
 .capabilities {
-  padding: 5rem 0 8rem;
+  padding: 0 0 3rem;
   background: rgb(102,191,145);
   background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
 }
 
-.capabilities-container {
-  width: 80%;
-}
-
-.capabilities .caps {
+.caps {
   margin: auto;
-  width: 75%;
   display: block;
-  height: 100%;
-}
-
-.first {
-  padding: 0;
-}
-
-.second {
-  padding-left: 2rem;
-  padding-right: 0;
 }
 
 .moodboard {
@@ -62,21 +40,8 @@
 
 /*Media Queries*/
 @media screen and (max-width: 768px) {
-  .contact-container {
-      width: 100%;
-      display: block;
-      padding-left: 0;
-      padding-right: 0;
-    }
-
-    .first, .second {
-      width: 100%;
-      display: inline-block;
-      margin: 0 auto;
-      float: left;
-      padding: 1rem;
-    }
-
+  .about-text {
+    width: 100%;
   }
 
   .capabilities .skills, .capabilities .software {
@@ -89,21 +54,22 @@
     width: 80%;
   }
 }
+
 @media screen and (max-width: 1024px) {
   .first, .second {
     padding: 1rem;
   }
 }
 
+@media screen and (max-width: 600px){
+
+}
+
 @media screen and (max-width: 425px) {
   .about-me .hero {
     padding: 0;
   }
-
-  .about-container {
-    width: 100%;
-  }
-
+}
   .photo img {
     width: 180%;
     float: right;

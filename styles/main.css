@@ -9,7 +9,7 @@ html {
 }
 
 header {
-  padding: 3rem 0;
+  padding: 3rem 0 0;
   background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
   width: 100%;
 }
@@ -112,8 +112,7 @@ button:hover {
   width: 100%;
   background: rgb(255,252,252);
   background: linear-gradient(171deg, rgba(255,252,252,1) 43%, rgba(98,216,184,1) 100%);
-  padding-bottom: 10rem;
-  padding-top: 5rem;
+  padding: 5rem 0;
 }
 
 .contact-text {
@@ -311,7 +310,7 @@ nav li a:hover {
     z-index: 1;
     right: 0;
     top: 0;
-    background-color: #009688;
+    background-color: #eaccf8;
     transition: .3s;
     margin-top: 0;
   }
@@ -321,7 +320,6 @@ nav li a:hover {
 
   .nav-bar.responsive a:hover {
     font-weight: bold;
-    color: #950444;
     cursor: pointer;
     padding-bottom: 3rem;
   }
@@ -344,7 +342,7 @@ nav li a:hover {
 
  /*other*/
   #container {
-    padding: 3rem 0 0;
+    padding: 3rem 0;
   }
 
   /*footer*/
@@ -373,7 +371,6 @@ nav li a:hover {
   nav li {
     display: inline-block;
   }
-}
 
 @media screen and (max-width: 425px) {
   h1 {
@@ -392,5 +389,19 @@ nav li a:hover {
   .hero {
     padding: 0;
     margin: auto;
+  }
+
+  .first, .second {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .buttons button {
+    margin-bottom: 5px;
   }
 }
