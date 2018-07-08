@@ -5,10 +5,29 @@
  }
 
 html {
-  height: 100%;
   font-size: 100%;
 }
 
+header {
+  padding: 3rem 0;
+  background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+  margin: auto;
+}
+
+#container {
+  width: 80%;
+  margin: auto;
+  padding: 5rem 0;
+}
+
+
+
+/*typograohy*/
 body {
   background-color: #FFFCFC;
   font-family: 'Quicksand', sans-serif;
@@ -16,23 +35,9 @@ body {
   line-height: 30px;
 }
 
-header {
-  padding-top: 3rem;
-  background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%),
-  url(http://www.gowaugh.com/images/background-photo.png);
-  height: 100%;
-  min-height: 100%;
-  width: 100%;
-}
-
-main {
-  margin: 0 auto;
-}
-
 h1 {
   font-size: 40px;
-  line-height: 55px;
-  text-align: center;
+  line-height: 43px;
 }
 
 h1, h2 {
@@ -102,54 +107,32 @@ button:hover {
   text-decoration: none;
 }
 
-.contact-container {
-  width: 80%;
-}
-
 #contact {
   clear: both;
+  width: 100%;
   background: rgb(255,252,252);
   background: linear-gradient(171deg, rgba(255,252,252,1) 43%, rgba(98,216,184,1) 100%);
   padding-bottom: 10rem;
   padding-top: 5rem;
 }
 
-.contact-container {
+.contact-text {
   width: 80%;
 }
 
-.contact-text {
-  width: 75%;
-  margin: auto;
-}
-
-/*images*/
-
-.first {
-  width: 50%;
+/* images */
+.first, .second {
+  width: 48%;
   display: inline-block;
-  float: left;
-  padding: 1rem;
-  clear: both;
 }
 
-.first img {
-  float: left;
+.first img, .second img {
   display: inline;
   width: 100%;
 }
 
 .second {
-  width: 50%;
-  display: inline-block;
   float: right;
-  padding: 0 3rem;
-  clear: none;
-}
-
-.second a {
-  text-decoration: none;
-  box-shadow: none;
 }
 
 .second button a:hover {
@@ -189,9 +172,7 @@ button:hover {
 
 /* NAV BAR*/
 nav {
-  height: 50px;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
+  padding-top: 8px;
   padding-right: 0.5rem;
   padding-bottom: 0;
   z-index: 1;
@@ -303,14 +284,6 @@ nav li a:hover {
 /* MEDIA Queries */
 
 @media screen and (max-width: 600px) {
-  h1 {
-    line-height: 3rem;
-  }
-
-  .logo img {
-    width: 65px;
-  }
-
   .nav-bar a {
     display: none;
   }
@@ -369,18 +342,9 @@ nav li a:hover {
     line-height: 55px;
  }
 
-/*other*/
-  h1, .hero p{
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  main {
-    width: 100%;
-  }
-
-  .contact-container, .home-hero {
-    width: 100%;
+ /*other*/
+  #container {
+    padding: 3rem 0 0;
   }
 
   /*footer*/
@@ -412,16 +376,9 @@ nav li a:hover {
 }
 
 @media screen and (max-width: 425px) {
-  nav {
-    width: 80%;
-    padding: 0;
-    margin: auto;
-  }
-
   h1 {
     margin-top: 0;
   }
-
 
   p {
     font-size: 16px;
@@ -434,7 +391,6 @@ nav li a:hover {
 
   .hero {
     padding: 0;
-    width: 80%;
     margin: auto;
   }
 }

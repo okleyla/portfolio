@@ -1,89 +1,24 @@
-.hero {
-  width: 80%;
-}
-
-nav .rose-branch {
-  clear: both;
-  padding-top: 0;
-}
-
-.rose-branch li {
-  padding-right: 3.3rem;
-}
-
-.rose-branch img {
-  height: 30px;
-}
-
 /* home-hero*/
 .home-hero {
-  height: 100%;
-  width: 75%;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
   padding: 0 0 5rem;
   color: #2f2f2f;
 }
 
-.home-hero h1 {
-  text-align: left;
+.hero h1 {
+  width: 80%;
 }
-
-.home-hero span {
-  text-decoration: underline;
-  text-decoration-color: rgba(251,234,89,.5);
-}
-
 
 /* project list */
-.projects {
+#projects {
   clear: both;
   width: 100%;
-  height: 100%;
-}
-
-.projects-container {
-  width: 80%;
-  margin: 50px auto;
-}
-
-.projects-container .first, .projects-container .second {
-  padding: 0;
-}
-
-.projects h3 {
-  padding: 0;
-}
-
-.rfs-image img, .coop-image img {
-  width: 80%;
   margin: auto;
 }
 
-.projects-container .text {
-  width: 80%;
-  padding: 2rem;
-}
-
-.project-block-rfs {
-  background: rgb(89,51,75);
-  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
-  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
-  padding-top: 3rem;
-  padding-bottom: 5rem;
-  height: 100%;
-  width: 100%;
-  display: block;
-}
-
-.project-block-coop {
-  background: rgb(229,58,32);
-  background: linear-gradient(112deg, rgb(55, 96, 130) 0%, #d0cece 38%,
-  rgba(172,216,217,1) 100%);
-  padding-top: 3rem;
-  padding-bottom: 5rem;
-  height: 100%;
-  width: 100%;
-  display: block;
+.first img, .second img {
+  box-shadow: 2px 0px 4px 0px #e6dfdf
 }
 
 
@@ -92,14 +27,6 @@ nav .rose-branch {
   .home-hero, .contact-text {
     padding: 0;
     width: 80%;
-  }
-
-  .content {
-    padding: 5rem 0;
-  }
-
-  .project-block-rfs, .project-block-coop {
-    padding: 0;
   }
 
   button {
@@ -115,17 +42,15 @@ nav .rose-branch {
     padding-right: 0;
   }
 
+  .hero h1 {
+    width: 100%;
+  }
+
   .first, .second {
     width: 100%;
-    display: inline-block;
+    display: block;
     margin: 0 auto;
     float: left;
-    padding: 1rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .first, .second {
-    padding: 1rem;
+    padding-bottom: 3rem;
   }
 }
