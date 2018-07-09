@@ -3,7 +3,6 @@ header {
 }
 
 .case-hero {
-  height: 100%;
   width: 80%;
   margin: auto;
 }
@@ -20,23 +19,6 @@ header {
   margin: 0 auto;
 }
 
-.case-study-button {
-  text-decoration: none;
-  margin: 0 auto;
-  display: block;
-}
-
-a {
-  text-decoration: none;
-}
-
-section {
-  clear: both;
-}
-
-h2, h3 {
-  padding-bottom: 1rem;
-}
 
 /* images */
 .second {
@@ -46,7 +28,7 @@ h2, h3 {
 /* page sizes*/
 
 
-/*competition*/
+/*competition
 .competition .inspo {
   width: 80%;
   padding: 0;

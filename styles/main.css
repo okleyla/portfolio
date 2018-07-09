@@ -143,7 +143,7 @@ button:hover {
   display: inline-block;
   float: left;
   clear: none;
-  padding: 2rem 1rem;
+  padding: 0 .5rem;
 }
 
 .sixth {
@@ -155,17 +155,15 @@ button:hover {
 }
 
 .full {
-  width: 65%;
+  width: 100%;
   margin: auto;
   display: block;
-  padding: 2rem;
 }
 
 .more-full {
   width: 100%;
   display: block;
   margin: auto;
-  padding: 0 3rem 3rem;
 }
 
 

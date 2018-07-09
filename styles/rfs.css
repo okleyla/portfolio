@@ -13,36 +13,34 @@
   color: white;
 }
 
-/* page sizes */
-.intro h2, .intro h3, .intro p, .user-research li, .conclusion,  .info-arch h3,
-.info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
-.prototype h2, .prototype h3, .membership p, h4, .users h3 {
-    margin: 0 auto;
-    width: 65%;
+.introduction, .intro {
+  width: 100%;
+  margin: auto;
 }
 
-.intro-text, .competition, .user-research, .users-container, .info-arch-container, .sketching,
-.prototype-container, .conclusion-container {
-  padding: 5rem 0;
-  clear: both;
-}
 
 /*intro */
-.intro-text {
+.intro {
   background: rgba(89,51,75,1);
   color: #eaeaea;
 }
 
-.competition { /* maybe the gradient but inverse? */
+.competition {
   background: rgba(163, 134, 152, 0.25);
+  width: 100%;
+  margin: auto;
 }
 
 .inspo li {
   display: block;
 }
 
-
 /* user research */
+.user-research {
+  width: 100%;
+  margin: auto;
+}
+
 .user-research ul {
   padding: 2rem 0;
 }
@@ -72,23 +70,12 @@
 
 /*challenges & solutions */
 .environment {
+  width: 100%;
+  margin: auto;
   color: white;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
   rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
-}
-
-.environment-container {
-  margin: auto;
-  width: 80%;
-  display: block;
-  height: 100%;
-  padding: 5rem 0;
-}
-
-.environment .first, .environment .second {
-  width: 48%;
-  display: inline-block;
 }
 
 .environment h3 {
@@ -118,8 +105,8 @@
 
 
 /* users*/
-.user-boxes {
-  width: 80%;
+.users {
+  width: 100%;
   margin: auto;
   display: block;
 }
@@ -127,46 +114,51 @@
 /*info arch */
 .info-arch {
   background: rgb(232, 223, 227);
+  width: 100%;
+  margin: auto;
+}
+
+.mapping {
+  padding-bottom: 3rem;
 }
 
 /* sketch */
 .sketch {
+  width: 100%;
+  margin: auto;
   background: rgb(89,51,75);
   color: white;
 }
 
 /*branding*/
-.branding-container {
-  padding: 5rem 0;
+.branding {
+  width: 100%;
+  margin: auto;
+}
+
+.branding-section {
+  padding-bottom: 3rem;
 }
 
 .final-logos {
   width: 65%;
   display: block;
   margin: auto;
-}
-
-.final-logos {
-  padding-bottom: 3rem;
+  padding-top: 1rem;
 }
 
 .final-logos img.second {
   width: 35%;
 }
 
-.colors {
-  clear: both;
-  width: 100%;
-}
 
 .colors ul {
     padding: 0;
     float: none;
-    width: 65%;
     margin: auto;
 }
 
-.colors li {
+.colors li, .colors img.third {
   display: block;
 }
 
