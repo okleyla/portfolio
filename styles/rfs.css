@@ -74,8 +74,8 @@
   margin: auto;
   color: white;
   background: rgb(89,51,75);
-  background: linear-gradient(166deg, rgba(89,51,75,1) 0%,
-  rgba(165,137,154,1) 62%, rgba(89,51,75,1) 100%);
+  background: linear-gradient(166deg, rgba(165,137,154,1) 20%,
+  rgba(89,51,75,1) 89%);
 }
 
 .environment h3 {
@@ -130,6 +130,10 @@
   color: white;
 }
 
+.sketch .more-full {
+  padding: 2rem 0;
+}
+
 /*branding*/
 .branding {
   width: 100%;
@@ -151,26 +155,18 @@
   width: 35%;
 }
 
-
 .colors ul {
     padding: 0;
     float: none;
     margin: auto;
 }
 
-.colors li, .colors img.third {
+.colors li {
   display: block;
 }
 
 .colors .third {
   padding: 0;
-}
-
-.other-branding {
-  clear: both;
-  width: 65%;
-  margin: auto;
-  display: block;
 }
 
 .type img {
@@ -187,14 +183,10 @@
   padding-bottom: 2rem;
 }
 
-.type h3, .button h3, .mock h3 {
-  width: 100%;
-}
-
 .button {
   display: inline-block;
   float: left;
-  padding: 1rem;
+  padding-left: 1rem;
   clear: none;
   width: 30%;
 }
@@ -216,15 +208,9 @@
 
 
 /*prototype*/
-.user-feedback {
-  width: 65%;
-  display: block;
-  margin: auto;
-  padding-bottom: 1rem;
-}
-
-.user-feedback h3 {
+.prototype {
   width: 100%;
+  margin: auto;
 }
 
 .quotes {
@@ -241,21 +227,10 @@
   color: white;
 }
 
-.prototype-images {
-  clear: both;
-  width: 80%;
-  padding: 0;
-  margin: 0 auto;
-  float: none;
-}
-
 .prototype li {
   display: block;
 }
 
-.landing-page, .about-page {
-  padding-bottom: 1rem;
-}
 
 
 
@@ -380,6 +355,14 @@
   .user-feedback h3 {
     width: 100%;
     margin: 0;
+  }
+
+  .sketch .third {
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding: .5rem 0;
   }
 
 }

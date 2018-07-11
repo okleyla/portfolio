@@ -48,6 +48,7 @@ h1, h2 {
 h2 {
   font-size: 30px;
   line-height: 43px;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -94,6 +95,7 @@ button {
   background: none;
   padding: 10px;
   border-style: solid;
+  border-radius: 15px;
   font-size: 16px;
   border-width: 1px;
   border-color: #333333;
@@ -110,8 +112,8 @@ button:hover {
 #contact {
   clear: both;
   width: 100%;
-  background: rgb(255,252,252);
-  background: linear-gradient(171deg, rgba(255,252,252,1) 43%, rgba(98,216,184,1) 100%);
+  background: rgb(98,216,184,1);
+  /*background: linear-gradient(171deg, rgba(255,252,252,1) 43%, rgba(98,216,184,1) 100%);*/
   padding: 5rem 0;
 }
 
