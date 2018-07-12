@@ -13,13 +13,12 @@
   color: white;
 }
 
+/*intro */
 .introduction, .intro {
   width: 100%;
   margin: auto;
 }
 
-
-/*intro */
 .intro {
   background: rgba(89,51,75,1);
   color: #eaeaea;
@@ -231,6 +230,10 @@
   display: block;
 }
 
+.prototype-page {
+  padding: 1rem 0;
+}
+
 
 
 
@@ -244,14 +247,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .hero-text, .intro h2, .intro h3, .intro p, .conclusion, .competition p,
-  .competition h3, .user-research, .info-arch h3, .branding h2, .branding h3,
-  .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .conclusion,
-  .prototype h2, .prototype h3, .users h3, .user-feedback, .environment-container {
-    width: 80%;
-    margin: auto;
-  }
-
   p {
     font-size: 16px;
     line-height: 25px;
@@ -267,7 +262,7 @@
     width: 100%;
   }
 
-  .more-full, .full, .third, .final-logos,  {
+  .more-full, .full, .final-logos  {
     width: 100%;
     float: none;
     clear: both;
@@ -282,7 +277,6 @@
   }
 
   .user-boxes {
-    width: 80%;
     margin: auto;
   }
 
@@ -311,10 +305,6 @@
     line-height: 30px;
   }
 
-  .info-arch, .mapping {
-    padding-bottom: 0;
-  }
-
   .colors ul {
     padding: 0;
   }
@@ -323,12 +313,18 @@
     width: 50%;
   }
 
+  .colors img.third {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    clear: none;
+  }
+
   .final-logos {
     width: 80%;
   }
 
   .final-logos img, .final-logos img.second  {
-    padding: 1rem 2.5rem;
     width: 50%;
   }
 
@@ -368,9 +364,10 @@
 }
 
 @media screen and (max-width: 425px) {
-  .intro-text h2, .intro-text p, .competition, .user-research, .users, .mapping, .flows, .sketching,
-  .case-logos, .colors, .other-branding, .prototype-container, .conclusion-container {
-    padding: 1rem 0;
+  .third {
+    width: 100%;
+    float: none;
+    clear: both;
   }
 
   .user-research {
@@ -400,7 +397,6 @@
     padding: 0;
   }
 
-
   .environment .first li, .user-research .second li {
     padding: 0;
     line-height: 25px;
@@ -414,15 +410,8 @@
 
   .user-boxes img {
     padding: 1rem 0;
-  }
-
-
-  .first, .second {
     width: 100%;
-    display: inline-block;
-    margin: 0 auto;
     float: left;
-    padding: 1rem;
   }
 
   .full {
@@ -436,7 +425,7 @@
   }
 
   .third {
-    width: 65%;
+    width: 100%;
     display: block;
     float: none;
     margin: 0 auto;
@@ -447,12 +436,24 @@
     padding-bottom: 0;
   }
 
+  .mapping img{
+    display: none;
+  }
+
   .sketching, .prototype-container, .competition, .user-research {
     padding: 3rem 0;
   }
 
   .prototype h3 {
     padding-top: 1.5rem;
+  }
+
+  .prototype-images {
+    padding: 0;
+  }
+
+  .navigation .case-studies .second, .navigation .case-studies .first {
+    width: 100%;
   }
 
 }

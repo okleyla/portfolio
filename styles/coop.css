@@ -1,7 +1,6 @@
-header, .environment, .prototype {
-  background: rgb(229,58,32);
-  background: linear-gradient(112deg, rgb(55, 96, 130) 0%, #d0cece 38%,
-  rgba(172,216,217,1) 100%);
+header, .prototype {
+  background: #afd8db;
+  background: linear-gradient(to right, #afd8db 0%, #376082 100%);
 }
 
 /* images */
@@ -9,28 +8,21 @@ header, .environment, .prototype {
   padding: 0 2rem 2rem;
 }
 
-/* page sizes*/
-.intro h2, .intro h3, .intro p, .user-research li, .conclusion,  .info-arch h3,
-.info-arch h2, .info-arch p, .sketch h2, .sketch h3, .branding h2, .branding h3,
-.prototype h2, .prototype h3, .prototype p, .membership p, h4, .users h3 {
-    margin: 0 auto;
-    width: 65%;
-}
-
-.intro-text, .competition, .user-research, .users-container, .info-arch-container, .sketching,
-.prototype-container, .conclusion-container {
-  padding: 5rem 0;
-  clear: both;
-}
-
 /*intro */
-.intro-text, .sketch {
-  background: rgb(75, 109, 139);
-  color: white;
+.introduction, .intro {
+  width: 100%;
+  margin: auto;
 }
 
-.competition, .info-arch {
-  background: rgba(199, 199, 201);
+.intro {
+  background: rgb(55, 96, 130);
+  color: #eaeaea;
+}
+
+.competition {
+  background-color: #afd8db70;
+  width: 100%;
+  margin: auto;
 }
 
 .inspo li {
@@ -39,22 +31,32 @@ header, .environment, .prototype {
 
 
 /* user research*/
-.user-research p {
-  clear: both;
+.user-research {
+  width: 100%;
+  margin:
 }
 
-.environment-container {
-  margin: auto;
-  width: 80%;
+.user-research ul {
+  padding: 2rem 0;
+}
+
+.user-research li {
+  font-size: 20px;
+  line-height: 40px;
   display: block;
-  height: 100%;
-  padding: 5rem 0;
 }
 
+/*challenges & solutions */
+.environment {
+  width: 100%;
+  margin: auto;
+  color: white;
+  background: rgb(229,58,32);
+  background: linear-gradient(to right, #afd8db 0%, #376082 100%);
+}
 
-.environment .first, .environment .second {
-  width: 48%;
-  display: inline-block;
+.environment h3 {
+  color: white;
 }
 
 .environment p {
@@ -78,9 +80,9 @@ header, .environment, .prototype {
   display: list-item;
 }
 
-/* users */
-.user-boxes {
-  width: 80%;
+/* users*/
+.users {
+  width: 100%;
   margin: auto;
   display: block;
 }
@@ -92,35 +94,49 @@ header, .environment, .prototype {
 }
 
 /*information architecture*/
-
-#smaller {
-  height: 300px;
-  width: auto;
-  margin-left: 3rem;
-}
-
-.mapping-img {
-  width: 80%;
+.info-arch {
+  background: #afd8db70;
+  width: 100%;
   margin: auto;
 }
 
-/* sketch */
+.mapping {
+  padding-bottom: 3rem;
+}
 
+/* sketch */
+.sketch {
+  width: 100%;
+  margin: auto;
+  background: rgb(55, 96, 130);
+  color: white;
+}
+
+.sketch .more-full {
+  padding: 2rem 0;
+}
 
 /*branding*/
-.branding-container {
-  padding: 5rem 0;
+.branding {
+  width: 100%;
+  margin: auto;
 }
+
 
 .final-logos {
   width: 65%;
   display: block;
   margin: auto;
+  padding-top: 1rem;
 }
 
 .final-logos img {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.final-logos img.first {
+  padding-bottom: 3rem;
 }
 
 .coop-logo-formation {
@@ -138,7 +154,6 @@ header, .environment, .prototype {
 .colors ul {
   padding: 0;
   float: none;
-  width: 65%;
   margin: auto;
 }
 
@@ -150,12 +165,6 @@ header, .environment, .prototype {
   padding: 0;
 }
 
-.other-branding {
-  clear: both;
-  width: 65%;
-  margin: auto;
-  display: block;
-}
 
 .type h3 {
   width: 100%;
@@ -189,29 +198,22 @@ ul.type-fonts {
 
 
 /* prototype */
+.prototype {
+  width: 100%;
+  margin: auto;
+}
+
 .prototype-images {
-  clear: both;
-  width: 80%;
   padding: 0;
   margin: 0 auto;
-  float: none;
 }
 
 .prototype li {
   display: block;
 }
 
-.prototype .third {
-  padding: 0 0 2rem;
-}
-
-.onboard-img {
-  width: 80%;
-  margin: auto;
-}
-
-.membership {
-  clear: both;
+.prototype-page {
+  padding: 1rem 0;
 }
 
 
@@ -225,29 +227,26 @@ ul.type-fonts {
 }
 
 @media screen and (max-width: 768px) {
-  .hero-text, .intro h2, .intro h3, .intro p, .conclusion, .competition p,
-  .competition h3, .user-research, .info-arch h3, .branding h2, .branding h3,
-  .info-arch h2, .info-arch p, .sketch h2, .sketch h3, .conclusion,
-  .final-logos, .prototype h2, .prototype h3, .prototype p, .users h3, .user-feedback, .environment-container {
-    width: 80%;
-    margin: auto;
+  p {
+    font-size: 16px;
+    line-height: 25px;
   }
 
-  .first, .second {
+  .hero-text {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  .user-research h3, .user-research p {
+    margin: 0;
     width: 100%;
-    display: inline-block;
-    margin: 0 auto;
-    float: left;
-    padding:1rem;
   }
 
-  .more-full, .full, .third, .final-logos,  {
+  .more-full, .full, .final-logos  {
     width: 100%;
     float: none;
     clear: both;
-    padding: 1rem;
   }
-
 
   .competition .inspo {
     clear: both;
@@ -255,12 +254,6 @@ ul.type-fonts {
     margin: 0 auto;
     float: none;
   }
-
-  .user-boxes {
-    width: 80%;
-    margin: auto;
-  }
-
 
   .environment .first, .environment .second {
     display: block;
@@ -291,9 +284,17 @@ ul.type-fonts {
     width: 50%;
   }
 
+  .colors img.third {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    clear: none;
+  }
+
   .final-logos img {
     padding: 1rem 2.5rem;
-    width: 50%;
+    width: 80%;
+    float: left;
   }
 
   .coop-logo-formation {
@@ -310,46 +311,37 @@ ul.type-fonts {
     float: left;
     padding: 0;
   }
+
+  .sketch .third {
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding: .5rem 0;
+  }
 }
 
 @media screen and (max-width: 425px) {
+  .third {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+
   .case-hero {
     padding: 0;
   }
 
-  p, .options li {
-    font-size: 16px;
-    line-height: 25px;
-  }
-
-  .hero-text {
-    padding: 0;
-    padding-bottom: 2rem;
-  }
-
-  .intro-text h2, .intro-text p, .competition, .user-research, .users, .mapping, .flows, .sketching,
-  .case-logos, .colors, .other-branding, .prototype-container, .conclusion-container {
-    padding: 1rem 0;
-  }
-
-  .sketch h2, .sketch h3, .branding h2, .branding h3 {
-    width: 80%;
-    margin: auto;
-  }
-
   .user-research {
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
-  }
-
-  .user-research li span {
-    font-size: 20px;
   }
 
   .user-boxes img {
     padding: 1rem 0;
+    width: 100%;
+    float: left;
   }
-
 
   .environment {
     padding: 0;
@@ -376,30 +368,23 @@ ul.type-fonts {
     float: left;
     padding: 1rem;
   }
+
   .colors .third {
     width: 45%;
     display: inline-block;
     float: left;
   }
 
-  .third {
-    width: 65%;
-    display: block;
-    float: none;
-    margin: 0 auto;
-    padding: .5rem 0;
-  }
-
   .full {
-    padding: 0;
+    padding: 2rem 0;
   }
 
   .sketching, .prototype-container, .competition, .user-research {
     padding: 3rem 0;
   }
 
-  .prototype h3 {
-    padding-top: 1.5rem;
+  .navigation .case-studies .second, .navigation .case-studies .first {
+    width: 100%;
   }
 
 }
