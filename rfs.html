@@ -3,12 +3,12 @@
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>UX Designer: Gulbahar Okuyan-Waugh</title>
+   <link rel="stylesheet" type="text/css" href="styles/normalize.css">
    <link rel="stylesheet" type="text/css" href="styles/main.css">
    <link rel="stylesheet" type="text/css" href="styles/case-study.css">
    <link rel="stylesheet" type="text/css" href="styles/rfs.css">
    <link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-   <link rel="stylesheet" type="text/css" href="styles/normalize.css">
    <script src="javascript/script.js"></script>
    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500|Rozha+One" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Lora|Nunito" rel="stylesheet">
@@ -48,33 +48,36 @@
       <main>
           <section class="introduction">
               <div id="container">
-                  <h1>classics reimagined</h1>
-                  <p>The entrepreneur (Darcy) behind ReFated Shoes, or RF, is an artist with
-                    impeccable style. Bored of the basic blacks and browns, he hand-painted his
-                    own shoes in vibrant hues, patina patterns, and however else inspiration took
-                    hold of his paint brush. To his surprise, colleagues and passersby were offering
-                    to buy the shoes off his feet. So, he decided to take his hobby online.
-                  <p>After a successful stint on Etsy, the entrepreneur decided that it was time to
-                    host his own site and define his brand. Enter: me. My role was to help him with
-                    strategy, marketing, and design.</p>
+                  <h1>refated shoes</h1>
+                  <div class="text">
+                      <p>The entrepreneur (Darcy) behind ReFated Shoes, or RF, is an artist with
+                        impeccable style. Bored of the basic blacks and browns, he hand-painted his
+                        own shoes in vibrant hues, patina patterns, and however else inspiration took
+                        hold of his paint brush. To his surprise, colleagues and passersby were offering
+                        to buy the shoes off his feet. So, he decided to take his hobby online.
+                      <p>After a successful stint on Etsy, the entrepreneur decided that it was time to
+                        host his own site and define his brand.
+                      <p>My role was to help him with strategy, marketing, and design.</p>
+                  </div>
                   <a href="https://projects.invisionapp.com/share/E5E270F8X#/screens"><button class="case-study-button">view prototype</button></a>
               </div>
           </section>
           <section class="intro">
               <div id="container">
                   <h2>starting from the sole up</h2>
-                  <p>Since we were going from an Etsy site to a stand-alone e-commerce site,
-                    we needed a better understanding of the environment: who else was doing this?
-                    How will we convince strangers to buy these shoes? Where should we market the new
-                    site? And most importantly, how do we set ourselves up to compete?</p>
+                  <p>With our foundation as an Etsy site, design-wise, we were starting from scratch.
+                  Below, I outline how we went from this Etsy site to what we have now.</p>
                       <img src="images/etsy-rfs.png" class="more-full">
               </div>
           </section>
           <section class="competition">
               <div id="container">
                   <h3>Who's Out There?</h3>
-                  <p>During the stakeholder interview, Darcy identified a few other companies
-                  with a similar business model:</p>
+                  <p>Darcy named a few companies with a similar concept. So, we looked them over
+                  to see if we could idenfity any aesthetic similarities and key differences. We
+                  found that the companies that were just starting out use stone/slate textures and colors,
+                  while the more established companies rely on a black and white color scheme with
+                  brightly colored photos and calls-to-action.</p>
                   <div class="clearfix"></div>
                   <ul class="inspo">
                       <li><img src="images/inspo1.png" class="third"></li>
@@ -82,59 +85,105 @@
                       <li><img src="images/comp2.png" class="third"></li>
                   </ul>
                   <div class="clearfix"></div>
-                  <p>Design pattern: the direct competitors use stone/slate textures and colors,
-                    while the sources of inspiration rely on a black and white color scheme with
-                    brightly colored calls-to-action.</p>
               </div>
           </section>
           <section class="user-research">
               <div id="container">
                   <h3>But first, what do the people want?</h3>
                   <p>Considering the distinct nature of this business - painting second-hand,
-                    vintage, or out-of-season shoes - we had to figure out how to properly
-                    market the product. We also needed to identify the target customer.
+                    vintage, or out-of-season shoes - we conducted surveys to see what
+                    people thought of the concept and who our ideal user would be.
                     The first survey, with 33 respondents, reconfirmed what we knew:</p>
-                  <div class="survey-results">
-                      <ul class="survey">
-                          <li><span>87.9%</span> mostly consider quality & style to purchase shoes</li>
-                          <li><span>75.8%</span> would purchase shoes online</li>
-                          <li><span>48%</span> would buy or consider buying refurbished shoes</li>
-                      </ul>
+                    <div class="survey-results">
+                        <!--<ul class="survey">
+                            <li><span>87.9%</span> mostly consider quality & style to purchase shoes</li>
+                            <li><span>75.8%</span> would purchase shoes online</li>
+                            <li><span>48%</span> would buy or consider buying refurbished shoes</li>
+                        </ul>
+                        <p>And gave us our target customer: out of the 87.5% of respondents
+                          who would pay between $100-$300 for a pair of shoes AND would purchase
+                          shoes online, 50% of them would consider buying refurbished shoes.</p>
+                    </div>
+                    <div class="survey-results">
+                        <p>The second survey, with <span>133 respondents</span>, and third survey gave
+                          insight into word choice: </p>
+                        <ul class="survey">
+                            <li><span>54.3%</span> would consider buying hand-dyed shoes</li>
+                            <li><span>25.4%</span> would buy hand-dyed shoes</li>
+                            <li><span>"used"</span> most resembled "refurbished"</li>
+                        </ul>
+                        <div class="survey-results">
+                            <p>The second survey, with <span>133 respondents</span>, and third survey gave
+                              insight into word choice: </p>
+                            <ul class="survey">
+                                <li><span>54.3%</span> would consider buying hand-dyed shoes</li>
+                                <li><span>25.4%</span> would buy hand-dyed shoes</li>
+                                <li><span>"used"</span> most resembled "refurbished"</li>
+                            </ul>
+                        <p>I conducted another survey to test whether it was the term “refurbished” or the concept
+                          behind RF that turned customers away. The word refurbished had to change, so we decided
+                          on hand-painted. This term tested well during the website prototype.</p>
+                    </div>-->
+                    </div>
+                      <div class="survey">
+                          <div class="third">
+                              <h2>87.9%</h2>
+                              <p>mostly consider quality & style to purchase shoes</p>
+                          </div>
+                          <div class="third">
+                              <h2>75.8%</h2>
+                              <p>would or currently purchases shoes online</p>
+                          </div>
+                          <div class="third">
+                              <h2>48%</h2>
+                              <p>would buy or consider buying refurbished shoes</p>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div>
                       <p>And gave us our target customer: out of the 87.5% of respondents
                         who would pay between $100-$300 for a pair of shoes AND would purchase
                         shoes online, 50% of them would consider buying refurbished shoes.</p>
-                  </div>
-                  <div class="survey-results">
                       <p>The second survey, with <span>133 respondents</span>, and third survey gave
-                        insight into word choice: </p>
-                      <ul class="survey">
-                          <li><span>54.3%</span> would consider buying hand-dyed shoes</li>
-                          <li><span>25.4%</span> would buy hand-dyed shoes</li>
-                          <li><span>"used"</span> most resembled "refurbished"</li>
-                      </ul>
-                      <p>I conducted another survey to test whether it was the term “refurbished” or the concept
-                        behind RF that turned customers away. The word refurbished had to change, so we decided
-                        on hand-painted. This term tested well during the website prototype.</p>
-                  </div>
+                          insight into word choice: </p>
+                      <div class="survey">
+                            <div class="third">
+                              <h2>54.3%</h2>
+                              <p>would consider buying hand-dyed shoes</p>
+                            </div>
+                            <div class="third">
+                              <h2>25.4%</h2>
+                              <p>would or has bought hand-dyed shoes</p>
+                            </div>
+                            <div class="third">
+                              <h2>"used"</h2>
+                              <p>most resembled "refurbished"</p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p>I conducted another survey to test whether it was the term “refurbished” or the concept
+                          behind RF that turned customers away. The word refurbished had to change, so we decided
+                          on hand-painted. This term tested well during the website prototype.</p>
               </div>
           </section>
           <section class="environment">
               <div id="container">
                       <div class="clearfix"></div>
-                      <div class="first">
-                          <h3>Challenges</h3>
-                          <ul class="survey">
-                              <li><p>The word "refurbished"</p></li>
-                              <li><p>Ambiguity behind the refurbishing process</p></li>
-                          </ul>
-                      </div>
-                      <div class="second">
-                          <h3>Solutions</h3>
+                      <div class="environment-results">
+                          <div class="first">
+                              <h3>Challenges</h3>
                               <ul class="survey">
-                                  <li><p>Replace "refurbished" with "hand-painted"</p></li>
-                                  <li><p>Show before / after pictures</p></li>
-                                  <li><p>Explain the process</p></li>
+                                  <li><p>The word "refurbished"</p></li>
+                                  <li><p>Ambiguity behind the refurbishing process</p></li>
                               </ul>
+                          </div>
+                          <div class="second">
+                              <h3>Solutions</h3>
+                                  <ul class="survey">
+                                      <li><p>Replace "refurbished" with "hand-painted"</p></li>
+                                      <li><p>Show before / after pictures</p></li>
+                                      <li><p>Explain the process</p></li>
+                                  </ul>
+                          </div>
                       </div>
                       <div class="clearfix"></div>
               </div>
@@ -153,6 +202,7 @@
               <div id="container">
                   <div class="mapping">
                       <h2>information architecture</h2>
+                      <p></p>
                       <h3>Mapping</h3>
                       <p>We conducted a card sort to help organize the website and discover
                         whether additional pages were needed. We learned that the potential
@@ -349,6 +399,7 @@
                   <div class="contact-text">
                       <h2>If you’d like to get in touch to work or just chat about
                         all things design & milan</h2>
+                        <p></p>
                       <a href="mailto:gokuyan@gmail.com"><button>email me</button></a>
                   </div>
               </div>

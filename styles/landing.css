@@ -1,3 +1,15 @@
+nav li a:hover {
+  box-shadow: 0px 3px #6654f152;
+}
+
+h1 {
+  color: #2e2382;
+}
+
+h1:hover {
+text-shadow: 7px 3px #6654f152;
+}
+
 /* home-hero*/
 .home-hero {
   width: 100%;
@@ -17,8 +29,14 @@
   margin: auto;
 }
 
+
+
 .first img, .second img {
   box-shadow: 2px 0px 4px 0px #e6dfdf
+}
+
+#contact {
+  background: #eaccf8;
 }
 
 
