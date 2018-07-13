@@ -44,7 +44,7 @@ header.about-me {
     width: 100%;
   }
 
-  .capabilities .skills, .capabilities .software {
+  .first, .second {
     display: block;
     width: 100%;
     padding: 0;

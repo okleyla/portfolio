@@ -226,6 +226,20 @@
   color: white;
 }
 
+.prototype .user-test {
+  padding-bottom: 2rem;
+}
+.prototype .user-test li {
+  display: list-item;
+}
+
+.prototype .user-test h4 {
+  margin: 0;
+}
+.survey p {
+  margin: 0;
+}
+
 .prototype li {
   display: block;
 }
@@ -283,6 +297,8 @@
   .survey {
     padding: 0;
     width: 100%;
+    margin-top: 0;
+    padding-left: 1rem;
   }
 
   .user-research li {
@@ -290,7 +306,7 @@
     width: 100%;
   }
 
-  .environment .first, .environment .second {
+  .environment .first, .environment .second, .user-test .first, .user-test .second {
     display: block;
     width: 100%;
     padding-left: 0;
@@ -363,7 +379,7 @@
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 452px) {
   .third {
     width: 100%;
     float: none;
@@ -455,5 +471,4 @@
   .navigation .case-studies .second, .navigation .case-studies .first {
     width: 100%;
   }
-
 }

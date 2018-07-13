@@ -4,9 +4,7 @@ header, .prototype {
 }
 
 /* images */
-.full {
-  padding: 0 2rem 2rem;
-}
+
 
 /*intro */
 .introduction, .intro {
@@ -100,10 +98,6 @@ header, .prototype {
   margin: auto;
 }
 
-.mapping {
-  padding-bottom: 3rem;
-}
-
 /* sketch */
 .sketch {
   width: 100%;
@@ -122,6 +116,9 @@ header, .prototype {
   margin: auto;
 }
 
+.branding-section {
+  padding-bottom: 3rem;
+}
 
 .final-logos {
   width: 65%;
