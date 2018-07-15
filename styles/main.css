@@ -20,7 +20,7 @@ header {
 }
 
 #container {
-  width: 80%;
+  width: 65%;
   margin: auto;
   padding: 5rem 0;
 }
@@ -93,6 +93,10 @@ a:hover {
   clear: both;
 }
 
+#spacing-fix {
+  padding-top: 1rem;
+}
+
 /*other universal features*/
 button {
   background: none;
@@ -155,15 +159,13 @@ button:hover {
   display: inline-block;
   float: right;
   clear: none;
-  padding: 0px 4.5rem;
 }
 
 .two-thirds {
-  width: 66%;
+  width: 63%;
   display: inline-block;
   float: left;
   clear: none;
-  padding: 0 .5rem;
 }
 
 .sixth {
@@ -276,7 +278,7 @@ nav li a:hover {
 
 .icons li a i {
   color: #2f2f2f;
-  font-family: 'Font Awesome 5 Free';
+  /*font-family: 'Font Awesome 5 Free';*/
   font-size: 30px;
 }
 
