@@ -72,3 +72,11 @@ text-shadow: 7px 3px #6654f152;
     padding-bottom: 3rem;
   }
 }
+
+@media screen and (max-width: 468px) {
+  h1 {
+    font-size: 42px;
+    line-height: 40px;
+    letter-spacing: 2px;
+  }
+}

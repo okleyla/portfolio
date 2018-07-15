@@ -14,15 +14,6 @@ header {
   width: 100%;
 }
 
-.logo {
-  width: 30%;
-  float: left;
-}
-
-.logo h1 {
-  font-size: 3em;
-}
-
 .hero {
   width: 100%;
   margin: auto;
@@ -135,6 +126,7 @@ button:hover {
 .first, .second {
   width: 48%;
   display: inline-block;
+  float: left;
 }
 
 .first img, .second img {
@@ -152,6 +144,22 @@ button:hover {
 
 .third {
   width: 33%;
+  display: inline-block;
+  float: left;
+  clear: none;
+  padding: 0 .5rem;
+}
+
+.one-third {
+  width: 33%;
+  display: inline-block;
+  float: right;
+  clear: none;
+  padding: 0px 4.5rem;
+}
+
+.two-thirds {
+  width: 66%;
   display: inline-block;
   float: left;
   clear: none;
@@ -197,12 +205,7 @@ nav .closebtn {
 }
 
 .logo {
-  padding: 20px;
-  box-shadow: none;
-}
-
-.logo:hover{
-  background: none;
+  padding-left: 1rem;
 }
 
 .logo img {
@@ -273,7 +276,7 @@ nav li a:hover {
 
 .icons li a i {
   color: #2f2f2f;
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 5 Free';
   font-size: 30px;
 }
 
@@ -329,7 +332,6 @@ nav li a:hover {
   }
 
   .nav-bar.responsive a:hover {
-    font-weight: bold;
     cursor: pointer;
     padding-bottom: 3rem;
   }
