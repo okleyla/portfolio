@@ -1,4 +1,28 @@
-.case-study header, .prototype {
+.case-study header {
+  height: 70vh;
+  background-image: url(../images/rfs-header.png);
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+  padding-bottom: 1rem;
+  background: ;
+  position: fixed;
+  width: 100%;
+}
+
+nav:hover {
+  background: #fdfdfd;
+}
+
+.hero {
+
+}
+
+.prototype {
   color: white;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(165,137,154,1) 20%,
@@ -13,10 +37,10 @@
 }
 
 .nav-bar a {
-  color: white;
+  /*color: white;*/
 }
 
-/*intro */
+/* intro */
 .introduction, .intro {
   width: 100%;
   margin: auto;
@@ -28,6 +52,10 @@
 
 .introduction .one-third {
   padding: 0;
+}
+
+#shadow {
+  box-shadow: 2px 0px 4px 0px #e6dfdf
 }
 
 #rotate {
@@ -50,8 +78,8 @@
 }
 
 .intro {
-  background: rgba(89,51,75,1);
-  color: #eaeaea;
+  padding-bottom: 5rem;
+  background: white;
 }
 
 .competition {
@@ -431,6 +459,17 @@ span:hover {
 
 
 @media screen and (max-width: 768px) {
+  .case-study header {
+    background-size: 200%;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  #container {
+    width: 80%;
+  }
   p {
     font-size: 16px;
     line-height: 25px;
@@ -485,15 +524,6 @@ span:hover {
     background: none;
   }
 
-  .environment-results {
-    margin: auto;
-    color: white;
-    background-image: url(../images/rfs-shoe-bg.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 30px;
-    padding: 2rem;
-  }
   .environment .first, .environment .second, .user-test .first, .user-test .second {
     display: block;
     width: 100%;
@@ -502,6 +532,11 @@ span:hover {
 
   .environment ul {
     float: left;
+  }
+
+  .environment ul.survey {
+    padding-left: 0;
+    padding-bottom: 1rem;
   }
 
   .environment p {
@@ -574,6 +609,10 @@ span:hover {
     clear: both;
   }
 
+  .two-thirds {
+    padding: 0;
+  }
+
   .user-research {
     margin: auto;
   }
@@ -585,6 +624,10 @@ span:hover {
   .user-research li {
     display: block;
     font-size: 20px;
+  }
+
+  .environment #container {
+    padding: 2rem;
   }
 
   .user-research li span {
@@ -618,7 +661,6 @@ span:hover {
   .first, .second, .two-thirds, .one-third {
     width: 100%;
     float: left;
-    padding: 1rem 2rem 0 0;
   }
 
   .full {

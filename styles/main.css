@@ -9,7 +9,7 @@ html {
 }
 
 header {
-  padding: 3rem 0 0;
+  /*padding: 3rem 0 0;*/
   background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 40%, #EACCF8 49%, #6654F1 100%);
   width: 100%;
 }
@@ -29,7 +29,7 @@ header {
 
 /*typograohy*/
 body {
-  background-color: #FFFCFC;
+  background-color: #FdFdFd;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   line-height: 30px;
@@ -119,7 +119,7 @@ button:hover {
 #contact {
   clear: both;
   width: 100%;
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
 .contact-text {
@@ -246,7 +246,7 @@ nav li a:hover {
   width: 100%;
   position: fixed;
   bottom: 0;
-  background: #fffcfc;
+  background: #fdfdfd;
 }
 
 .footer-info p {
@@ -341,7 +341,7 @@ nav li a:hover {
   .nav-bar.responsive a.hamburger {
     float: right;
     display: block;
-    margin-top: 3.5rem;
+    margin-top: .5rem;
     margin-right: 2.5rem;
   }
 
