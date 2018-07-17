@@ -54,9 +54,6 @@ p {
     width: 80%;
   }
 
-  button {
-    margin-bottom: 1rem;
-  }
 }
 
 @media screen and (max-width: 783px) {
@@ -76,6 +73,9 @@ p {
     display: block;
     margin: 0 auto;
     float: left;
+  }
+
+  .first {
     padding-bottom: 3rem;
   }
 }

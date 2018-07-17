@@ -8,12 +8,33 @@ header.about-me {
   margin: auto;
 }
 
+h3::after {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 100%;
+  background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+  margin-top: -15px;
+  margin-left: 2px;
+}
+
 h4 {
-  margin: 0;
+  margin-top: 0;
+}
+
+.first, .second {
+  width: 50%;
+}
+
+#images {
+  position: ;
+}
+
+img:hover {
+  opacity: .5;
 }
 
 .capabilities {
-  padding: 0 0 3rem;
   background: rgb(102,191,145);
   background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
 }
@@ -21,6 +42,14 @@ h4 {
 .caps {
   margin: auto;
   display: block;
+}
+
+.caps .first  {
+  padding-right: .5rem;
+}
+
+.caps .second {
+  padding-left: .5rem;
 }
 
 .moodboard {
@@ -46,8 +75,6 @@ h4 {
 
   .first, .second {
     display: block;
-    width: 100%;
-    padding: 0;
   }
 
   .moodboard h2 {
@@ -59,9 +86,33 @@ h4 {
   .first, .second {
     padding: 1rem;
   }
+
+  .one-third .first, .one-third .second {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 600px){
+  .one-third {
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+  .one-third .first, .one-third .second {
+    width: 25%;
+  }
+
+  .two-thirds {
+    width: 100%;
+  }
+
+  .first, .second {
+    width: 100%;
+    padding: 0;
+  }
+
+  .caps .second {
+    padding-left: 0;
+  }
 
 }
 
@@ -69,20 +120,18 @@ h4 {
   .about-me .hero {
     padding: 0;
   }
-}
+
   .photo img {
     width: 180%;
     float: right;
     padding-bottom: 5rem;
   }
 
+  .one-third .first, .one-third .second {
+    width: 25%;
+  }
+
   button {
     margin-bottom: 1rem;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .second {
-    padding-top: 2rem;
   }
 }
