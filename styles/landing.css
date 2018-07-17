@@ -2,14 +2,6 @@ nav li a:hover {
   box-shadow: 0px 3px #6654f152;
 }
 
-h1 {
-  color: #2e2382;
-}
-
-h1:hover {
-text-shadow: 7px 3px #6654f152;
-}
-
 /* home-hero*/
 .home-hero {
   width: 100%;
@@ -22,6 +14,10 @@ text-shadow: 7px 3px #6654f152;
   width: 80%;
 }
 
+.hero button {
+  margin-top: 1rem;
+}
+
 /* project list */
 #projects {
   clear: both;
@@ -29,16 +25,27 @@ text-shadow: 7px 3px #6654f152;
   margin: auto;
 }
 
+p {
+  margin-top: 0;
+}
 
 
 .first img, .second img {
   box-shadow: 2px 0px 4px 0px #e6dfdf
 }
 
+#projects img:hover {
+  opacity: .5;
+}
+
 #contact {
   background: #eaccf8;
 }
 
+.footer-container {
+  width: 93%;
+  margin: auto;
+}
 
 /*Media Queries*/
 @media screen and (max-width: 425px) {

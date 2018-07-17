@@ -20,7 +20,7 @@ header {
 }
 
 #container {
-  width: 65%;
+  width: 95%;
   margin: auto;
   padding: 5rem 0;
 }
@@ -36,11 +36,10 @@ body {
 }
 
 h1 {
-  font-family: 'Rozha one', serif;
+  font-family: 'circular std', sans-serif;
   min-height: 100%;
-  font-size: 80px;
-  line-height: 57px;
-  letter-spacing: 3.4px;
+  font-size: 40px;
+  line-height: 45px;
   margin: 0;
 }
 

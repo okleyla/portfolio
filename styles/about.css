@@ -2,14 +2,14 @@ header.about-me {
     background: none;
 }
 
-.about-text {
-  width: 80%;
-  float: left;
+.intro {
+  padding-top: 5rem;
+  width: 95%;
+  margin: auto;
 }
 
-.about-container {
-  width: 80%;
-  padding-bottom: 3rem;
+h4 {
+  margin: 0;
 }
 
 .capabilities {
