@@ -1,5 +1,5 @@
 .case-study header {
-  height: 55vh;
+  height: ;
   background-image: url(../images/rfs-header.png);
   background-size: 100%;
   background-position: top;
@@ -61,6 +61,7 @@ nav:hover {
   padding: 0;
 }
 
+
 #shadow {
   box-shadow: 2px 0px 4px 0px #e6dfdf
 }
@@ -78,10 +79,6 @@ nav:hover {
 
 .goal li {
   display: list-item;
-}
-
-.introduction img {
-  width: 100%;
 }
 
 .competition {
@@ -458,6 +455,21 @@ span:hover {
     padding-right: 3rem;
   }
 
+  .transformation {
+    width: 100%;
+    margin: auto;
+    padding-top: 3rem;
+  }
+
+  .transformation h2 {
+    float: left;
+    padding: 2rem;
+  }
+
+  .transformation .first, .transformation .second {
+    width: 45%;
+  }
+
 }
 
 
@@ -477,6 +489,15 @@ span:hover {
   .hero-text {
     padding: 0;
     padding-bottom: 2rem;
+  }
+
+  .transformation h2 {
+    float: left;
+    padding: 0 1rem;
+  }
+
+  .transformation .first, .transformation .second {
+    width: 45%;
   }
 
   .user-research h3, .user-research p {
