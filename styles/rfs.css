@@ -61,11 +61,14 @@ nav:hover {
   padding: 0;
 }
 
+<<<<<<< HEAD
 .transformation h2 {
   display: inline-block;
   padding: 15rem .5rem;
   font-size: 50px;
 }
+=======
+>>>>>>> 95b073f7d8127874fb5484c26ca666859a155187
 
 #shadow {
   box-shadow: 2px 0px 4px 0px #e6dfdf
@@ -87,6 +90,7 @@ nav:hover {
   display: list-item;
 }
 
+<<<<<<< HEAD
 /*process*/
 .process {
   color: white;
@@ -106,6 +110,9 @@ nav:hover {
 
 /*competition*/
 #business-org {
+=======
+.competition {
+>>>>>>> 95b073f7d8127874fb5484c26ca666859a155187
   background: rgba(163, 134, 152, 0.25);
   width: 100%;
   margin: 0 auto;
@@ -551,7 +558,16 @@ span:hover {
   .transformation {
     width: 100%;
     margin: auto;
+<<<<<<< HEAD
     padding: 3rem 3rem 0 3rem;
+=======
+    padding-top: 3rem;
+  }
+
+  .transformation h2 {
+    float: left;
+    padding: 2rem;
+>>>>>>> 95b073f7d8127874fb5484c26ca666859a155187
   }
 
   .transformation .first, .transformation .second {
@@ -566,6 +582,12 @@ span:hover {
     background-size: 200%;
   }
 
+<<<<<<< HEAD
+=======
+  #container {
+    width: 95%;
+  }
+>>>>>>> 95b073f7d8127874fb5484c26ca666859a155187
   p {
     font-size: 16px;
     line-height: 25px;
@@ -576,6 +598,17 @@ span:hover {
     padding-bottom: 2rem;
   }
 
+<<<<<<< HEAD
+=======
+  .transformation h2 {
+    float: left;
+    padding: 0 1rem;
+  }
+
+  .transformation .first, .transformation .second {
+    width: 45%;
+  }
+>>>>>>> 95b073f7d8127874fb5484c26ca666859a155187
 
   .user-research h3, .user-research p {
     margin: 0;
