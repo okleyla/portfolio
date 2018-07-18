@@ -1,4 +1,32 @@
-.case-study header, .prototype {
+.case-study header {
+  height: ;
+  background-image: url(../images/rfs-header.png);
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.case-study header:hover {
+  opacity: 1;
+}
+
+nav {
+  padding-bottom: ;
+  background: ;
+  width: 100%;
+
+}
+
+nav:hover {
+  background: ;
+}
+
+.hero {
+  background: #ffffff7d;
+}
+
+.prototype {
   color: white;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(165,137,154,1) 20%,
@@ -13,10 +41,13 @@
 }
 
 .nav-bar a {
-  color: white;
+  /*color: white;*/
 }
 
-/*intro */
+/* intro */
+.intro {
+  text-align: center;
+}
 .introduction, .intro {
   width: 100%;
   margin: auto;
@@ -30,12 +61,23 @@
   padding: 0;
 }
 
+.transformation h2 {
+  display: inline-block;
+  padding: 15rem .5rem;
+  font-size: 50px;
+}
+
+#shadow {
+  box-shadow: 2px 0px 4px 0px #e6dfdf
+}
+
 #rotate {
   transform: rotate(90deg);
   width: 50%;
   margin: 0 5rem;
   padding: 3rem;
 }
+
 
 .introduction li {
   display: block;
@@ -45,19 +87,28 @@
   display: list-item;
 }
 
-.introduction img {
-  width: 100%;
+/*process*/
+.process {
+  color: white;
+  background: rgb(89,51,75);
+  text-align: center;
 }
 
-.intro {
-  background: rgba(89,51,75,1);
-  color: #eaeaea;
+.process button {
+  border-color: white;
+  color: white;
 }
 
-.competition {
+.process button:hover {
+  background: black;
+}
+
+
+/*competition*/
+#business-org {
   background: rgba(163, 134, 152, 0.25);
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .inspo {
@@ -68,10 +119,42 @@
   display: block;
 }
 
+.inspo img {
+  padding-bottom: 1rem;
+  width: 48.5%;
+}
+
 /* user research */
 .user-research {
   width: 100%;
   margin: auto;
+}
+
+.survey-box {
+  background: #F3F3F3;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 60px;
+  padding: 3rem;
+  width: 75%;
+  margin: 3rem auto;
+}
+
+.result {
+  padding: 1rem;
+}
+
+.result .one-third, .survey-box h4 {
+  text-align: center;
+}
+
+.result h2 {
+  color: rgb(89,51,75);
+}
+
+.result img {
+  width: 100%;
+  padding-top: 2rem;
 }
 
 .user-research ul {
@@ -230,11 +313,16 @@ span:hover {
 }
 
 .sketch button {
-  background: white;
+  border-color: white;
+  color: white;
 }
 
 .sketch button:hover {
   background: black;
+}
+
+#version {
+  padding: 1rem 3rem;
 }
 
 .shoe-iteration {
@@ -251,46 +339,6 @@ span:hover {
 .sketch-img .two-thirds {
   float: right;
   padding-left: 0;
-}
-/*
-.bubble {
-  color: black;
-  position: relative;
-  display:inline-block;
-  max-width:250px;
-  min-height:1.5em;
-  padding: 20px;
-  background: #FFFCFC;
-  border: #FFFCFC solid 1px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-}
-
-.bubble:after {
-  content: "";
-  position: absolute;
-  bottom: -15px;
-  left: 60%;
-  border-style: solid;
-  border-width: 15px 15px 0;
-  border-color: #FFFCFC transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
-}
-
-.bubble:before {
-  content: "";
-  position: absolute;
-  bottom: -19.5px;
-  left: calc(60% - 3px) ;
-  border-style: solid;
-  border-width: 18px 18px 0;
-  border-color: #FFFCFC transparent;
-  display: block;
-  width: 0;
-  z-index: 0;
 }
 
 /*branding*/
@@ -373,6 +421,10 @@ span:hover {
   margin: auto;
 }
 
+.video {
+  margin: 2rem auto;
+}
+
 .quotes {
   margin: auto;
   display: block;
@@ -414,6 +466,75 @@ span:hover {
 
 
 /* Media Queries */
+@media screen and (max-width: 549px) {
+  .transformation h2 {
+    display: block;
+    float: left;
+    padding: 1rem 9rem;
+    transform: rotate(90deg);
+  }
+
+  .first, .second {
+    width: 100%;
+  }
+
+  video {
+    width: 300px;
+    height: 157.5px;
+  }
+}
+
+@media screen and (max-width:639px) and (min-width: 550px) {
+  video {
+    width: 549px;
+    height: 288.225px;
+  }
+
+}
+
+@media screen and (max-width: 983px) and (min-width: 550px) {
+  #float-left {
+    float:left;
+    width: 50%;
+  }
+
+  #float-right {
+    float: right;
+    width: 50%;
+  }
+
+  .transformation h2 {
+    padding: 5rem 0;
+  }
+
+  .first, .second {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 1439px) and (min-width:984px){
+  .transformation h2 {
+    padding: 11rem 1rem;
+  }
+}
+
+@media screen and (min-width:2200px) {
+  #float-left {
+    float:left;
+    width: 50%;
+  }
+
+  #float-right {
+    float: right;
+    width: 50%;
+  }
+
+  .transformation h2 {
+    padding: 15rem 4rem;
+  }
+}
+
+
 @media screen and (min-width: 768px) {
   .inspo {
     width: 100%;
@@ -427,10 +548,24 @@ span:hover {
     padding-right: 3rem;
   }
 
+  .transformation {
+    width: 100%;
+    margin: auto;
+    padding: 3rem 3rem 0 3rem;
+  }
+
+  .transformation .first, .transformation .second {
+    width: 45%;
+  }
+
 }
 
 
 @media screen and (max-width: 768px) {
+  .case-study header {
+    background-size: 200%;
+  }
+
   p {
     font-size: 16px;
     line-height: 25px;
@@ -440,6 +575,7 @@ span:hover {
     padding: 0;
     padding-bottom: 2rem;
   }
+
 
   .user-research h3, .user-research p {
     margin: 0;
@@ -464,6 +600,10 @@ span:hover {
     margin: auto;
   }
 
+  .user-boxes .first img, .user-boxes .second img {
+    width: 100%;
+  }
+
   .survey {
     padding: 0;
     width: 100%;
@@ -485,15 +625,6 @@ span:hover {
     background: none;
   }
 
-  .environment-results {
-    margin: auto;
-    color: white;
-    background-image: url(../images/rfs-shoe-bg.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 30px;
-    padding: 2rem;
-  }
   .environment .first, .environment .second, .user-test .first, .user-test .second {
     display: block;
     width: 100%;
@@ -502,6 +633,11 @@ span:hover {
 
   .environment ul {
     float: left;
+  }
+
+  .environment ul.survey {
+    padding-left: 0;
+    padding-bottom: 1rem;
   }
 
   .environment p {
@@ -574,6 +710,10 @@ span:hover {
     clear: both;
   }
 
+  .two-thirds {
+    padding: 0;
+  }
+
   .user-research {
     margin: auto;
   }
@@ -585,6 +725,10 @@ span:hover {
   .user-research li {
     display: block;
     font-size: 20px;
+  }
+
+  .environment #container {
+    padding: 2rem;
   }
 
   .user-research li span {
@@ -618,7 +762,6 @@ span:hover {
   .first, .second, .two-thirds, .one-third {
     width: 100%;
     float: left;
-    padding: 1rem 2rem 0 0;
   }
 
   .full {

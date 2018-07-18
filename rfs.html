@@ -32,7 +32,7 @@
               </a>
               <ul class="nav-bar" id="topnav">
                   <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
-                      <i class="fa fa-bars"></i>
+                      <i class="fa fa-bars"></i></a>
                   <div class="clearfix"></div>
                   <li><a href="index.html">portfolio</a></li>
                   <li><a href="about.html">about</a></li>
@@ -41,14 +41,12 @@
               </ul>
           </nav>
           <section class="hero">
-              <div class="case-hero">
-                  <div class="first">
+              <div id="container">
+                  <div class="intro">
                       <h1>refated shoes</h1>
                       <p>Branding   |   Strategy   |   UX & UI</p>
                       <a href="https://projects.invisionapp.com/share/E5E270F8X#/screens"><button class="case-study-button">view prototype</button></a>
                   </div>
-                  <img src="images/rfs-laptop.png" class="second">
-                  <div class="clearfix"></div>
               </div>
           </section>
       </header>
@@ -65,133 +63,162 @@
                             a successful stint on Etsy, he wanted to make it official with his own site.
                       <p>With our foundation as an Etsy site, design-wise, we were starting from scratch.
                             Below, I outline how we went from this Etsy site to what we have now.</p>
-                      <h2>project goal</h2>
-                      <ul class="goal">
-                          <li><p>e-Commerce website</p></li>
-                          <li><p>Brand identity</p></li>
-                          <li><p>Business cards</p></li>
-                      </ul>
                   </div>
-                  <ul class="one-third">
-                        <li><img src="images/etsy.png"></li>
-                        <li><img src="images/arrow-black.png" id="rotate"></li>
-                        <li><img src="images/rfs-etsy.png"></li>
-                  </ul>
+                  <div class="one-third">
+                      <div id="float-left">
+                          <h2>project goal</h2>
+                          <ul class="goal">
+                              <li><p>e-Commerce website</p></li>
+                              <li><p>Brand identity</p></li>
+                              <li><p>Business cards</p></li>
+                          </ul>
+                          <p>
+                      </div>
+                      <div id="float-right">
+                          <h2>dates</h2>
+                          <p>2017</p>
+                      </div>
+                  </div>
                   <div class="clearfix"></div>
+                  <div class="transformation">
+                        <img src="images/etsy.png" class="first" id="shadow">
+                        <h2>&rarr;</h2>
+                        <img src="images/rfs-etsy.png" class="second" id="shadow">
+                        <div class="clearfix"></div>
+                  </div>
               </div>
           </section>
-        <!--  <section class="intro">
+          <section class="process">
               <div id="container">
-                  <h2>starting from the sole up</h2>
-                  <p>With our foundation as an Etsy site, design-wise, we were starting from scratch.
-                  Below, I outline how we went from this Etsy site to what we have now.</p>
-                      <img src="images/etsy-rfs.png" class="more-full">
-              </div>
-          </section>-->
-          <section class="competition">
-              <div id="container">
-                  <h2>who's out there?</h2>
+                  <h2>the process</h2>
                   <p>
-                  <h3>competitive analysis</h3>
-                  <p>Darcy named a few companies with a similar concept. So, we looked them over
-                  to see if we could idenfity any aesthetic similarities and key differences. We
-                  found that the companies that were just starting out use stone/slate textures and colors,
-                  while the more established companies rely on a black and white color scheme with
-                  brightly colored photos and calls-to-action.</p>
-                  <div class="clearfix"></div>
-                  <ul class="inspo">
-                      <li><img src="images/inspo1.png" class="third"></li>
-                      <li><img src="images/inspo2.png" class="third"></li>
-                      <li><img src="images/comp2.png" class="third"></li>
-                  </ul>
+                  <a data scroll href="#business-org"><button>business organization</button></a>
+                  <a data scroll href="#design-org"><button>design organization</button></a>
+                  <a data scroll href="#sketching"><button>sketching</button></a>
+                  <a data scroll href="#branding"><button>design & branding</button></a>
+                  <a data scroll href="#prototype"><button>prototype</button></a>
+              </div>
+          </section>
+          <section id="business-org">
+              <div id="container">
+                  <h1>business organization</h1>
+                  <p>
+                  <div class="first">
+                      <h2>research</h2>
+                      <p>
+                      <h3>competitive landscape</h3>
+                      <p>Darcy named a few companies with a similar concept. So, we looked them over
+                      to see if we could idenfity any design similarities and key differences. We
+                      found that the companies that were just starting out use stone/slate textures and colors,
+                      while the more established companies rely on a black and white color scheme with
+                      brightly colored photos and calls-to-action.</p>
+                  </div>
+                  <div class="second">
+                      <ul class="inspo">
+                          <li><img src="images/inspo1.png" class="first" id="shadow"></li>
+                          <li><img src="images/inspo2.png" class="second" id="shadow"></li>
+                          <li><img src="images/comp3.png" class="first" id="shadow"></li>
+                          <li><img src="images/inspo3.png" class="second" id="shadow"></li>
+                      </ul>
+                      <div class="clearfix"></div>
+                  </div>
+                  <div class="first">
+                      <h3>stakeholder interview</h3>
+                      <p>Refated Shoes is a men’s shoe customization company with no
+                        intention of expanding beyond their current market. However, the hope
+                        is to offer personal customization within the next 5 years.
+                      <p>The owner, Darcy, is an artistic person who sees his product as art, rather than just shoes.
+                      <h4>what words would you use to describe RFS?</h4>
+                      <p>"Fresh, cool, classic, and craftsmanship."
+                      <div class="clearfix"></div>
+                  </div>
                   <div class="clearfix"></div>
               </div>
+              <div class="clearfix"></div>
           </section>
           <section class="user-research">
               <div id="container">
-                  <h2>what do the people want?</h2>
-                  <p>Considering the distinct nature of this business - painting second-hand,
-                    vintage, or out-of-season shoes - we conducted surveys to see what
-                    people thought of the concept and who our ideal user would be.
-                  <h3 id="spacing-fix">Survey 1: User & Market Survey, 33 respondents</h3>
-                  <div class="one-third">
-                  <p>The first survey helped us define our target customer: out of the 87.5% of respondents
-                    who would pay between $100-$300 for a pair of shoes AND would purchase
-                    shoes online, 50% of them would consider buying refurbished shoes.
-                  </div>
-                    <!--<div class="survey-results">
-                        <ul class="survey">
-                            <li><span>87.9%</span> mostly consider quality & style to purchase shoes</li>
-                            <li><span>75.8%</span> would purchase shoes online</li>
-                            <li><span>48%</span> would buy or consider buying refurbished shoes</li>
-                        </ul>
-                        <p>And gave us our target customer: out of the 87.5% of respondents
-                          who would pay between $100-$300 for a pair of shoes AND would purchase
-                          shoes online, 50% of them would consider buying refurbished shoes.</p>
-                    </div>
-                    <div class="survey-results">
-                        <p>The second survey, with <span>133 respondents</span>, and third survey gave
-                          insight into word choice: </p>
-                        <ul class="survey">
-                            <li><span>54.3%</span> would consider buying hand-dyed shoes</li>
-                            <li><span>25.4%</span> would buy hand-dyed shoes</li>
-                            <li><span>"used"</span> most resembled "refurbished"</li>
-                        </ul>
-                        <div class="survey-results">
-                            <p>The second survey, with <span>133 respondents</span>, and third survey gave
-                              insight into word choice: </p>
-                            <ul class="survey">
-                                <li><span>54.3%</span> would consider buying hand-dyed shoes</li>
-                                <li><span>25.4%</span> would buy hand-dyed shoes</li>
-                                <li><span>"used"</span> most resembled "refurbished"</li>
-                            </ul>
-                        <p>I conducted another survey to test whether it was the term “refurbished” or the concept
-                          behind RF that turned customers away. The word refurbished had to change, so we decided
-                          on hand-painted. This term tested well during the website prototype.</p>
-                    </div>
-                  </div>-->
-                  <div class="two-thirds">
-                      <div class="survey">
-                          <div class="third">
+                  <h3>user research</h3>
+                  <p>Considering the distinct nature of this business: of painting second-hand,
+                    vintage, or out of season shoes, we needed a better understanding of how to
+                    market to the target customer. We also needed to identify the target customer.
+                  <div class="survey-box" id="shadow">
+                      <h4>survey 1</h4>
+                      <p>We asked 33 people about their shoe-buying preferences including whether they’d
+                        purchase refurbished shoes and their budget.
+                      <p>This first survey helped us define our target customer: out of the 87.5% of respondents
+                        who would pay between $100-$300 for a pair of shoes AND would purchase
+                        shoes online, 50% of them would consider buying refurbished shoes.
+                      <div class="result">
+                          <div class="one-third">
                               <h2>87.9%</h2>
-                              <p>buys shoes based on quality & style</p>
+                              <p>mostly consider quality & style to purchase shoes</p>
                           </div>
-                          <div class="third">
+                          <div class="two-thirds">
+                              <p>
+                              <img src="images/rfs-survey1-1.png">
+                          </div>
+                          <div class="clearfix"></div>
+                      </div>
+                      <div class="result">
+                          <div class="one-third">
                               <h2>75.8%</h2>
-                              <p>would or is purchasing shoes online</p>
+                              <p>would purchase shoes online</p>
                           </div>
-                          <div class="third">
+                          <div class="two-thirds">
+                              <p>
+                              <img src="images/rfs-survey1-2.png">
+                          </div>
+                          <div class="clearfix"></div>
+                      </div>
+                      <div class="result">
+                          <div class="one-third">
                               <h2>48%</h2>
-                              <p>would consider buying refurbished shoes</p>
+                              <p>would buy or consider buying refurbished shoes</p>
+                          </div>
+                          <div class="two-thirds">
+                              <p>
+                              <img src="images/rfs-survey1-3.png">
                           </div>
                           <div class="clearfix"></div>
                       </div>
                   </div>
-                  <div class="clearfix"></div>
-                  <p>
-                  <h3>Survey 2: 133 respondents and Survey 3</h3>
-                  <div class="one-third">
-                      <p>The second survey tested whether it was the term “refurbished” or the concept
-                            behind RFS that turned customers away. It was the word. The third survey
-                            and preference tests examined different word usage. The final term we chose
-                            was hand-painted. </p>
-                  </div>
-                  <div class="two-thirds">
-                      <div class="survey">
-                            <div class="third">
+                  <div class="survey-box" id="shadow">
+                      <h4>survey 2 & 3</h4>
+                      <p>We surveyed 133 people to understand whether the term “refurbished” or the concept behind RFS
+                        turned customers away. It was the word. The third survey and preference tests examined different
+                        word usage. The final term we chose was hand-painted.
+                      <div class="result">
+                          <div class="one-third">
                               <h2>54.3%</h2>
                               <p>would consider buying hand-dyed shoes</p>
-                            </div>
-                            <div class="third">
+                          </div>
+                          <div class="two-thirds">
+                              <p>
+                              <img src="images/rfs-survey2-1.png">
+                          </div>
+                          <div class="clearfix"></div>
+                      </div>
+                      <div class="result">
+                          <div class="one-third">
                               <h2>25.4%</h2>
-                              <p>would or has bought hand-dyed shoes</p>
-                            </div>
-                            <div class="third">
-                              <h2>"used"</h2>
-                              <p>most resembled "refurbished"</p>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
+                              <p>would buy hand-dyed shoes</p>
+                          </div>
+                          <div class="two-thirds">
+                              <p>
+                              <img src="images/rfs-survey2-2.png">
+                          </div>
+                          <div class="clearfix"></div>
+                      </div>
+                      <div class="result">
+                          <div class="one-third">
+                              <h2>'used'</h2>
+                          </div>
+                          <div class="two-thirds">
+                              <p>most resembled “refurbished”</p>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div>
                   </div>
                   <div class="clearfix"></div>
               </div>
@@ -230,7 +257,7 @@
                     to better define them through our surveys.</p>
                   <div class="user-boxes">
                       <div class="first">
-                          <img src="images/vincent.png">
+                          <img src="images/vincent.png" style="width: 100%;">
                           <h4>who's vincent?</h4>
                           <p>Vincent is a 23-36 year-old banker/consultant or entrepreneur.
                             His goal is to find a unique & luxury shoe that will stand out.</p>
@@ -239,7 +266,7 @@
                             out getting smashed with friends."</p>
                       </div>
                       <div class="second">
-                          <img src="images/jean.png">
+                          <img src="images/jean.png" style="width: 100%;">
                           <h4>who's jean?</h4>
                           <p>Jean is a 50-75 years-old.
                             His goal is to reflect his flamboyant personality onto his clothes.</p>
@@ -308,29 +335,41 @@
                     include questions in the FAQ page rather than just the answers.</p>
                   <a href="https://bloc.mybalsamiq.com/projects/gulbaharokuyan/prototype/refated-HPv2?key=3a5a2fd80b3260daa462236f6967b65d4db73d88"><button>lo-fi prototype</button></a>
                   <div class="sketch-img">
-                      <div class="shoe-iteration">
-                          <div class="one-third">
-                                <h4>good stuff</h4>
-                                <p>clean setup</p>
-                                <p>easy to click through</p>
-                          </div>
-                          <div class="two-thirds"><img src="images/rfs-home-sketch.png" class="full"></div>
-                          <div class="clearfix"></div>
-                      </div>
-                    <!--  <div class="shoe-iteration">
-                          <div class="one-third">
-                                <h4>no comment</h4>
-                          </div>
-                          <div class="two-thirds"><img src="images/rfs-shop-browse.png" class="full"></div>
-                          <div class="clearfix"></div>
-                      </div> -->
-                      <div class="shoe-iteration">
-                            <div class="one-third">
-                                <h4>the details?</h4>
-                                <p class="bubble">"Could you add the shoe size to the description?"</p>
-                                <p class="bubble">"What about including a before picture?"</p>
+                      <div class="page">
+                            <h3>homepage</h3>
+                            <p>I had two main versions of the homepage, and ultimately decided on
+                              the second version. Here are the iterations:</p>
+                            <div class="first" id="version">
+                                <h4 style="text-align: center;">version 1</h4>
+                                <img src="images/rfs-home1.png" class="first">
+                                <img src="images/rfs-lofi-HPv1.png" class="second">
                             </div>
-                            <div class="two-thirds"><img src="images/rfs-shoe-detail.png" class="full"></div>
+                            <div class="second" id="version">
+                                <h4 style="text-align: center;">version 2</h4>
+                                <img src="images/rfs-home2.png" class="first">
+                                <img src="images/rfs-lofi-HPv2.png" class="second">
+                            </div>
+                            <div class="clearfix"></div>
+                      </div>
+                      <div class="page">
+                            <h3>frequently asked questions</h3>
+                            <p>The FAQ page went through two different iterations: </p>
+                            <img src="images/rfs-sketch-faq.jpg" class="third">
+                            <img src="images/rfs-lofi-faq.png" class="third">
+                            <img src="images/rfs-faq.png" class="third">
+                            <div class="clearfix"></div>
+                      </div>
+                      <div class="page">
+                            <h3>product details</h3>
+                            <p>"Could you add the shoe size to the description?" "What about including a before picture?"</p>
+                            <p>During testing, users spent the most time on this page, reading through the details.
+                              They generally liked the layout, but brought up obvious concerns that I’ve added - as
+                              you can see in version 2. I also received a great comment that I left up to the entrepreneur:
+                              “What about including a before picture?" He, unfortunately, doesn’t have before photos for all of
+                              his shoes, but plans to take before photos from now on.</p>
+                            <img src="images/rfs-sketch-detail.png" class="third">
+                            <img src="images/rfs-lofi-shoe-detail.png" class="third">
+                            <img src="images/rfs-shoe-detail.png" class="third">
                       </div>
                       <div class="clearfix"></div>
                   </div>
@@ -390,14 +429,19 @@
           <section class="prototype">
               <div id="container">
                   <h2>prototype</h2>
-                  <!-- insert video -->
+                  <p>First, I'd like to share the final prototype. Then, I'll show you
+                    how we got there.</p>
+                  <video width="640" height="336" controls>
+                      <source src="videos/rfs-video.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                  </video>
                   <div class="user-feedback">
                       <h3>User Feedback</h3>
                           <!--<div class="quotes">
                               <h4>"Nice layout, clean crisp lines. [I] like the color scheme."</h4>
                               <!--<p class="second">“Love the concept. Everyone loves to have originality in their style.”</p>-->
                       <div class="clearfix"></div> <!--include the test results and changes-->
-                      <p>We conducted multiple rounds of online and guerilla testing. Below are our major findings:</p>
+                      <p>I conducted multiple rounds of user feedback</p>
                       <div class="user-test">
                               <div class="clearfix"></div>
                               <div class="first">
@@ -461,7 +505,7 @@
 
           <section class="conclusion">
               <div id="container">
-                  <h2>what i learned from this experience</h2>
+                  <h2>what i learned</h2>
                   <p>In retail, photography is just as important as the site design.
                     To dispel concerns of condition and quality, the users requested
                     more photos of the finished product as well as the painting process.
@@ -472,8 +516,11 @@
           </section>
           <section class="navigation">
               <div class="arrows">
-                  <a href="index.html"><img src="images/previous.png" class="left"></a>
-                  <a href="coop.html"><img src="images/next.png" class="right"></a>
+                  <!--<a href="index.html"><img src="images/previous.png" class="left"></a>
+                  <a href="coop.html"><img src="images/next.png" class="right"></a>-->
+                  <a href="index.html" class="left"><h2>&larr; home</h2></a>
+                  <a href="coop.html" class="right"><h2>next &rarr;</h2></a>
+                  <div class="clearfix"></div>
               </div>
 
               <div class="case-studies">
@@ -486,10 +533,7 @@
           <section id="contact">
               <div id="container">
                   <div class="contact-text">
-                      <h2>If you’d like to get in touch to work or just chat about
-                        all things design & milan</h2>
-                        <p></p>
-                      <a href="mailto:gokuyan@gmail.com"><button>email me</button></a>
+                      <h2>let's chat &darr;</h2>
                   </div>
               </div>
           </section>

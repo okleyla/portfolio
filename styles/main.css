@@ -9,7 +9,7 @@ html {
 }
 
 header {
-  padding: 3rem 0 0;
+  /*padding: 3rem 0 0;*/
   background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 40%, #EACCF8 49%, #6654F1 100%);
   width: 100%;
 }
@@ -20,7 +20,7 @@ header {
 }
 
 #container {
-  width: 65%;
+  width: 95%;
   margin: auto;
   padding: 5rem 0;
 }
@@ -29,26 +29,25 @@ header {
 
 /*typograohy*/
 body {
-  background-color: #FFFCFC;
+  background-color: #FdFdFd;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   line-height: 30px;
 }
 
 h1 {
-  font-family: 'Rozha one', serif;
+  font-family: 'circular std', sans-serif;
   min-height: 100%;
-  font-size: 80px;
-  line-height: 57px;
-  letter-spacing: 3.4px;
+  font-size: 40px;
+  line-height: 45px;
   margin: 0;
 }
 
 h2 {
-  font-family: "quicksand", sans-serif;
+  font-family: "circular std", sans-serif;
   font-weight: 300;
-  font-size: 40px;
-  line-height: 43px;
+  font-size: 35px;
+  line-height: 40px;
   letter-spacing: .5px;
   min-height: 100%;
   margin: 0;
@@ -119,7 +118,7 @@ button:hover {
 #contact {
   clear: both;
   width: 100%;
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
 .contact-text {
@@ -135,7 +134,7 @@ button:hover {
 
 .first img, .second img {
   display: inline;
-  width: 100%;
+  width: ;
 }
 
 .second {
@@ -217,7 +216,7 @@ nav .closebtn {
 ul#topnav.nav-bar {
   float: right;
   padding: 0;
-  margin-top: 0;
+  margin: 5px 0;
 }
 
 nav li {
@@ -246,7 +245,7 @@ nav li a:hover {
   width: 100%;
   position: fixed;
   bottom: 0;
-  background: #fffcfc;
+  background: #fdfdfd;
 }
 
 .footer-info p {
@@ -341,7 +340,7 @@ nav li a:hover {
   .nav-bar.responsive a.hamburger {
     float: right;
     display: block;
-    margin-top: 3.5rem;
+    margin-top: .5rem;
     margin-right: 2.5rem;
   }
 
