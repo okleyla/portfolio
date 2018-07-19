@@ -26,7 +26,7 @@ nav:hover {
   background: #ffffff7d;
 }
 
-.prototype {
+#prototype {
   color: white;
   background: rgb(89,51,75);
   background: linear-gradient(166deg, rgba(165,137,154,1) 20%,
@@ -138,6 +138,10 @@ nav:hover {
   padding: 3rem;
   width: 75%;
   margin: 3rem auto;
+}
+
+.survey-box h4 {
+  margin: 0;
 }
 
 .result {
@@ -289,7 +293,7 @@ span:hover {
 }
 
 /*info arch */
-.info-arch {
+#design-org {
   background: rgb(232, 223, 227);
   width: 100%;
   margin: auto;
@@ -305,31 +309,32 @@ span:hover {
 }
 
 /* sketch */
-.sketch {
+#sketching {
   width: 100%;
   margin: auto;
   background: rgb(89,51,75);
   color: white;
 }
 
-.sketch button {
+#sketching button {
   border-color: white;
   color: white;
+  margin-bottom: 1rem
 }
 
-.sketch button:hover {
+#sketching button:hover {
   background: black;
 }
 
 #version {
-  padding: 1rem 3rem;
+  padding: 1rem 3rem 3rem;
 }
 
 .shoe-iteration {
   padding: 2rem 0;
 }
 
-.sketch .more-full {
+#sketching .more-full {
   padding: 2rem 0;
 }
 .sketch-img .one-third {
@@ -342,12 +347,12 @@ span:hover {
 }
 
 /*branding*/
-.branding {
+#branding {
   width: 100%;
   margin: auto;
 }
 
-.branding .one-third {
+#branding .one-third {
   padding-left: 1rem;
   width: 100
 }
@@ -396,7 +401,7 @@ span:hover {
   display: inline-block;
   float: left;
   clear: none;
-  width: 100%;
+  width: 50%;
 }
 
 .button img {
@@ -416,7 +421,7 @@ span:hover {
 
 
 /*prototype*/
-.prototype {
+#prototype {
   width: 100%;
   margin: auto;
 }
@@ -435,25 +440,25 @@ span:hover {
   font-size: 16px;
 }
 
-.prototype h3 {
+#prototype h3 {
   color: white;
 }
 
-.prototype .user-test {
+#prototype .user-test {
   padding-bottom: 2rem;
 }
-.prototype .user-test li {
+#prototype .user-test li {
   display: list-item;
 }
 
-.prototype .user-test h4 {
+#prototype .user-test h4 {
   margin: 0;
 }
 .survey p {
   margin: 0;
 }
 
-.prototype li {
+#prototype li {
   display: block;
 }
 
@@ -461,8 +466,9 @@ span:hover {
   padding: 1rem 0;
 }
 
-
-
+.prototype-images {
+  padding: 0;
+}
 
 
 /* Media Queries */
@@ -675,7 +681,6 @@ span:hover {
   }
 
   .type, .button, .type img, .mock {
-    width: 100%;
     padding: 1rem 0;
   }
 
@@ -794,7 +799,7 @@ span:hover {
     display: none;
   }
 
-  .prototype h3 {
+  #prototype h3 {
     padding-top: 1.5rem;
   }
 

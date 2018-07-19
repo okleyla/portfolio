@@ -125,6 +125,10 @@ button:hover {
   width: 80%;
 }
 
+.navigation {
+  padding-bottom: 3rem;
+}
+
 /* images */
 .first, .second {
   width: 48%;

@@ -31,7 +31,8 @@ p {
 
 
 .first img, .second img {
-  box-shadow: 2px 0px 4px 0px #e6dfdf
+  box-shadow: 2px 0px 4px 0px #e6dfdf;
+  width: 100%;
 }
 
 #projects img:hover {
