@@ -43,11 +43,6 @@ p {
   background: #eaccf8;
 }
 
-.footer-container {
-  width: 93%;
-  margin: auto;
-}
-
 /*Media Queries*/
 @media screen and (max-width: 425px) {
   .home-hero, .contact-text {

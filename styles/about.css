@@ -1,11 +1,5 @@
 header.about-me {
-    background: none;
-}
-
-.intro {
-  padding-top: 5rem;
-  width: 95%;
-  margin: auto;
+    background: #eaccf8;
 }
 
 h3::after {
@@ -22,6 +16,19 @@ h4 {
   margin-top: 0;
 }
 
+.intro-me img {
+  border-style: solid;
+  border-color: white;
+  border-radius: 360px;
+}
+
+#only-width {
+  width: 65%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+
 .first, .second {
   width: 50%;
 }
@@ -30,7 +37,7 @@ h4 {
   position: ;
 }
 
-img {
+.one-third img {
   opacity: .2;
 }
 
@@ -38,7 +45,7 @@ img:hover {
   opacity: 1;
 }
 
-.capabilities {
+.caps {
   background: rgb(102,191,145);
   background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
 }
@@ -46,6 +53,11 @@ img:hover {
 .caps {
   margin: auto;
   display: block;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+    /* width: 87%; */
+    margin: auto;
 }
 
 .caps .first  {
@@ -73,6 +85,9 @@ img:hover {
 
 /*Media Queries*/
 @media screen and (max-width: 768px) {
+  #only-width, #container {
+    width: 90%;
+  }
   .about-text {
     width: 100%;
   }
@@ -84,6 +99,7 @@ img:hover {
   .moodboard h2 {
     width: 80%;
   }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -121,6 +137,9 @@ img:hover {
 }
 
 @media screen and (max-width: 425px) {
+  #only-width {
+    text-align: center;
+  }
   .about-me .hero {
     padding: 0;
   }

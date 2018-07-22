@@ -9,7 +9,6 @@ html {
 }
 
 header {
-  /*padding: 3rem 0 0;*/
   background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 40%, #EACCF8 49%, #6654F1 100%);
   width: 100%;
 }
@@ -20,7 +19,7 @@ header {
 }
 
 #container {
-  width: 95%;
+  width: 65%;
   margin: auto;
   padding: 5rem 0;
 }
@@ -118,11 +117,12 @@ button:hover {
 #contact {
   clear: both;
   width: 100%;
-  padding: 1rem 0;
+  padding: 3rem 0 .5rem;
 }
 
 .contact-text {
-  width: 80%;
+  width: 93%;
+  margin: 0 auto;
 }
 
 .navigation {
@@ -245,9 +245,14 @@ nav li a:hover {
 
 
 /* Footer */
+.footer-container {
+  width: 93%;
+  margin: auto;
+}
+
 .footer-info {
   width: 100%;
-  position: fixed;
+  position: ;
   bottom: 0;
   background: #fdfdfd;
 }
