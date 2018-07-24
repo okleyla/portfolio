@@ -5,25 +5,29 @@
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.case-study header:hover {
-  opacity: 1;
+  background-blend-mode: overlay;
+  background-color: #eaeaeacf;
 }
 
 nav {
   padding-bottom: ;
   background: ;
   width: 100%;
-
 }
 
-nav:hover {
-  background: ;
+h2 {
+  text-align: center;
 }
 
-.hero {
-  background: #ffffff7d;
+#shadow {
+  box-shadow: 2px 0px 4px 0px #e6dfdf
+}
+
+#rotate {
+  transform: rotate(90deg);
+  width: 50%;
+  margin: 0 5rem;
+  padding: 3rem;
 }
 
 #prototype {
@@ -53,6 +57,19 @@ nav:hover {
   margin: auto;
 }
 
+.part {
+  padding: 3rem 0;
+}
+
+.large-quote {
+  padding: 3rem 0;
+}
+
+.image-ref {
+  padding: 3rem 0;
+  text-align: center;
+}
+
 .introduction .two-thirds {
   padding-left: 0;
 }
@@ -67,16 +84,6 @@ nav:hover {
   font-size: 50px;
 }
 
-#shadow {
-  box-shadow: 2px 0px 4px 0px #e6dfdf
-}
-
-#rotate {
-  transform: rotate(90deg);
-  width: 50%;
-  margin: 0 5rem;
-  padding: 3rem;
-}
 
 
 .introduction li {
@@ -88,25 +95,24 @@ nav:hover {
 }
 
 /*process*/
-.process {
-  color: white;
-  background: rgb(89,51,75);
+.beginning h4 {
   text-align: center;
 }
 
-.process button {
-  border-color: white;
-  color: white;
+.first img, .second img {
+  width: 100%;
 }
 
-.process button:hover {
-  background: black;
+.process-list li {
+  display: list-item;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 
 /*competition*/
 #business-org {
-  background: rgba(163, 134, 152, 0.25);
+  background: ;
   width: 100%;
   margin: 0 auto;
 }
@@ -134,10 +140,9 @@ nav:hover {
   background: #F3F3F3;
   border-style: solid;
   border-width: 1px;
-  border-radius: 60px;
+  border-radius: 10px;
   padding: 3rem;
-  width: 75%;
-  margin: 3rem auto;
+  margin: 0;
 }
 
 .survey-box h4 {
@@ -145,15 +150,20 @@ nav:hover {
 }
 
 .result {
-  padding: 1rem;
+
 }
 
-.result .one-third, .survey-box h4 {
+.result .third, .survey-box h4 {
   text-align: center;
 }
 
 .result h2 {
   color: rgb(89,51,75);
+}
+
+.result p {
+  font-size: 16px;
+  margin: 0;
 }
 
 .result img {
@@ -218,13 +228,14 @@ nav:hover {
   font-weight: 700;
 }
 
+/*
 span {
   text-shadow: 1px 0px 3px rgba(89,51,75,1);
 }
 
 span:hover {
   text-shadow: none;
-}
+}*/
 
 
 /*challenges & solutions */
@@ -232,16 +243,9 @@ span:hover {
   width: 100%;
   margin: auto;
   color: white;
-  /*background: rgb(89,51,75);
-  background: linear-gradient(166deg, rgba(165,137,154,1) 20%,
-  rgba(89,51,75,1) 89%);
-  background-image: url(../images/rfs-shoe-bg.png);
-  background-size: cover;
-  background-position: center;
-  border-radius: 30px;*/
 }
 
-.environment #container {
+.chal-sol {
   background-image: url(../images/rfs-shoe-bg.png);
   background-size: cover;
   background-position: center;
@@ -250,13 +254,7 @@ span:hover {
 }
 
 .environment-results {
-  /*background-image: url(../images/rfs-shoe-bg.png);
-  background-size: cover;
-  background-position: center;
-  border-radius: 30px;
-  padding: 5rem;
-  width: 65%;
-  margin: auto;*/
+  text-align: center;
 }
 
 .environment h3 {
@@ -294,9 +292,14 @@ span:hover {
 
 /*info arch */
 #design-org {
-  background: rgb(232, 223, 227);
   width: 100%;
   margin: auto;
+}
+
+#design-org a {
+  text-decoration-line: underline;
+  text-decoration-color: #58334a;
+  text-decoration-style: double;
 }
 
 .mapping {
@@ -314,6 +317,13 @@ span:hover {
   margin: auto;
   background: rgb(89,51,75);
   color: white;
+}
+
+#sketching a {
+  color: white;
+  text-decoration-color: white;
+  text-decoration-style: double;
+  text-decoration-line: underline;
 }
 
 #sketching button {
@@ -336,14 +346,6 @@ span:hover {
 
 #sketching .more-full {
   padding: 2rem 0;
-}
-.sketch-img .one-third {
-  float: left;
-  padding-left: 0;
-}
-.sketch-img .two-thirds {
-  float: right;
-  padding-left: 0;
 }
 
 /*branding*/
@@ -557,11 +559,7 @@ span:hover {
   .transformation {
     width: 100%;
     margin: auto;
-    padding: 3rem 3rem 0 3rem;
-  }
-
-  .transformation .first, .transformation .second {
-    width: 45%;
+    padding: 3rem 0;
   }
 
 }
@@ -570,6 +568,10 @@ span:hover {
 @media screen and (max-width: 768px) {
   .case-study header {
     background-size: 200%;
+  }
+
+  #container {
+   width: 90%;
   }
 
   p {
@@ -758,10 +760,6 @@ span:hover {
 
   .user-research li span {
     font-size: 25px;
-  }
-
-  .first {
-    margin-bottom: 1rem;
   }
 
   .first, .second, .two-thirds, .one-third {

@@ -68,6 +68,34 @@ img:hover {
   padding-left: .5rem;
 }
 
+.examples li {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-weight: 300;
+  background-position: center;
+  padding: 2rem;
+  text-shadow: 2px 0 7px black;
+  color: white;
+  background-blend-mode: overlay;
+  background-color: #1f1f1f33;
+}
+
+#one {
+  background-image: url(../images/groupphoto.png);
+}
+
+#two {
+  background-image: url(../images/wahoo.png);
+}
+
+#three {
+  background-image: url(../images/keynote.png);
+}
+
+#four {
+  background-image: url(../images/zebras.png);
+}
+
 .moodboard {
   padding: 5rem 0;
 }
