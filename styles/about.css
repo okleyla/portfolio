@@ -67,6 +67,9 @@ img:hover {
 .caps .second {
   padding-left: .5rem;
 }
+ul.examples {
+  padding: 0;
+}
 
 .examples li {
   background-repeat: no-repeat;

@@ -126,7 +126,8 @@ h2 {
 }
 
 .inspo img {
-  padding-bottom: 1rem;
+  padding-bottom: 0;
+  margin: .1rem;
   width: 48.5%;
 }
 
@@ -474,6 +475,110 @@ span:hover {
 
 
 /* Media Queries */
+@media screen and (max-width: 452px) {
+  .third {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+
+  .two-thirds {
+    padding: 0;
+  }
+
+  .user-research {
+    margin: auto;
+  }
+
+  .user-research ul {
+    padding: 10px;
+  }
+
+  .user-research li {
+    display: block;
+    font-size: 20px;
+  }
+
+  .environment #container {
+    padding: 2rem;
+  }
+
+  .user-research li span {
+    font-size: 25px;
+    width: 15%;
+  }
+
+  .environment p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .environment .first ul, .user-research .second ul {
+    padding: 0;
+  }
+
+  .environment .first li, .user-research .second li {
+    padding: 0;
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  .environment .second {
+    padding-bottom: 0;
+  }
+
+  .user-research li span {
+    font-size: 25px;
+  }
+
+  .first, .second, .two-thirds, .one-third {
+    width: 100%;
+    float: left;
+  }
+
+  .full {
+    padding: 2rem 0;
+  }
+
+  .colors .third {
+    width: 45%;
+    display: inline-block;
+    float: left;
+  }
+
+  .third, .survey .third {
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding: .5rem 0;
+  }
+
+  .survey .third {
+    padding: 1rem;
+  }
+
+  .info-arch-container {
+    padding-bottom: 0;
+  }
+
+  .mapping img{
+    display: none;
+  }
+
+  #prototype h3 {
+    padding-top: 1.5rem;
+  }
+
+  .prototype-images {
+    padding: 0;
+  }
+
+  .navigation .case-studies .second, .navigation .case-studies .first {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 549px) {
   .transformation h2 {
     display: block;
@@ -499,49 +604,6 @@ span:hover {
   }
 
 }
-
-@media screen and (max-width: 983px) and (min-width: 550px) {
-  #float-left {
-    float:left;
-    width: 50%;
-  }
-
-  #float-right {
-    float: right;
-    width: 50%;
-  }
-
-  .transformation h2 {
-    padding: 5rem 0;
-  }
-
-  .first, .second {
-    width: 45%;
-  }
-}
-
-@media screen and (max-width: 1439px) and (min-width:984px){
-  .transformation h2 {
-    padding: 11rem 1rem;
-  }
-}
-
-@media screen and (min-width:2200px) {
-  #float-left {
-    float:left;
-    width: 50%;
-  }
-
-  #float-right {
-    float: right;
-    width: 50%;
-  }
-
-  .transformation h2 {
-    padding: 15rem 4rem;
-  }
-}
-
 
 @media screen and (min-width: 768px) {
   .inspo {
@@ -710,102 +772,44 @@ span:hover {
 
 }
 
-@media screen and (max-width: 452px) {
-  .third {
-    width: 100%;
-    float: none;
-    clear: both;
+@media screen and (max-width: 983px) and (min-width: 550px) {
+  #float-left {
+    float:left;
+    width: 50%;
   }
 
-  .two-thirds {
-    padding: 0;
+  #float-right {
+    float: right;
+    width: 50%;
   }
 
-  .user-research {
-    margin: auto;
+  .transformation h2 {
+    padding: 5rem 0;
   }
 
-  .user-research ul {
-    padding: 10px;
-  }
-
-  .user-research li {
-    display: block;
-    font-size: 20px;
-  }
-
-  .environment #container {
-    padding: 2rem;
-  }
-
-  .user-research li span {
-    font-size: 25px;
-    width: 15%;
-  }
-
-  .environment p {
-    font-size: 16px;
-    line-height: 20px;
-  }
-
-  .environment .first ul, .user-research .second ul {
-    padding: 0;
-  }
-
-  .environment .first li, .user-research .second li {
-    padding: 0;
-    line-height: 25px;
-    font-size: 16px;
-  }
-
-  .user-research li span {
-    font-size: 25px;
-  }
-
-  .first, .second, .two-thirds, .one-third {
-    width: 100%;
-    float: left;
-  }
-
-  .full {
-    padding: 2rem 0;
-  }
-
-  .colors .third {
+  .first, .second {
     width: 45%;
-    display: inline-block;
-    float: left;
+  }
+}
+
+@media screen and (max-width: 1439px) and (min-width:984px){
+  .transformation h2 {
+    padding: 11rem 1rem;
+  }
+}
+
+@media screen and (min-width:2200px) {
+  #float-left {
+    float:left;
+    width: 50%;
   }
 
-  .third, .survey .third {
-    width: 100%;
-    display: block;
-    float: none;
-    margin: 0 auto;
-    padding: .5rem 0;
+  #float-right {
+    float: right;
+    width: 50%;
   }
 
-  .survey .third {
-    padding: 1rem;
-  }
-
-  .info-arch-container {
-    padding-bottom: 0;
-  }
-
-  .mapping img{
-    display: none;
-  }
-
-  #prototype h3 {
-    padding-top: 1.5rem;
-  }
-
-  .prototype-images {
-    padding: 0;
-  }
-
-  .navigation .case-studies .second, .navigation .case-studies .first {
-    width: 100%;
+  .transformation h2 {
+    padding: 15rem 4rem;
   }
 }

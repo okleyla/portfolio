@@ -100,7 +100,7 @@ button {
   background: none;
   padding: 10px;
   border-style: solid;
-  border-radius: 15px;
+  border-radius: 30px;
   font-size: 16px;
   border-width: 1px;
   border-color: #333333;
@@ -304,6 +304,48 @@ nav li a:hover {
 
 
 /* MEDIA Queries */
+@media screen and (max-width: 310px) {
+  .buttons button {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #container {
+    width: 90%;
+  }
+
+  h1 {
+  font-size: 42px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .logo {
+    padding: 0;
+  }
+
+  .hero {
+    padding: 0;
+    margin: auto;
+  }
+
+  .first, .second {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    padding-bottom: 3rem;
+  }
+}
+
+
+
 
 @media screen and (max-width: 600px) {
   .nav-bar a {
@@ -392,40 +434,5 @@ nav li a:hover {
 @media screen and (min-width: 600px) {
   nav li {
     display: inline-block;
-  }
-
-@media screen and (max-width: 425px) {
-  h1 {
-    margin-top: 0;
-    font-size: 70px;
-    line-height: 47px;
-  }
-
-  p {
-    font-size: 16px;
-    line-height: 25px;
-  }
-
-  .logo {
-    padding: 0;
-  }
-
-  .hero {
-    padding: 0;
-    margin: auto;
-  }
-
-  .first, .second {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    float: left;
-    padding-bottom: 3rem;
-  }
-}
-
-@media screen and (max-width: 310px) {
-  .buttons button {
-    margin-bottom: 5px;
   }
 }
