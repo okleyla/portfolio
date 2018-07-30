@@ -21,7 +21,6 @@ header {
 #container {
   width: 56%;
   margin: auto;
-  padding: 5rem 0;
 }
 
 
@@ -37,41 +36,45 @@ body {
 h1 {
   font-family: 'circular std', sans-serif;
   min-height: 100%;
-  font-size: 40px;
-  line-height: 45px;
+  font-size: 64px;
+  line-height: 81px;
   margin: 0;
+  font-weight: bold;
 }
 
 h2 {
   font-family: "circular std", sans-serif;
   font-weight: 300;
-  font-size: 35px;
-  line-height: 40px;
-  letter-spacing: .5px;
+  font-size: 48px;
+  line-height: 61px;
+  letter-spacing: 1.55px;
   min-height: 100%;
   margin: 0;
 }
 
 h3 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
-  line-height: 40px;
+  font-family: "circular std", sans-serif;
+  font-size: 36px;
+  line-height: 46px;
   min-height: 100%;
   font-weight: normal;
-  text-transform: uppercase;
+  font-style: italic;
   margin: 0;
 }
 
 h4 {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 34px;
+  font-family: "circular std", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
   margin-bottom: 0;
 }
 
 p {
+  font-family: "quicksand";
   font-size: 20px;
-  line-height: 30px;
+  line-height: 27px;
+  font-weight: 400;
 }
 
 a {
@@ -93,6 +96,14 @@ a:hover {
 
 #spacing-fix {
   padding-top: 1rem;
+}
+
+#caption {
+  font-family: "circular std", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  color: #8D8D8D;
+  font-weight: 400;
 }
 
 /*other universal features*/

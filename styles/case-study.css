@@ -2,19 +2,15 @@ header {
   padding-bottom: 0;
 }
 
-#container {
-  width: 45%;
-}
-
-.case-hero {
-  width: 80%;
-  margin: auto;
-}
 
 .hero-text {
   padding: 5rem 0;
   width: 65%;
   margin: 0 auto;
+}
+
+h3 {
+  color: #59334B;
 }
 
 

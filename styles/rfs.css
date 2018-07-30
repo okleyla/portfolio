@@ -1,18 +1,36 @@
 .case-study header {
-  height: ;
-  background-image: url(../images/rfs-header.png);
+  background: #FdFdFd;
+
+  /*background-image: url(../images/rfs-header.png);
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-blend-mode: overlay;
-  background-color: #eaeaeacf;
+  background-blend-mode: overlay;*/
+}
+
+.header {
+  width: 80%;
+  padding: 5rem 0;
+  margin: 0 auto;
+}
+
+.header .one-third {
+  float: left;
+}
+
+.header .two-thirds {
+  float: right;
 }
 
 nav {
   padding-bottom: ;
   background: ;
   width: 100%;
+}
+
+.main-content li {
+  display: block;
 }
 
 h2 {
@@ -30,6 +48,21 @@ h2 {
   padding: 3rem;
 }
 
+#quote {
+  font-family: "circular std", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 61px;
+}
+
+#bold {
+  font-weight: 700;
+}
+
+.image-in-bg {
+  padding: 3rem;
+}
+
 #prototype {
   color: white;
   background: rgb(89,51,75);
@@ -37,22 +70,12 @@ h2 {
   rgba(89,51,75,1) 89%)
 }
 
-.case-hero {
-  width: 65%;
-  margin: auto;
-  color: #eaeaea;
-  padding: 5rem 0;
-}
-
-.nav-bar a {
-  /*color: white;*/
+.first img, .second img {
+  width: 100%;
 }
 
 /* intro */
-.intro {
-  text-align: center;
-}
-.introduction, .intro {
+.main-content {
   width: 100%;
   margin: auto;
 }
@@ -61,62 +84,50 @@ h2 {
   padding: 3rem 0;
 }
 
-.large-quote {
-  padding: 3rem 0;
-}
-
-.image-ref {
-  padding: 3rem 0;
+.research #quote {
+  background-image: url(../images/rfs/data-mining.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-color: #eeeeeeba;
   text-align: center;
 }
 
-.introduction .two-thirds {
-  padding-left: 0;
-}
 
-.introduction .one-third {
-  padding: 0;
-}
-
-.transformation h2 {
-  display: inline-block;
-  padding: 15rem .5rem;
-  font-size: 50px;
-}
-
-
-
-.introduction li {
-  display: block;
-}
-
-.goal li {
-  display: list-item;
-}
 
 /*process*/
-.beginning h4 {
+.list-item li {
+  display: list-item;
+  font-size: 20px;
+  padding-left: 1rem;
+}
+
+/* User Personas */
+.persona img {
+  width: 65%;
+}
+
+.persona .first {
   text-align: center;
 }
 
-.first img, .second img {
-  width: 100%;
+.persona {
+  padding: 1rem;
+  background: rgba(89,51,75,1);
+  width: 80%;
+  color: white;
+  margin: 1rem auto;
+  border-radius: 10px;
 }
 
-.process-list li {
-  display: list-item;
-  font-size: 20px;
-  line-height: 30px;
+.persona h3 {
+  color: white;
 }
 
 
 /*competition*/
-#business-org {
-  background: ;
-  width: 100%;
-  margin: 0 auto;
-}
-
 .inspo {
   padding-left: 0;
 }
@@ -292,6 +303,17 @@ span:hover {
 }
 
 /*info arch */
+#info-arch{
+  background-image: url(../images/rfs/rfs-site-flow.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-color: #eeeeee;
+}
+
+
 #design-org {
   width: 100%;
   margin: auto;
@@ -303,37 +325,30 @@ span:hover {
   text-decoration-style: double;
 }
 
-.mapping {
-  padding-bottom: 3rem;
-}
 
-.mapping .one-third {
-  padding: 0 2rem 0 0;
-  float: left;
-}
 
 /* sketch */
-#sketching {
+.sketching {
   width: 100%;
   margin: auto;
   background: rgb(89,51,75);
   color: white;
 }
 
-#sketching a {
+.sketching a {
   color: white;
   text-decoration-color: white;
   text-decoration-style: double;
   text-decoration-line: underline;
 }
 
-#sketching button {
+.sketching button {
   border-color: white;
   color: white;
   margin-bottom: 1rem
 }
 
-#sketching button:hover {
+.sketching button:hover {
   background: black;
 }
 
@@ -345,7 +360,7 @@ span:hover {
   padding: 2rem 0;
 }
 
-#sketching .more-full {
+.sketching .more-full {
   padding: 2rem 0;
 }
 
@@ -595,12 +610,22 @@ span:hover {
     width: 300px;
     height: 157.5px;
   }
+
+  #quote {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
 
 @media screen and (max-width:639px) and (min-width: 550px) {
   video {
     width: 549px;
     height: 288.225px;
+  }
+
+  #quote {
+    font-size: 30px;
+    line-height: 35px;
   }
 
 }
@@ -614,16 +639,9 @@ span:hover {
     padding: 1.5rem;
     margin: 0 3rem;
   }
-  .introduction .two-thirds {
+  .main-content .two-thirds {
     padding-right: 3rem;
   }
-
-  .transformation {
-    width: 100%;
-    margin: auto;
-    padding: 3rem 0;
-  }
-
 }
 
 

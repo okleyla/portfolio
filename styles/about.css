@@ -2,6 +2,14 @@ header.about-me {
     background: #eaccf8;
 }
 
+.intro, .about {
+  padding: 3rem 0;
+}
+
+h3 {
+  color: black;
+}
+
 h3::after {
   content: "";
   display: block;
