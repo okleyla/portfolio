@@ -10,10 +10,14 @@
 }
 
 .header {
-  width: 80%;
   padding: 5rem 0;
   margin: 0 auto;
   text-align: center;
+}
+
+.header h1 {
+  text-shadow: -8px 5px #c1adb9;
+  color: #502b3e;
 }
 
 .header .one-third {
@@ -64,13 +68,6 @@ h2 {
   padding: 3rem;
 }
 
-#prototype {
-  color: white;
-  background: rgb(89,51,75);
-  background: linear-gradient(166deg, rgba(165,137,154,1) 20%,
-  rgba(89,51,75,1) 89%)
-}
-
 .first img, .second img {
   width: 100%;
 }
@@ -106,25 +103,8 @@ h2 {
 }
 
 /* User Personas */
-.persona img {
-  width: 65%;
-}
-
-.persona .first {
-  text-align: center;
-}
-
 .persona {
-  padding: 1rem;
-  background: rgba(89,51,75,1);
-  width: 80%;
-  color: white;
-  margin: 1rem auto;
-  border-radius: 10px;
-}
 
-.persona h3 {
-  color: white;
 }
 
 
@@ -241,56 +221,6 @@ h2 {
   font-weight: 700;
 }
 
-/*
-span {
-  text-shadow: 1px 0px 3px rgba(89,51,75,1);
-}
-
-span:hover {
-  text-shadow: none;
-}*/
-
-
-/*challenges & solutions */
-.environment {
-  width: 100%;
-  margin: auto;
-  color: white;
-}
-
-.chal-sol {
-  background-image: url(../images/rfs-shoe-bg.png);
-  background-size: cover;
-  background-position: center;
-  border-radius: 50px;
-  padding: 5rem;
-}
-
-.environment-results {
-  text-align: center;
-}
-
-.environment h3 {
-  color: white;
-  text-align: center;
-  padding-bottom: .5rem;
-}
-
-.environment p {
-  margin: 0;
-}
-
-.environment ul.survey {
-  width: 100%;
-  padding: 0;
-  padding-left: 1.5rem;
-  margin: 0;
-}
-
-.environment .survey li {
-  display: block;
-}
-
 
 /* users*/
 .users {
@@ -332,10 +262,10 @@ span:hover {
 .sketching {
   width: 100%;
   margin: auto;
-  background: rgb(89,51,75);
-  color: white;
+/*  background: rgb(89,51,75);
+  color: white;*/
 }
-
+/*
 .sketching a {
   color: white;
   text-decoration-color: white;
@@ -351,10 +281,26 @@ span:hover {
 
 .sketching button:hover {
   background: black;
-}
+}*/
 
 #version {
   padding: 1rem 3rem 3rem;
+}
+
+#win {
+  border-style: solid;
+  border-width: 4px;
+  border-color: #a5899a;
+}
+
+.faq {
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.faq .first img, .faq .second img {
+  width: 50%;
 }
 
 .shoe-iteration {
@@ -380,6 +326,39 @@ span:hover {
   padding-bottom: 3rem;
 }
 
+.h1 {
+  font-family: "Bodoni 72 Oldstyle";
+  font-weight: 700;
+  font-size: 48px;
+}
+.h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+}
+.h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
 .final-logos {
   display: block;
   margin: auto;
@@ -387,6 +366,27 @@ span:hover {
 
 .final-logos img.second {
   width: 35%;
+}
+
+.style-guide {
+  background: rgba(165,137,154,1);
+  padding: 3rem;
+}
+
+.style-guide h3 {
+  color: white;
+}
+
+.images img.third {
+  width: 20%;
+}
+
+.images img.first, .images img.second {
+  width: 48%;
+}
+
+ul.images, ul.type {
+  padding: 0;
 }
 
 .colors ul {
@@ -423,10 +423,6 @@ span:hover {
   width: 50%;
 }
 
-.button img {
-  width: 65%;
-}
-
 .mock {
   clear: both;
   margin: 0;
@@ -459,8 +455,34 @@ span:hover {
   font-size: 16px;
 }
 
-#prototype h3 {
-  color: white;
+.user-feedback {/*
+  background-image: url(../images/rfs-green-mezlan.png);
+  background-size: 30%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;*/
+}
+
+.transcript {
+  border-width: 0 0 0 3px;
+  border-color: #a5899a;
+  border-style: solid;
+  padding-left: 2rem;
+  width: 90%;
+  float: right;
+}
+
+#transcript {
+  font-family: "circular std";
+  font-weight: 100;
+  font-size: 14px;
+}
+
+ul.launch {
+  width: 80%;
+  padding: 3rem;
+  background-color: grey;
+  margin: auto;
 }
 
 #prototype .user-test {
