@@ -16,7 +16,7 @@
 }
 
 .header h1 {
-  text-shadow: -8px 5px #c1adb9;
+  text-shadow: -6px 5px #e0c8d7;
   color: #502b3e;
 }
 
@@ -282,6 +282,17 @@ h2 {
 .sketching button:hover {
   background: black;
 }*/
+.home {
+  padding: 3rem;
+  width: 80%;
+  margin: auto;
+  color: #e0c8d7;
+  background: #59334b;
+}
+
+.home #caption {
+  color: #d4d3d3;
+}
 
 #version {
   padding: 1rem 3rem 3rem;
@@ -290,13 +301,19 @@ h2 {
 #win {
   border-style: solid;
   border-width: 4px;
-  border-color: #a5899a;
+  border-color: #e0c8d7;
+  border-radius: 80px;
 }
 
 .faq {
   width: 80%;
   margin: auto;
-  padding: 2rem 0;
+  background-color: #e0c8d7;
+  padding: 3rem;
+}
+
+.faq #caption {
+  color: #3a3939;
 }
 
 .faq .first img, .faq .second img {
@@ -369,12 +386,8 @@ h2 {
 }
 
 .style-guide {
-  background: rgba(165,137,154,1);
+  background: #e0c8d7;
   padding: 3rem;
-}
-
-.style-guide h3 {
-  color: white;
 }
 
 .images img.third {
@@ -465,7 +478,7 @@ ul.images, ul.type {
 
 .transcript {
   border-width: 0 0 0 3px;
-  border-color: #a5899a;
+  border-color: #e0c8d7;
   border-style: solid;
   padding-left: 2rem;
   width: 90%;
@@ -475,14 +488,19 @@ ul.images, ul.type {
 #transcript {
   font-family: "circular std";
   font-weight: 100;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 ul.launch {
   width: 80%;
   padding: 3rem;
-  background-color: grey;
+  background: rgb(165,137,154);
+  background: radial-gradient(circle, rgba(165,137,154,1) 0%, rgba(89,51,75,1) 100%);
   margin: auto;
+}
+
+.launch img.third {
+  padding: 1rem;
 }
 
 #prototype .user-test {

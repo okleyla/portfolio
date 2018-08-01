@@ -11,6 +11,7 @@
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
    <script src="javascript/script.js"></script>
    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500|Rozha+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Domine:400,700" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Lora|Nunito" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
    <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -37,7 +38,7 @@
                   <div class="clearfix"></div>
                   <li><a href="index.html">portfolio</a></li>
                   <li><a href="about.html">about</a></li>
-                  <li><a href="contact.html">contact</a></li>
+                  <li><a data scroll href="#contact">contact</a></li>
                   </a>
               </ul>
           </nav>
@@ -49,7 +50,7 @@
                             been hand-painted into vibrant colors and patterns<p>
                           <p id="caption">branding   |   strategy   |   UX & UI</p>
                           <p>
-                          <a href="https://projects.invisionapp.com/share/E5E270F8X#/screens"><button class="case-study-button">view prototype</button></a>
+                          <a data scroll href="#prototype"><button class="case-study-button">view prototype</button></a>
                       </div>
                       <div>
                           <img src="images/rfs-header.png" style="width:100%;">
@@ -145,11 +146,13 @@
                       <div class="part" id="container">
                           <h4>Finding a replacement word</h4>
                           <p>We tested a replacement for refurbished and wanted to know what it was
-                            about the word the threw people off. We got <span class="bold">133
+                            about the word the threw people off. We got <span id="bold">133
                               responses</span> and learned that:</p>
-                          <p>
-                          <h3 id="spacing-fix">54.3% of surveyors might buy “hand-painted” shoes,
-                            <br>while 25.4% definitely would buy them.</h3>
+                          <p id="spacing-fix">
+                          <h3 style="text-align:center;">"Hand-painted" works</h3>
+                          <p id="spacing-fix">
+                          <p>54.3% of surveyors might buy “hand-painted” shoes,
+                            while 25.4% definitely would buy them.</p3>
                       </div>
                   </div>
                   <div class="users" id="container">
@@ -177,9 +180,9 @@
                             Patina, J. Fitzpatrick Shoes,Septieme Largeur, Barker Shoes,
                             Crocket & Jones, Dandy Shoe Care</p>
                           <ul class="list-item">
-                              <li><p>Price point: $300-$1,000</li>
-                              <li><p>Design aesthetic: craftsmanship, old school feel</li>
-                              <li><p>How they market: mainly social media</li>
+                              <li>Price point: $300-$1,000</li>
+                              <li>Design aesthetic: craftsmanship, old school feel</li>
+                              <li>How they market: mainly social media</li>
                           </ul>
                           <ul class="inspo" id="spacing-fix" style="margin-bottom:0;">
                               <div class="first">
@@ -194,13 +197,16 @@
                           </ul>
                       </div>
                       <div class="part">
-                          <p style="margin-top:0;">We wanted to differentiate RFS from them, so looking
+                          <h4>Standing out</h4>
+                          <p>We wanted to differentiate RFS from them, so looking
                             at the user research and landscape, we decided on the following:
                           <ul class="list-item">
-                              <li>Lower price point: $75-$250, at least until his skills and reputation improved to another level</li>
+                              <li>Lower price point: $75-$250</li>
                               <li>Marketing: word of mouth, Google ads, and maybe social media</li>
                               <li>Message to customers: Great craftsmanship.</li>
                           </ul>
+                      </div>
+                      <div class="part">
                           <h4>A quick lesson learned</h4>
                           <p>The designer behind RFS often used the metaphor of the phoenix,
                            "rebirthed from the fire of the bargain bin who finds himself
@@ -213,7 +219,7 @@
                   </div>
               <div class="information-architecture">
                   <div class="part" id="container">
-                      <h2>translating to web</h2>
+                      <h2>Translating to web</h2>
                       <p>Taking what we learned from the surveys and what is needed
                         for a typical e-commerce site, we knew we had to incorporate
                         these into the website:
@@ -252,47 +258,50 @@
                       <a href="https://bloc.mybalsamiq.com/projects/gulbaharokuyan/prototype/refated-HPv2?key=3a5a2fd80b3260daa462236f6967b65d4db73d88">
                         <button>lo-fi prototype</button></a>
                   </div>
-                  <div class="part" id="container">
-                        <h3>Homepage</h3>
-                        <p>I sketched out 4 different versions of the homepage,
-                          all focusing on the product. With Darcy, we picked and
-                        chose which parts we liked best and created the lo-fi versions.
-                        We went with version 2 of the lo-fi sketches.</p>
-                        <div class="first">
-                            <h4 style="text-align:center;">Sketches</h4>
-                            <div class="first">
-                                <p id="caption" style="text-align:center;">version 1</p>
-                                <img src="images/rfs/rfs-home1.png">
-                            </div>
-                            <div class="second">
-                                <p id="caption" style="text-align:center;">version 2</p>
-                                <img src="images/rfs/rfs-home2.png" class="second">
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="first">
-                                <p id="caption" style="text-align:center;">version 3</p>
-                                <img src="images/rfs/rfs-home3.png">
-                            </div>
-                            <div class="second">
-                                <p id="caption" style="text-align:center;">version 4</p>
-                                <img src="images/rfs/rfs-home4.png" class="second">
-                            </div>
-                            <div class="clearfix"></div>
+                  <div class="part">
+                        <div id="container">
+                            <h3>Homepage</h3>
+                            <p>I sketched out 4 different versions of the homepage,
+                              all focusing on the product. With Darcy, we picked and
+                            chose which parts we liked best and created the lo-fi versions.
+                            We went with version 2 of the lo-fi sketches.</p>
                         </div>
-                        <p>
-                        <div class="second">
-                            <h4 style="text-align:center;">Lo-fi</h4>
+                        <div class="home">
                             <div class="first">
-                                <p id="caption" style="text-align: center;">version 1</p>
-                                <img src="images/rfs-lofi-HPv1.png">
-                            </div>
-                            <div class="second">
-                                <p id="caption" style="text-align: center;">version 2</p>
-                                <img src="images/rfs-lofi-HPv2.png" id="win">
+                                <h4 style="text-align:center;">Sketches</h4>
+                                <div class="first">
+                                    <p id="caption" style="text-align:center;">version 1</p>
+                                    <img src="images/rfs/rfs-home1.png">
+                                </div>
+                                <div class="second">
+                                    <p id="caption" style="text-align:center;">version 2</p>
+                                    <img src="images/rfs/rfs-home2.png" class="second">
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="first">
+                                    <p id="caption" style="text-align:center;">version 3</p>
+                                    <img src="images/rfs/rfs-home3.png">
+                                </div>
+                                <div class="second">
+                                    <p id="caption" style="text-align:center;">version 4</p>
+                                    <img src="images/rfs/rfs-home4.png" class="second">
+                                </div>
                                 <div class="clearfix"></div>
                             </div>
+                            <div class="second">
+                                <h4 style="text-align:center;">Lo-fi</h4>
+                                <div class="first">
+                                    <p id="caption" style="text-align: center;">version 1</p>
+                                    <img src="images/rfs-lofi-HPv1.png">
+                                </div>
+                                <div class="second" id="win">
+                                    <p id="caption" style="text-align: center;">version 2</p>
+                                    <img src="images/rfs-lofi-HPv2.png">
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
                         </div>
-                        <div class="clearfix"></div>
                   </div>
                   <div class="part">
                         <div id="container">
@@ -301,29 +310,31 @@
                               flow starting from the pencil sketch. It shows the almost
                               final iteration from each drawing.</p>
                         </div>
-                        <div class="faq">
-                            <div class="first">
-                                <p class="first" id="caption">Here you'll see the navigation to the left, with
+                        <div class="faq" id="shadow">
+                            <div class="third">
+                                <h4 style="text-align:center;">version 1</h4>
+                                <img src="images/rfs/rfs-sketch-faq.png" class="full">
+                                <p id="caption">Here you'll see the navigation to the left, with
                                   drop-down menus. We decided to place the navigation at
                                   top for consistency and to leave the FAQ content open
                                   so it was easily searchable.</p>
-                                <img src="images/rfs/rfs-sketch-faq.png" class="full">
                             </div>
-                            <div class="second">
-                                <p class="first" id="caption">This was taken into the next version. Surveyors
+                            <div class="third">
+                                <h4 style="text-align:center;">version 2</h4>
+                                <img src="images/rfs/rfs-lofi-faq.png" class="full">
+                                <p id="caption">This was taken into the next version. Surveyors
                                   had asked that the FAQ section include the actual questions
                                   people may ask, rather than just the information, as it
                                   is presented here.</p>
-                                <img src="images/rfs/rfs-lofi-faq.png" class="second">
+                            </div>
+                            <div class="third">
+                                <h4 style="text-align:center;">version 3</h4>
+                                <img src="images/rfs/rfs-faq.png" class="full">
+                                <p id="caption">Here is the most final iteration. We made sure that
+                                  the top navigation was similar to the main navigation
+                                  for consistency. And made sure to include the questions.</p>
                                 <div class="clearfix"></div>
                             </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div id="container">
-                            <p class="two-thirds "id="caption">Here is the most final iteration. We made sure that
-                              the top navigation was similar to the main navigation
-                              for consistency. And made sure to include the questions.</p>
-                            <img src="images/rfs/rfs-faq.png" class="one-third">
                             <div class="clearfix"></div>
                         </div>
                   </div>
@@ -351,7 +362,7 @@
               </div>
               <div class="branding">
                   <div class="part" id="container">
-                      <h2>branding</h2>
+                      <h2>Branding</h2>
                       <p>
                       <h3>Logo Formation</h3>
                       <p>I went through very different variations of logos to
@@ -401,6 +412,7 @@
                       <div class="style-guide" id="shadow">
                           <h3>Style guide</h3>
                           <div class="first">
+                              <p>
                               <h4>Typography</h4>
                               <ul class="type">
                                   <li><p><span class="h1">Header 1</span></li>
@@ -412,6 +424,7 @@
                               <div class="clearfix"></div>
                           </div>
                           <div class="second">
+                              <p>
                               <h4>Colors</h4>
                               <ul class="images">
                                   <li><img src="images/rfs/001.png" class="third"></li>
@@ -422,6 +435,7 @@
                               </ul>
                           </div>
                           <div class="second">
+                              <p>
                               <h4>Buttons</h4>
                               <p>
                               <div class="images">
@@ -431,6 +445,7 @@
                               </div>
                           </div>
                           <div class="second">
+                              <p>
                               <h4>Mockup</h4>
                               <p>
                               <img src="images/mockup.png" class="full">
@@ -441,7 +456,7 @@
               </div>
           <div id="prototype">
               <div class="part" id="container">
-                  <h2>prototype</h2>
+                  <h2>Prototype</h2>
                   <p></p>
                   <video width="640" height="336" controls>
                       <source src="videos/rfs-video.mp4" type="video/mp4">
@@ -494,7 +509,7 @@
                                   <br>Highlight unique process of shoes. Show that it’s not your average everyday retail site.</p>
                           </div>
                           <div class="clearfix"></div>
-                          <h4 id="spacing-fix">Photos</h4>
+                          <p><h4 id="spacing-fix">Photos</h4>
                           <p>We had to upgrade the quality of photos we had.
                           <h4>Background section</h4>
                           <p>We had to include a section that described the process. The before and after shoes, that were mentioned during the lo- and hi-fi tests, would be a great solution for the next round of shoes.
@@ -513,13 +528,14 @@
                   <ul class="launch">
                       <li><img src="images/homepage.png" class="third"></li>
                       <li><img src="images/about-refated.png" class="third"></li>
-                      <li><img src="images/rfs-cart.png" class="third"></li>
-                      <li><img src="images/FAQ.png" class="third"></li>
                       <li><img src="images/rfs-detail.png" class="third"></li>
+                      <div class="clearfix"></div>
+                      <li><img src="images/FAQ.png" class="third"></li>
                       <li><img src="images/contact-page.png" class="third"></li>
+                      <li><img src="images/rfs/account-page.png" class="third"></li>
+                      <li><img src="images/rfs-cart.png" class="third"></li>
                       <li><img src="images/payment.png" class="third"></li>
                       <li><img src="images/rfs-confirmation.png" class="third"></li>
-                      <li><img src="images/rfs/account-page.png" class="third"></li>
                       <div class="clearfix"></div>
                   </ul>
               </div>
@@ -534,11 +550,11 @@
               </div>
           </section>
           <section class="navigation">
-              <div class="arrows">
+              <div class="part" style="width:80%; margin:auto;">
                   <!--<a href="index.html"><img src="images/previous.png" class="left"></a>
                   <a href="coop.html"><img src="images/next.png" class="right"></a>-->
-                  <a href="index.html" class="left"><h2>&larr; home</h2></a>
-                  <a href="coop.html" class="right"><h2>next &rarr;</h2></a>
+                  <a href="index.html" class="left"><p id="caption">&larr; home</p></a>
+                  <a href="coop.html" class="right"><p id="caption">next &rarr;</p></a>
                   <div class="clearfix"></div>
               </div>
 
