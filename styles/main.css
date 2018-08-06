@@ -4,6 +4,8 @@
      box-sizing: border-box;
  }
 
+
+
 html {
   font-size: 100%;
 }
@@ -39,7 +41,7 @@ h1 {
   font-family: 'circular std', sans-serif;
   min-height: 100%;
   font-size: 64px;
-  line-height: 89.6px;
+  line-height: 72.6px;
   margin: 0;
   font-weight: 500;
 }
@@ -135,8 +137,7 @@ button:hover {
 }
 
 .contact-text {
-  width: 93%;
-  margin: 0 auto;
+  float: left;
 }
 
 .navigation {
@@ -330,6 +331,14 @@ nav li a:hover {
     width: 90%;
   }
 
+  #no-mobile {
+    display: none;
+  }
+
+  .navigation {
+    padding: 0;
+  }
+
   h1 {
   font-size: 42px;
   line-height: 40px;
@@ -424,6 +433,9 @@ nav li a:hover {
     padding: 3rem 0;
   }
 
+  .contact-text {
+    float: none;
+  }
   /*footer*/
   .footer-info {
     padding: 0;

@@ -16,7 +16,7 @@ h3::after {
   height: 8px;
   width: 100%;
   background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
-  margin-top: -15px;
+  margin-top: -19px;
   margin-left: 2px;
 }
 
@@ -28,6 +28,11 @@ h4 {
   border-style: solid;
   border-color: white;
   border-radius: 360px;
+}
+
+#more-container {
+  width: 90%;
+  margin: auto;
 }
 
 #only-width {
