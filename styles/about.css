@@ -2,18 +2,39 @@ header.about-me {
     background: #eaccf8;
 }
 
-.intro, .about {
-  padding: 3rem 0;
+.intro {
+  padding: 5rem 0 7rem;
+}
+
+main h2 {
+  font-size: 36px;
+  line-height: 50px;
 }
 
 h3 {
   color: black;
 }
 
-h3::after {
+p, body {
+  line-height: 30px;
+}
+
+main p a{
+  color: #6654F1;
+}
+
+main p a:hover {
+  color: #6654F1;
+}
+
+#color {
+  text-align: center;
+}
+
+#color::after {
   content: "";
   display: block;
-  height: 8px;
+  height: 13px;
   width: 100%;
   background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
   margin-top: -19px;
@@ -94,6 +115,27 @@ ul.examples {
   color: white;
   background-blend-mode: overlay;
   background-color: #1f1f1f33;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+
+.dropdown-content img {
+  width: 300px;
+  box-shadow: 2px 0px 4px 0px #e6dfdf
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 #one {

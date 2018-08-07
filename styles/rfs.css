@@ -86,9 +86,6 @@ h2 {
   margin: auto;
 }
 
-.part {
-  padding: 5rem 0;
-}
 
 .research #quote {
   background-image: url(../images/rfs/data-mining.png);
@@ -104,11 +101,11 @@ h2 {
 
 
 /*process*/
-.part h1 {
+.journey {
   padding-bottom: 6rem;
 }
 
-.part h1::after {
+.journey::after {
   content: "";
   display: block;
   height: 13px;
@@ -268,7 +265,7 @@ h2 {
   background-repeat: repeat;
   background-attachment: fixed;
   background-blend-mode: overlay;
-  background-color: #eeeeee;
+  background-color: #f1f0f0;
 }
 
 
@@ -471,8 +468,18 @@ ul.images, ul.type {
   margin: auto;
 }
 
-iframe {
-  margin: 0 auto;
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .quotes {
@@ -687,11 +694,6 @@ ul.launch {
 }
 
 @media screen and (max-width:639px) and (min-width: 550px) {
-  video {
-    width: 549px;
-    height: 288.225px;
-  }
-
   #quote {
     font-size: 30px;
     line-height: 35px;

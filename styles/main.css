@@ -25,9 +25,16 @@ header {
   margin: auto;
 }
 
+.part {
+  padding: 5rem 0;
+}
 
 
 /*typograohy*/
+b {
+  font-weight: bold;
+}
+
 body {
   background-color: #FdFdFd;
   font-family: 'Quicksand', sans-serif;
@@ -50,7 +57,6 @@ h2 {
   font-weight: 300;
   font-size: 48px;
   line-height: 67.2px;
-  letter-spacing: 1.55px;
   min-height: 100%;
   margin: 0;
 }
@@ -343,7 +349,7 @@ nav li a:hover {
   letter-spacing: 2px;
   }
 
-  p {
+  p, body {
     font-size: 16px;
     line-height: 25px;
   }
