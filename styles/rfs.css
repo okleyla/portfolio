@@ -9,6 +9,14 @@
   background-blend-mode: overlay;*/
 }
 
+button {
+  border-color: #502b3e;
+}
+
+button:hover {
+  background: #502b3e;
+}
+
 .header {
   padding: 5rem 0;
   margin: 0 auto;
@@ -16,7 +24,7 @@
 }
 
 .header h1 {
-  text-shadow: -6px 5px #e0c8d7;
+  /*text-shadow: -6px 5px #e0c8d7;*/
   color: #502b3e;
 }
 
@@ -79,7 +87,7 @@ h2 {
 }
 
 .part {
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 .research #quote {
@@ -96,6 +104,21 @@ h2 {
 
 
 /*process*/
+.part h1 {
+  padding-bottom: 6rem;
+}
+
+.part h1::after {
+  content: "";
+  display: block;
+  height: 13px;
+  width: 100%;
+  background: #e4d1dd;
+  margin-top: -19px;
+  margin-left: 2px;
+}
+
+
 .list-item li {
   display: list-item;
   font-size: 20px;
@@ -121,6 +144,10 @@ h2 {
   padding-bottom: 0;
   margin: .1rem;
   width: 48.5%;
+}
+
+.inspo .first, .inspo .second {
+  width: 49%;
 }
 
 /* user research */
@@ -265,23 +292,7 @@ h2 {
 /*  background: rgb(89,51,75);
   color: white;*/
 }
-/*
-.sketching a {
-  color: white;
-  text-decoration-color: white;
-  text-decoration-style: double;
-  text-decoration-line: underline;
-}
 
-.sketching button {
-  border-color: white;
-  color: white;
-  margin-bottom: 1rem
-}
-
-.sketching button:hover {
-  background: black;
-}*/
 .home {
   padding: 3rem;
   width: 80%;
@@ -308,12 +319,13 @@ h2 {
 .faq {
   width: 80%;
   margin: auto;
-  background-color: #e0c8d7;
+  background-color: #59334b;
   padding: 3rem;
+  color: white;
 }
 
 .faq #caption {
-  color: #3a3939;
+  color: white;
 }
 
 .faq .first img, .faq .second img {
@@ -391,7 +403,7 @@ h2 {
 }
 
 .style-guide {
-  background: #e0c8d7;
+  background: #e4d1dd;
   padding: 3rem;
 }
 
@@ -459,8 +471,8 @@ ul.images, ul.type {
   margin: auto;
 }
 
-.video {
-  margin: 2rem auto;
+iframe {
+  margin: 0 auto;
 }
 
 .quotes {
@@ -532,6 +544,10 @@ ul.launch {
 
 .prototype-images {
   padding: 0;
+}
+
+.contact-text {
+  padding: 0 3rem;
 }
 
 
@@ -656,7 +672,7 @@ ul.launch {
     width: 100%;
   }
 
-  #width {
+  #width, .faq .full {
     width: 100%;
   }
 

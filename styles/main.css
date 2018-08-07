@@ -31,10 +31,9 @@ header {
 body {
   background-color: #FdFdFd;
   font-family: 'Quicksand', sans-serif;
-  font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  font-weight: 500;
+  font-weight: 100;
 }
 
 h1 {
@@ -75,11 +74,12 @@ h4 {
   letter-spacing: 1.1px;
 }
 
-p {
-  font-family: "quicksand", sans-serif;
-  font-size: 20px;
-  line-height: 28px;
-  font-weight: 500;
+#caption {
+  font-size: 16px;
+  line-height: 23px;
+  color: #8D8D8D;
+  text-transform: uppercase;
+  font-weight: 100;
 }
 
 a {
@@ -103,18 +103,16 @@ a:hover {
   padding-top: 1rem;
 }
 
-#caption {
-  font-family: "circular std", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
-  color: #8D8D8D;
-  font-weight: 400;
+#video {
+  margin: auto;
+  width: 90%;
 }
+
 
 /*other universal features*/
 button {
   background: none;
-  padding: 10px;
+  padding: 10px 20px;
   border-style: solid;
   border-radius: 30px;
   font-size: 20px;
