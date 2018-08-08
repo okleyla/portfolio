@@ -3,6 +3,7 @@
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>UX Designer: Gulbahar Okuyan-Waugh</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
    <link rel="stylesheet" type="text/css" href="styles/main.css">
    <link rel="stylesheet" type="text/css" href="styles/case-study.css">
@@ -29,8 +30,7 @@
       <header>
           <nav>
               <a href="index.html" class="logo">
-                <!--<img src="images/spring.png" alt="gulbahar okuyan logo">-->
-                <button style="border-style: none;">G U L B A H A R</button>
+                  <button style="border-style: none;">G U L B A H A R</button>
               </a>
               <ul class="nav-bar" id="topnav">
                   <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
@@ -139,18 +139,51 @@
                       </div>
                       <div class="image-in-bg" id="quote">After three rounds of surveys and data
                             mining, I could pinpoint the specific points that would
-                            become issues for branding: the term <span id="bold">“refurbished”</span>
-                            and ambiguity surrounding the <span id="bold">process</span>
+                            become issues for branding &mdash; the term <b>“refurbished”</b>
+                            and ambiguity surrounding the <b>process</b>
                             of refurbishing shoes.
                       </div>
                       <div class="part" id="container">
                           <h4>Finding a replacement word</h4>
-                          <p>We tested a replacement for refurbished and wanted to know what it was
-                            about the word the threw people off. We got <span id="bold">133
-                              responses</span> and found our new word:</p>
+                          <p>We tested a replacement for "refurbished" and wanted to know what it was
+                            about the word the threw people off. We got <b>133
+                              responses</b> and found our new word:</p>
                           <p id="spacing-fix">
                           <h1 style="text-align:center;">"Hand-painted"</h1>
-                          <p id="spacing-fix">
+                          <p id="spacing-fix"></p>
+                          <br>When asked, "Would you buy shoes that were hand-painted?"</p>
+                          <div class="pieChart">
+                              <canvas id="myChart" width="400" height="400" style="display:block;width:100px;height:100px;"></canvas>
+                                <script>
+                                var pieLabels = ["Yes", "No", "Maybe"]
+                                var pieData = [25.4, 20.3, 54.3]
+
+                                var ctx = document.getElementById("myChart");
+                                var myChart = new Chart(ctx, {
+                                    type: 'pie',
+                                    data: {
+                                      labels: pieLabels,
+                                      datasets: [
+                                        {
+                                          label: "Would you buy shoes that were hand-painted?",
+                                          data: pieData,
+                                          borderColor: "white",
+                                          backgroundColor: ["#e4d1dd", "#eee", "#502b3e"]
+
+                                        }],
+                                    },
+                                    options: {
+                                        cutoutPercentage: 50,
+                                        rotation: -0.5 * Math.PI,
+                                        circumference: 2 * Math.PI,
+                                        animation: {
+                                            animateRotate: true
+                                        }
+                                    }
+                                });
+                              </script>
+                          </div>
+                          <br>
                           <p>54.3% of surveyors might buy “hand-painted” shoes,
                             while 25.4% definitely would buy them.</p3>
                       </div>
@@ -164,13 +197,12 @@
                             They appreciate and seek unique and one-of-a-kind items.
                             Buyers of this product also include women buying shoes for the
                             men in their lives.
+                          <p><b><small>Click the images to see their full user stories.</small></b></p>
                               <div class="persona">
-                                  <img src="images/rfs/vinnye.png" class="first">
-                                  <img src="images/rfs/jeanc.png" class="second">
+                                  <a href="images/rfs/vincent-story.png"><img src="images/rfs/vinnye.png" class="first"></a>
+                                  <a href="images/rfs/jean-story.png"><img src="images/rfs/jeanc.png" class="second"></a>
                                   <div class="clearfix"></div>
                               </div>
-                            <br>
-                            <button>see user personas</button>
                       </div>
                   </div>
                   <div class="competitive-landscape" id="container">
@@ -256,56 +288,53 @@
               <div class="sketching">
                   <div class="part" id="container">
                       <h2>Sketching</h2>
+                      <br>
+                      <h3>Homepage</h3>
+                      <p>I sketched out 4 different versions of the homepage,
+                        all focusing on the product. With Darcy, we picked and
+                      chose which parts we liked best and created the lo-fi versions.
+                      We went with version 2 of the lo-fi sketches.</p>
                   </div>
-                  <div class="part">
-                        <div id="container">
-                            <h3>Homepage</h3>
-                            <p>I sketched out 4 different versions of the homepage,
-                              all focusing on the product. With Darcy, we picked and
-                            chose which parts we liked best and created the lo-fi versions.
-                            We went with version 2 of the lo-fi sketches.</p>
-                        </div>
-                        <div class="home" id="width">
-                            <div class="first">
-                                <h4 style="text-align:center;">Sketches</h4>
-                                <div class="first">
-                                    <p id="caption" style="text-align:center;">version 1</p>
-                                    <img src="images/rfs/rfs-home1.png">
-                                </div>
-                                <div class="second">
-                                    <p id="caption" style="text-align:center;">version 2</p>
-                                    <img src="images/rfs/rfs-home2.png" class="second">
-                                </div>
-                                <div class="clearfix"></div>
-                                <div class="first">
-                                    <p id="caption" style="text-align:center;">version 3</p>
-                                    <img src="images/rfs/rfs-home3.png">
-                                </div>
-                                <div class="second">
-                                    <p id="caption" style="text-align:center;">version 4</p>
-                                    <img src="images/rfs/rfs-home4.png" class="second">
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="second">
-                                <h4 style="text-align:center;">Lo-fi</h4>
-                                <div class="first">
-                                    <p id="caption" style="text-align: center;">version 1</p>
-                                    <img src="images/rfs-lofi-HPv1.png">
-                                </div>
-                                <div class="second" id="win">
-                                    <p id="caption" style="text-align: center;">version 2</p>
-                                    <img src="images/rfs-lofi-HPv2.png">
-                                    <div class="clearfix"></div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div id="width">
-                            <br>
-                            <a href="https://bloc.mybalsamiq.com/projects/gulbaharokuyan/prototype/refated-HPv2?key=3a5a2fd80b3260daa462236f6967b65d4db73d88">
-                              <button>lo-fi prototype</button></a>
-                        </div>
+                  <div class="home" id="width">
+                      <div class="first">
+                          <h4 style="text-align:center;">Sketches</h4>
+                          <div class="first">
+                              <p id="caption" style="text-align:center;">version 1</p>
+                              <img src="images/rfs/rfs-home1.png">
+                          </div>
+                          <div class="second">
+                              <p id="caption" style="text-align:center;">version 2</p>
+                              <img src="images/rfs/rfs-home2.png" class="second">
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="first">
+                              <p id="caption" style="text-align:center;">version 3</p>
+                              <img src="images/rfs/rfs-home3.png">
+                          </div>
+                          <div class="second">
+                              <p id="caption" style="text-align:center;">version 4</p>
+                              <img src="images/rfs/rfs-home4.png" class="second">
+                          </div>
+                          <div class="clearfix"></div>
+                      </div>
+                      <div class="second">
+                          <h4 style="text-align:center;">Lo-fi</h4>
+                          <div class="first">
+                              <p id="caption" style="text-align: center;">version 1</p>
+                              <img src="images/rfs-lofi-HPv1.png">
+                          </div>
+                          <div class="second" id="win">
+                              <p id="caption" style="text-align: center;">version 2</p>
+                              <img src="images/rfs-lofi-HPv2.png">
+                              <div class="clearfix"></div>
+                          </div>
+                      </div>
+                      <div class="clearfix"></div>
+                  </div>
+                  <div id="width">
+                      <br>
+                      <a href="https://bloc.mybalsamiq.com/projects/gulbaharokuyan/prototype/refated-HPv2?key=3a5a2fd80b3260daa462236f6967b65d4db73d88">
+                        <button>lo-fi prototype</button></a>
                   </div>
                   <div class="part">
                         <div id="container">
@@ -497,19 +526,73 @@
                           </div>
                           <div class="clearfix"></div>
                           <br>
-                          <button>see full transcript</button>
-                          <p><h4 id="spacing-fix">Photos</h4>
-                          <p>We had to upgrade our quality of photos.
-                          <h4>Background section</h4>
-                          <p>We had to include a section that described the process. The before and after shoes, that were mentioned during the lo- and hi-fi tests, would be a great solution for the next round of shoes.
-                          <h4>Shopping cart</h4>
-                          <p>I designed the shopping cart to look like any other shopping cart.
-                            It included a small image of the product, the price, the description,
-                            and the quantity that is being purchased. A tester had stared at this
-                            page for a little longer than usual. Then I heard “Why is there a
-                            quantity button if it’s unique?” I laughed. Of course you can’t!
-                            I also forgot to add a nice big “X” button at the top right corner.</p>
+                          <button class="collapsible">see full transcript</button>
+                          <div class="coll-content">
+                              <p id="transcript"><i>Look around and talk about what you think this is about.
+                                What can you do here, what's it for, what strikes you about
+                                it? Does the company background give you enough trust to
+                                buy a product from them? Why or why not?</i>
+                                <br>
+                                <br><i>[Looking at logo]</i>
+                                <br>ReFated shoes. Assuming it’s a shoe company. Recycled shoes?
+                                Refated makes it seem consignment or recycled. Redesigned
+                                shoes rather than recycled. I see the shopping cart icon.
+                                It is selling shoes.
+                                <br>
+                                <br>Trust. I don’t see anything that wouldn’t make me want to buy the product.
+                                <br>
+                                <br><i>[Looking at about section] </i>
+                                <br>I feel like i’m not understanding the refated shoes. What does wearable art mean?
+                                I just don’t really understand what the company is about.
+                                <br>
+                                <br><i>[Looking at FAQ]</i>
+                                <br>Purchased and handpainted, oh. For something so unique, the process should be
+                                highlighted a little bit better. Only the name alerted me
+                                that it was something else. And the pictures made it seem like it was worn.
+                                We need to know upfront that something special is happening here I would purchase if it were in my price range.
+                                It’s unique and interesting, done by an artist and I appreciate that.
+                                <br>
+                                <br>Would love to see some before and after pictures.
+                                What does the paint job look like? There isn’t that much about that. It just looks like a retail site, which is fine if that’s all that you want to be.
+                                It’s such a unique process and product, so you should play that up.
+                                <br>
+                                <br><br><i>[Looking at home page] </i>
+                                <br>Nice layout, clean crisp lines, like the color scheme. Deep plum, not a color you see often, unique design.
+                                <br>
+                                <br><i>Go through the purchasing process. Review an item in detail, add to your cart and purchase. Since this is not a finished product, you will NOT be asked to fill in your credit card information. What do you think of the pages and checkout process?</i>
+                                <br>Process looks same as any other process. Functionality works well. All the stuff you expect to see. Strange that there’s no sizing in the cart. There isn’t a way to take something out of the cart. Why is there a quantity button if it’s unique?
+                                <br>
+                                <br><i>What, if anything, do you like or dislike? Since this isn’t a finished design, what would you like to see in the final version?</i>
+                                <br>Highlight unique process of shoes. Show that it’s not your average everyday retail site.</p>
+                            </div>
+                            <p><h4 id="spacing-fix">Photos</h4>
+                            <p>We had to upgrade our quality of photos.
+                            <h4>Background section</h4>
+                            <p>We had to include a section that described the process. The before and after shoes, that were mentioned during the lo- and hi-fi tests, would be a great solution for the next round of shoes.
+                            <h4>Shopping cart</h4>
+                            <p>I designed the shopping cart to look like any other shopping cart.
+                              It included a small image of the product, the price, the description,
+                              and the quantity that is being purchased. A tester had stared at this
+                              page for a little longer than usual. Then I heard “Why is there a
+                              quantity button if it’s unique?” I laughed. Of course you can’t!
+                              I also forgot to add a nice big “X” button at the top right corner.</p>
                       </div>
+                      <script>
+                      var coll = document.getElementsByClassName("collapsible");
+                      var i;
+
+                      for (i = 0; i < coll.length; i++) {
+                        coll[i].addEventListener("click", function() {
+                          this.classList.toggle("active");
+                          var content = this.nextElementSibling;
+                          if (content.style.display === "block") {
+                            content.style.display = "none";
+                          } else {
+                            content.style.display = "block";
+                          }
+                        });
+                      }
+                      </script>
                   </div>
               </div>
               <div class="part">
@@ -530,12 +613,15 @@
               </div>
               <div class="part" id="container">
                   <h2>Takeaways</h2>
-                  <p>In retail, photography is just as important as the site design.
-                    To dispel concerns of condition and quality, the users requested
-                    more photos of the finished product as well as the painting process.
-                  <p>We discovered that customers want to learn about products prior to
-                    purchasing them. In the future, we will explore embedding videos on
-                    the website and social media platforms.</p>
+                  <p>A/B testing is a great way to snap out of auto pilot. While I was designing
+                  the shopping sections of the site, I designed the pages for a typical e-commerce site:
+                  the browsing page, the product details, adding to cart, and checkout. However,
+                  a tester quickly pointed out that if these items were truly unique, as we
+                  stated throughout the page, then why was there a quantity button? Just because
+                  I was working on an ecommerce site, doesn't mean it followed every single
+                  e-commerce page. It reminded me that no task should be on autopilot and developed a
+                  greater appreciation for user testing.
+                  </p>
               </div>
           </section>
           <section class="navigation">
@@ -549,7 +635,7 @@
 
               <div class="case-studies" id="no-mobile">
                   <a href="rfs.html"><img src="images/rfs-laptop.png" class="first"></a>
-                  <a href="coop.html"><img src="images/coop-laptop.png" class="second"></a>
+                  <a href="coop.html"><img src="images/coop/coop-laptop.png" class="second"></a>
               </div>
               <div class="clearfix"></div>
           </section>

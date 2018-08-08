@@ -27,6 +27,14 @@ main p a:hover {
   color: #6654F1;
 }
 
+main li a{
+  color: #6654F1;
+}
+
+main li a:hover {
+  color: #6654F1;
+}
+
 #color {
   text-align: center;
 }

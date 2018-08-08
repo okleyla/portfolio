@@ -93,11 +93,14 @@ h2 {
   background-position: center;
   background-repeat: repeat;
   background-attachment: fixed;
-  background-blend-mode: overlay;
-  background-color: #eeeeeeba;
   text-align: center;
+  color: white;
 }
 
+.pieChart {
+  width: 80%;
+  margin: auto;
+}
 
 
 /*process*/
@@ -123,8 +126,8 @@ h2 {
 }
 
 /* User Personas */
-.persona {
-
+.persona img:hover {
+  opacity: .6;
 }
 
 
@@ -144,7 +147,7 @@ h2 {
 }
 
 .inspo .first, .inspo .second {
-  width: 49%;
+  width: 48%;
 }
 
 /* user research */
@@ -492,12 +495,11 @@ ul.images, ul.type {
   font-size: 16px;
 }
 
-.user-feedback {/*
-  background-image: url(../images/rfs-green-mezlan.png);
-  background-size: 30%;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-blend-mode: overlay;*/
+.coll-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #e0c8d7;
 }
 
 .transcript {
