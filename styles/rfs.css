@@ -17,6 +17,14 @@ button:hover {
   background: #502b3e;
 }
 
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(2);
+}
+
 .header {
   padding: 5rem 0;
   margin: 0 auto;
