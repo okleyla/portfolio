@@ -64,8 +64,8 @@ h2 {
 #quote {
   font-family: "circular std", sans-serif;
   font-weight: 400;
-  font-size: 48px;
-  line-height: 61px;
+  font-size: 30px;
+  line-height: 42px;
 }
 
 #bold {
@@ -144,6 +144,11 @@ h2 {
   padding-bottom: 0;
   margin: .1rem;
   width: 48.5%;
+}
+
+.competitive-landscape .lists img{
+  width: 100%;
+  padding: 3rem;
 }
 
 .inspo .first, .inspo .second {
@@ -330,6 +335,10 @@ h2 {
 
 .faq .first img, .faq .second img {
   width: 50%;
+}
+
+.faq small {
+  line-height: 18px;
 }
 
 .shoe-iteration {
