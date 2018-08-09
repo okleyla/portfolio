@@ -1,7 +1,20 @@
-header, .prototype {
+header {
+  background: none;
+}
+.prototype {
   background: #afd8db;
   background: linear-gradient(to right, #afd8db 0%, #376082 100%);
 }
+
+h3 {
+  color: black;
+}
+
+.hero-image {
+  background: linear-gradient(to right, #afd8db 0%, #376082 100%);
+}
+
+
 
 /* images */
 
@@ -13,8 +26,8 @@ header, .prototype {
 }
 
 .intro {
-  background: rgb(55, 96, 130);
-  color: #eaeaea;
+  /*background: rgb(55, 96, 130);
+  color: #eaeaea;*/
 }
 
 .competition {
@@ -97,7 +110,13 @@ header, .prototype {
   width: 100%;
   margin: auto;
 }
+.info-arch .zoom {
+    transition: transform .2s; /* Animation */
+}
 
+.info-arch .zoom:hover {
+    transform: scale(1.5);
+}
 /* sketch */
 .sketch {
   width: 100%;
@@ -121,20 +140,17 @@ header, .prototype {
 }
 
 .final-logos {
-  width: 65%;
+  width: 88%;
   display: block;
   margin: auto;
   padding-top: 1rem;
+  float: left;
 }
 
 .final-logos img {
-  padding-left: 4rem;
-  padding-right: 4rem;
+  width: 100%;
 }
 
-.final-logos img.first {
-  padding-bottom: 3rem;
-}
 
 .coop-logo-formation {
   width: 40%;

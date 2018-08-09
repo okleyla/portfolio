@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>UX Designer: Gulbahar Okuyan-Waugh</title>
-     <link rel="stylesheet" type="text/css" href="styles/main.css">
-     <link rel="stylesheet" type="text/css" href="styles/case-study.css">
-     <link rel="stylesheet" type="text/css" href="styles/coop.css">
-     <link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-     <script src="javascript/script.js"></script>
-     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500|Rozha+One" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css?family=Lora|Nunito" rel="stylesheet">
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120968085-1"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>UX Designer: Gulbahar Okuyan-Waugh</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+   <link rel="stylesheet" type="text/css" href="styles/main.css">
+   <link rel="stylesheet" type="text/css" href="styles/case-study.css">
+   <link rel="stylesheet" type="text/css" href="styles/coop.css">
+   <link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+   <script src="javascript/script.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500|Rozha+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Domine:400,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lora|Nunito" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120968085-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        gtag('config', 'UA-120968085-1');
-      </script>
-  </head>
+      gtag('config', 'UA-120968085-1');
+    </script>
+</head>
 
   <body class="case-study">
       <header>
-          <nav><!--
+          <nav>
               <a href="index.html" class="logo">
-                  <img src="images/spring.png" alt="gulbahar okuyan logo">
-              </a>-->
+                  <button style="border-style: none;">G U L B A H A R</button>
+              </a>
               <ul class="nav-bar" id="topnav">
                   <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
-                      <i class="fa fa-bars"></i>
+                      <i class="fa fa-bars"></i></a>
                   <div class="clearfix"></div>
                   <li><a href="index.html">work</a></li>
                   <li><a href="about.html">about</a></li>
@@ -39,36 +42,43 @@
                   </a>
               </ul>
           </nav>
-          <section class="hero">
-              <div class="case-hero">
-                  <img src="images/coop-laptop.png">
+          <section class="hero" style="text-align:center;">
+              <div class="header">
+                  <div id="container">
+                      <h1>Standing Out in a Crowded Room</h1>
+                      <p>COOP is a SaaS web application which allows people to collect information and
+                        store it in a single place.
+                      </p>
+                      <p id="caption">branding   |   strategy   |   UX & UI</p>
+                      <p>
+                      <a href="#"><button class="case-study-button">view prototype</button></a>
+                      <p><i><small>COOP was a project under the Bloc course. It is not a functioning website.</i></small>
+                  </div>
+                  <div class="hero-image">
+                      <img src="images/coop/macbook-nobg.png" class="full">
+                  </div>
               </div>
           </section>
       </header>
       <main>
-          <section class="introduction">
-              <div id="container">
-                  <h1>standing out in a crowded room</h1>
-                  <p>COOP is a SaaS web application which allows people to collect information and
-                    store it in a single place. A person can create simple documents, store images,
-                    links to websites, and collaborate with others. Originally named blocbox, we
-                    rebranded the company with a new website and brand.
-                  <p>COOP was a project under the Bloc certification course. It is not a functioning website.
-                  </p>
-                  <a href="#"><button class="case-study-button">view prototype</button></a>
-              </div>
-          </section>
           <section class="intro">
-              <div id="container">
-                  <h2>a new set of wings</h2>
-                  <p>The goal was to rebrand blocbox from an office tool into software that
+              <div class="part" id="container">
+                  <h2>Challenge</h2>
+                  <p>With COOP, a person can create simple documents, store images,
+                  links to websites, and collaborate with others. Originally named blocbox, we
+                  rebranded the company with a new website and brand. The goal was to rebrand blocbox from an office tool into software that
                     would be used beyond the cubical. </p>
-                  <img src="images/blocbox-coop.png" class="full">
+              </div>
+              <div class="part" id="container">
+                  <h2>Solution</h2>
+                  <p>I helped create a new brand identity, aiming towards a more playful feel.
+                  <br>
+                  <br><img src="images/blocbox-coop.png" class="full">
               </div>
           </section>
           <section class="competition">
-              <div id="container">
-                  <h3>Who's Out There?</h3>
+              <div class="part" id="container">
+                  <h2>Competitive Landscape</h2>
                   <p>Since there are quite a few similar services out there, we
                     focused on three similar competitors: box, Google Drive, and Dropbox.
                   <p>Box, Google Drive, and Dropbox are positioned for and are targeting
@@ -76,9 +86,9 @@
                     some features:</p>
                   <div class="clearfix"></div>
                   <ul class="inspo">
-                      <li><img src="images/coop-box.png" class="third"></li>
-                      <li><img src="images/coop-drive.png" class="third"></li>
-                      <li><img src="images/coop-dropbox.png" class="third"></li>
+                      <li><img src="images/coop/coop-box.png" class="third"></li>
+                      <li><img src="images/coop/coop-drive.png" class="third"></li>
+                      <li><img src="images/coop/coop-dropbox.png" class="third"></li>
                   </ul>
                   <div class="clearfix"></div>
                   <p>Blocbox is also targeting individuals and businesses. Our goal
@@ -87,8 +97,8 @@
           </section>
           <section>
               <div class="user-research">
-                  <div id="container">
-                      <h3>But first, what do the people want?</h3>
+                  <div class="part" id="container">
+                      <h2>User Research</h2>
                       <p>I conducted a survey to better understand our potential users.
                         Looking what devices they use, how and what they save, and where,
                         I was able to pick up on minor annoyances and complaints regarding
@@ -97,32 +107,33 @@
                         proposed solutions. Solutions that we could test through the rebrand.</p>
                   </div>
               </div>
-          </section>
-          <section class="environment">
-              <div id="container">
+              <div class="environment">
+                  <div class="part" id="container">
                   <div class="clearfix"></div>
-                  <div class="first">
-                      <h3>Challenges</h3>
-                      <ul class="survey">
-                          <li><p>Remembering what they bookmarked</p></li>
-                          <li><p>Not accessible across devices</p></li>
-                          <li><p>Remembering more passwords</p></li>
-                      </ul>
+                      <div class="first">
+                          <h3>Challenges</h3>
+                          <ul class="survey">
+                              <li><p>Remembering what they bookmarked</p></li>
+                              <li><p>Not accessible across devices</p></li>
+                              <li><p>Remembering more passwords</p></li>
+                          </ul>
+                      </div>
+                      <div class="second">
+                          <h3>Solutions</h3>
+                          <ul class="survey">
+                                <li><p>Integration across devices</p></li>
+                                <li><p>Useful bookmarking/ saving: creating collections</p></li>
+                                <li><p>Convenience: social sign-on</p></li>
+                          </ul>
+                      </div>
+                      <div class="clearfix"></div>
                   </div>
-                  <div class="second">
-                      <h3>Solutions</h3>
-                      <ul class="survey">
-                            <li><p>Integration across devices</p></li>
-                            <li><p>Useful bookmarking/ saving: creating collections</p></li>
-                            <li><p>Convenience: social sign-on</p></li>
-                      </ul>
-                  </div>
-                  <div class="clearfix"></div>
               </div>
           </section>
           <section class="users">
-              <div id="container">
-                  <h3>Who Are They?</h3>
+              <div class="part">
+                  <h2 id="container">User Personas</h2>
+                  <br>
                   <div class="user-boxes">
                       <div class="john">
                           <img src="images/johno.png" class="third">
@@ -156,20 +167,20 @@
               </div>
           </section>
           <section class="info-arch">
-              <div id="container">
+              <div class="part" id="container">
                   <div class="mapping">
-                      <h2>information architecture</h2>
+                      <h2>Information Architecture</h2>
                       <h3>Mapping</h3>
                       <div class="clearfix"></div>
-                      <img src="images/coop-sitemap.png" class="full">
+                      <div class="zoom"><img src="images/coop/coop-sitemap.png" class="full"></div>
                   </div>
                   <div class="clearfix"></div>
                   <div class="mapping">
                       <h3>Flows</h3>
                       <div class="clearfix"></div>
                       <div class="mapping-img">
-                          <img src="images/coop-flow2.png" class="first">
-                          <img src="images/coop-flow4.png" class="second">
+                          <div class="zoom"><img src="images/coop/coop-flow2.png" class="first"></div>
+                          <div class="zoom"><img src="images/coop/coop-flow4.png" class="second"></div>
                           <div class="clearfix"></div>
                       </div>
                       <button>view more flows</button>
@@ -178,17 +189,18 @@
               </div>
           </section>
           <section class="sketch">
-              <div id="container">
-                  <h2>iterations & wireframes</h2>
-                  <h3>Sketching to Lo-Fi</h3>
-                  <img src="images/coop-sketches.png" class="more-full">
+              <div class="part" id="container">
+                  <h2>Sketching and Wireframes</h2>
               </div>
+              <img src="images/coop/coop-sketches.png" class="more-full">
+              <p style="padding-bottom:4rem;">
           </section>
           <section class="branding">
-              <div id="container">
+              <div class="part" id="container">
                   <div class="branding-section">
                       <h2>branding</h2>
-                      <img src="images/coop-logo-form.png" class="more-full">
+                      <br>
+                      <img src="images/coop/coop-logo-form.png" class="more-full">
                       <!---
                       <h3>Logo Formation</h3>
                       <img src="images/coop-logofinalists.png" class="coop-logo-formation">
@@ -198,10 +210,10 @@
                       <div class="first">
                           <h3>Logo & Icons</h3>
                           <div class="final-logos">
-                              <img src="images/coop-logo.png" class="first">
-                              <img src="images/coop-icons.png" class="second">
-                              <div class="clearfix"></div>
+                              <img src="images/coop/coop-logo.png">
+                              <img src="images/coop/coop-icons.png">
                           </div>
+                          <div class="clearfix"></div>
                       </div>
                       <div class="second">
                           <div class="type">
@@ -215,17 +227,18 @@
                               <div class="clearfix"></div>
                           </div>
                       </div>
+                      <div class="clearfix"></div>
                   </div>
                   <div class="branding-section">
                       <h3>Colors</h3>
                       <div class="colors">
                           <ul class="images">
-                              <li><img src="images/coop-color1.png" class="third"></li>
-                              <li><img src="images/coop-color2.png" class="third"></li>
-                              <li><img src="images/coop-color3.png" class="third"></li>
-                              <li><img src="images/coop-color4.png" class="third"></li>
-                              <li><img src="images/coop-color5.png" class="third"></li>
-                              <li><img src="images/coop-color6.png" class="third"></li>
+                              <li><img src="images/coop/coop-color1.png" class="third"></li>
+                              <li><img src="images/coop/coop-color2.png" class="third"></li>
+                              <li><img src="images/coop/coop-color3.png" class="third"></li>
+                              <li><img src="images/coop/coop-color4.png" class="third"></li>
+                              <li><img src="images/coop/coop-color5.png" class="third"></li>
+                              <li><img src="images/coop/coop-color6.png" class="third"></li>
                           </ul>
                       </div>
                       <div class="clearfix"></div>
@@ -234,7 +247,7 @@
               </div>
           </section>
           <section class="prototype">
-              <div id="container">
+              <div class="part" id="container">
                   <h2>prototype</h2>
                   <!--
                   <h3>User Feedback</h3>
@@ -247,7 +260,7 @@
                       </div> -->
                   <div class="prototype-page">
                       <h3>Landing Page</h3>
-                      <img src="images/coop-landing.png" class="full">
+                      <img src="images/coop/coop-landing.png" class="full">
                       <div class="clearfix"></div>
                   </div>
                   <div class="prototype-page">
@@ -255,22 +268,22 @@
                       <p>The user onboarding and sign-in sections are simple and similar.
                         We made it easy to sign up or log in through social network sites.</p>
                       <div class="onboard-img">
-                          <img src="images/coop-signup.png" class="first">
-                          <img src="images/coop-signin.png" class="second">
+                          <img src="images/coop/coop-signup.png" class="first">
+                          <img src="images/coop/coop-signin.png" class="second">
                           <div class="clearfix"></div>
                       </div>
                   </div>
                   <div class="prototype-page">
                       <h3>Dashboard</h3>
-                      <img src="images/coop-dash.png" class="full">
+                      <img src="images/coop/coop-dash.png" class="full">
                       <div class="clearfix"></div>
                   </div>
                   <div class="prototype-page">
                       <h3>Membership</h3>
                       <ul class="prototype-images">
-                          <li><img src="images/coop-profile.png" class="third"></li>
-                          <li><img src="images/coop-notifications.png" class="third"></li>
-                          <li><img src="images/coop-membership.png" class="third"></li>
+                          <li><img src="images/coop/coop-profile.png" class="third"></li>
+                          <li><img src="images/coop/coop-notifications.png" class="third"></li>
+                          <li><img src="images/coop/coop-membership.png" class="third"></li>
                           <div class="clearfix"></div>
                       </ul>
                   </div>
@@ -280,9 +293,9 @@
                         Once clicked, modal windows will appear. Users have a choice of
                         adding an image, notes, or a link to an external site.</p>
                       <ul class="prototype-images">
-                          <li><img src="images/coop-add-image.png" class="third"></li>
-                          <li><img src="images/coop-note.png" class="third"></li>
-                          <li><img src="images/coop-link.png" class="third"></li>
+                          <li><img src="images/coop/coop-add-image.png" class="third"></li>
+                          <li><img src="images/coop/coop-note.png" class="third"></li>
+                          <li><img src="images/coop/coop-link.png" class="third"></li>
                           <div class="clearfix"></div>
                       </ul>
                   </div>
@@ -290,8 +303,8 @@
           </section>
 
           <section class="conclusion">
-              <div id="container">
-                  <h2>what i learned from this experience</h2>
+              <div class="part" id="container">
+                  <h2>Takeaways</h2>
                   <p>Dashboards are very personal. Most users wanted the ability to
                     customize how it looked - colors and background.
                   <p>Your taste is less important than the user’s style preferences.
@@ -302,25 +315,17 @@
               </div>
           </section>
           <section class="navigation">
-              <div class="arrows">
-                  <a href="index.html"><img src="images/previous.png" class="left"></a>
-                  <a href="rfs.html"><img src="images/next.png" class="right"></a>
+              <div class="part" style="width:80%; margin:auto;">
+                  <a href="index.html" class="left"><p id="caption">&larr; home</p></a>
+                  <a href="rfs.html" class="right"><p id="caption">next &rarr;</p></a>
+                  <div class="clearfix"></div>
               </div>
-              <div class="case-studies">
-                  <a href="coop.html"><img src="images/coop-laptop.png" class="first"></a>
-                  <a href="rfs.html"><img src="images/rfs-laptop.png" class="second"></a>
-              </div>
-          </section>
 
-          <section id="contact">
-              <div id="container">
-                  <div class="contact-text">
-                      <h2>If you’d like to get in touch to work or just chat about
-                        all things design & milan</h2>
-                        <p></p>
-                      <a href="mailto:g.leyla.ok@gmail.com"><button>email me</button></a>
-                  </div>
+              <div class="case-studies" id="no-mobile">
+                  <a href="rfs.html"><img src="images/rfs-laptop.png" class="first"></a>
+                  <a href="coop.html"><img src="images/coop/coop-laptop.png" class="second"></a>
               </div>
+              <div class="clearfix"></div>
           </section>
         </main>
         <div class="clearfix"></div>
