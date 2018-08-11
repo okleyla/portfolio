@@ -129,7 +129,6 @@ h2 {
 
 .list-item li {
   display: list-item;
-  font-size: 20px;
   padding-left: 1rem;
 }
 
@@ -329,7 +328,7 @@ h2 {
   border-radius: 80px;
 }
 
-.faq {
+.faq, .product-details {
   width: 80%;
   margin: auto;
   background-color: #59334b;
@@ -337,7 +336,7 @@ h2 {
   color: white;
 }
 
-.faq #caption {
+.faq #caption, .product-details #caption {
   color: white;
 }
 
@@ -579,12 +578,6 @@ ul.launch {
 
 /* Media Queries */
 @media screen and (max-width: 452px) {
-  .third {
-    width: 100%;
-    float: none;
-    clear: both;
-  }
-
   .two-thirds {
     padding: 0;
   }
@@ -647,10 +640,14 @@ ul.launch {
     padding: 2rem 0;
   }
 
-  .colors .third {
-    width: 45%;
-    display: inline-block;
+  .style-guide .images img.third {
+    width: 32%;
+    display: inline;
     float: left;
+  }
+
+  .style-guide .images img {
+    padding: 2px;
   }
 
   .third, .survey .third {
@@ -698,7 +695,7 @@ ul.launch {
     width: 100%;
   }
 
-  #width, .faq .full {
+  #width, .faq, .full, .product-details {
     width: 100%;
   }
 
@@ -740,13 +737,45 @@ ul.launch {
     background-size: 200%;
   }
 
+  header p, header #caption {
+    text-align: center;
+  }
+
   #container {
    width: 90%;
+  }
+
+  nav button {
+    display: inline;
+  }
+
+  button {
+    font-size: 16px;
+    display: block;
+    margin: auto;
   }
 
   p {
     font-size: 16px;
     line-height: 25px;
+    text-align: left;
+  }
+
+  body {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  h4, h3, .branding {
+    text-align: center;
+  }
+
+  .right p {
+    text-align: right;
+  }
+
+  .lists {
+    padding-left: 0;
   }
 
   .hero-text {
@@ -877,7 +906,6 @@ ul.launch {
     margin: 0 auto;
     padding: .5rem 0;
   }
-
 }
 
 @media screen and (max-width: 983px) and (min-width: 550px) {
