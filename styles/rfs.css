@@ -22,7 +22,7 @@ button:hover {
 }
 
 .zoom:hover {
-    transform: scale(2);
+    transform: scale(1.1);
 }
 
 .header {
@@ -181,8 +181,16 @@ h2 {
   margin: 0;
 }
 
-.result {
+span#purple {
+  background: #502b3e;
+  color: white;
+  padding: 2px;
+}
 
+span#pink {
+  background: #e4d1dd;
+  background-position: bottom;
+  padding: 2px;
 }
 
 .result .third, .survey-box h4 {
@@ -322,10 +330,7 @@ h2 {
 }
 
 #win {
-  border-style: solid;
-  border-width: 4px;
-  border-color: #e0c8d7;
-  border-radius: 80px;
+  box-shadow: -1px 1px 20px 2px #d7bfce;
 }
 
 .faq, .product-details {

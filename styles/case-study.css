@@ -69,6 +69,10 @@ h3 {
   margin: auto;
 }
 
+.navigation .case-studies img:hover {
+  opacity: .6;
+}
+
 .navigation .case-studies .first {
   padding: 3rem;
   border-style: solid;
@@ -94,6 +98,7 @@ h3 {
   background: linear-gradient(112deg, rgba(229,58,32,1) 0%, rgba(212,176,140,1) 38%,
   rgba(172,216,217,1) 100%);*/
 }
+
 
 #contact {
   padding: 3rem 0;
