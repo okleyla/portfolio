@@ -65,6 +65,10 @@ p {
     width: 80%;
   }
 
+  #intro {
+    width: 100%;
+  }
+
   .hero, #projects {
     padding: 3rem 0;
   }
