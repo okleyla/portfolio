@@ -27,6 +27,11 @@ nav li a:hover {
   margin-top: 1rem;
 }
 
+#intro {
+  width: 50%;
+  float: left;
+}
+
 /* project list */
 #projects {
   clear: both;
