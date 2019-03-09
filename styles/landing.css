@@ -40,14 +40,45 @@ nav li a:hover {
   padding: 5rem 0;
 }
 
+#color {
+  font-weight: bold;
+}
+
+#color::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+  margin-top: -5px;
+  margin-left: 0px;
+}
+
 p {
   margin-top: 0;
 }
 
+.section {
+  padding-bottom: 5rem;
+}
 
-.first img, .second img {
+.project-1 img {
   box-shadow: 2px 0px 4px 0px #e6dfdf;
   width: 100%;
+}
+
+.project-1 {
+  width: 33%;
+  display: inline-block;
+  float: left;
+  clear: none;
+}
+
+.project-2 {
+  width: 60%;
+  display: inline-block;
+  float: right;
+  clear: none;
 }
 
 #projects img:hover {
@@ -73,9 +104,6 @@ p {
     padding: 3rem 0;
   }
 
-}
-
-@media screen and (max-width: 783px) {
   .projects {
     width: 100%;
     display: block;
@@ -87,14 +115,14 @@ p {
     width: 100%;
   }
 
-  .first, .second {
+  .project-1, .project-2 {
     width: 100%;
     display: block;
     margin: 0 auto;
     float: left;
   }
 
-  .first {
+  .section {
     padding-bottom: 3rem;
   }
 }

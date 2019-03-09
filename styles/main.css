@@ -19,12 +19,12 @@ header {
 }
 
 #container {
-  width: 56%;
+  width: 65%;
   margin: auto;
 }
 
 .part {
-  padding: 5rem 0;
+  padding-bottom: 3rem;
 }
 
 
@@ -36,8 +36,8 @@ b {
 body {
   background-color: #FdFdFd;
   font-family: 'Circular std', sans-serif;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 23px;
   font-weight: 100;
 }
 
@@ -128,7 +128,7 @@ button {
   padding: 10px 20px;
   border-style: solid;
   border-radius: 30px;
-  font-size: 20px;
+  font-size: 16px;
   border-width: 1px;
   border-color: #333333;
 }
@@ -143,12 +143,14 @@ button:hover {
 
 #contact {
   clear: both;
-  width: 100%;
-  padding: 3rem 0 .5rem;
+  width: 50%;
+  padding: 3rem;
+  background-color: #eaccf8;
 }
 
 .contact-text {
   float: left;
+  width: 100%;
 }
 
 .navigation {
@@ -357,8 +359,8 @@ nav li a:hover {
   }
 
   p, body {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 12px;
+    line-height: 14px;
   }
 
   .logo {

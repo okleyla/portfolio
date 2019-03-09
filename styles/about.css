@@ -1,9 +1,22 @@
 header.about-me {
-    background: #eaccf8;
+    background: white;
 }
 
 .intro {
   padding: 5rem 0 7rem;
+}
+
+.intro {
+  background-image: url(../images/about/me-bw.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.intro #container {
+  background-color: #eaccf8;
+  padding: 3rem;
+  width: 37%;
 }
 
 main h2 {
@@ -36,28 +49,23 @@ main li a:hover {
 }
 
 #color {
-  text-align: center;
+  font-weight: bold;
 }
 
 #color::after {
   content: "";
   display: block;
-  height: 13px;
+  height: 3px;
   width: 100%;
   background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
-  margin-top: -19px;
-  margin-left: 2px;
+  margin-top: -5px;
+  margin-left: 0px;
 }
 
 h4 {
   margin-top: 0;
 }
 
-.intro img {
-  border-style: solid;
-  border-color: black;
-  border-radius: 360px;
-}
 
 #more-container {
   width: 90%;
@@ -146,36 +154,6 @@ ul.examples {
     display: block;
 }
 
-#one {
-  background-image: url(../images/groupphoto.png);
-}
-
-#two {
-  background-image: url(../images/wahoo.png);
-}
-
-#three {
-  background-image: url(../images/keynote.png);
-}
-
-#four {
-  background-image: url(../images/zebras.png);
-}
-
-.moodboard {
-  padding: 5rem 0;
-}
-
-.moodboard h2 {
-  margin: auto;
-  width: 65%;
-}
-
-.moodboard img {
-  width: 100%;
-  height: auto;
-  margin: 2rem 0;
-}
 
 /*Media Queries*/
 @media screen and (max-width: 768px) {
@@ -231,6 +209,11 @@ ul.examples {
 }
 
 @media screen and (max-width: 425px) {
+  .intro #container {
+    width: 90%;
+    margin: auto;
+  }
+
   #only-width {
     text-align: center;
   }
