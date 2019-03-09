@@ -80,6 +80,16 @@ h2 {
   font-weight: 700;
 }
 
+#color::after {
+  content: "";
+  display: block;
+  height: 13px;
+  width: 65%;
+  background: #e4d1dd;
+  margin: auto;
+  margin-top: -25px;
+}
+
 .image-in-bg {
   padding: 3rem;
 }
@@ -94,6 +104,9 @@ h2 {
   margin: auto;
 }
 
+.image-in-bg {
+  padding-bottom: 3rem;
+}
 
 .research #quote {
   background-image: url(../images/rfs/data-mining.png);
@@ -114,16 +127,6 @@ h2 {
 /*process*/
 .journey {
   padding-bottom: 6rem;
-}
-
-.journey::after {
-  content: "";
-  display: block;
-  height: 13px;
-  width: 100%;
-  background: #e4d1dd;
-  margin-top: -19px;
-  margin-left: 2px;
 }
 
 
@@ -161,6 +164,12 @@ h2 {
 .inspo .first, .inspo .second {
   width: 48%;
 }
+
+.pop-out {
+  background-color: #e4d1dd;
+  padding: 3rem;
+}
+
 
 /* user research */
 .user-research {
@@ -309,6 +318,8 @@ span#pink {
 .sketching {
   width: 100%;
   margin: auto;
+  padding-top: 5rem;
+  text-align: center;
 /*  background: rgb(89,51,75);
   color: white;*/
 }
@@ -334,7 +345,7 @@ span#pink {
 }
 
 .faq, .product-details {
-  width: 80%;
+  width: 100%;
   margin: auto;
   background-color: #59334b;
   padding: 3rem;
@@ -419,7 +430,7 @@ span#pink {
 }
 
 #width {
-  width: 80%;
+  width: 100%;
   margin:0 auto;
 }
 
