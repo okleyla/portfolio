@@ -2,6 +2,15 @@ header.about-me {
     background: white;
 }
 
+nav a {
+  color: #751B4F;
+}
+
+button {
+  color: white;
+  border-color: white;
+}
+
 .intro {
   padding: 5rem 0 7rem;
 }
@@ -14,7 +23,7 @@ header.about-me {
 }
 
 .intro #container {
-  background-color: #eaccf8;
+  background-color: #124B41;
   padding: 3rem;
   width: 37%;
 }
@@ -32,15 +41,8 @@ p, body {
   line-height: 30px;
 }
 
-main p a{
-  color: #6654F1;
-}
 
 main p a:hover {
-  color: #6654F1;
-}
-
-main li a{
   color: #6654F1;
 }
 
@@ -52,7 +54,7 @@ main li a:hover {
   font-weight: bold;
 }
 
-#color::after {
+/*#color::after {
   content: "";
   display: block;
   height: 3px;
@@ -60,7 +62,7 @@ main li a:hover {
   background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
   margin-top: -5px;
   margin-left: 0px;
-}
+}*/
 
 h4 {
   margin-top: 0;
@@ -214,6 +216,10 @@ ul.examples {
     margin: auto;
   }
 
+  .intro {
+    padding: 5rem 0 0rem;
+  }
+
   #only-width {
     text-align: center;
   }
@@ -233,5 +239,11 @@ ul.examples {
 
   button {
     margin-bottom: 1rem;
+    font-size: 12px;
+  }
+
+  #contact {
+    width: 100%;
+    padding: 1rem;
   }
 }
