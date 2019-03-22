@@ -6,6 +6,16 @@ nav a {
   color: #751B4F;
 }
 
+nav li a:hover {
+  color: #751B4F;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #751B4F;
+  font-weight: bold;
+}
+
 button {
   color: white;
   border-color: white;
@@ -42,13 +52,13 @@ p, body {
 }
 
 
-main p a:hover {
+/*main p a:hover {
   color: #6654F1;
 }
 
 main li a:hover {
   color: #6654F1;
-}
+}*/
 
 #color {
   font-weight: bold;

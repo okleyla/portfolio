@@ -157,7 +157,7 @@ button:hover {
 
 .contact-text {
   float: left;
-  width: 100%;
+  width: 65%;
 }
 
 .navigation {
@@ -390,6 +390,11 @@ nav li a:hover {
     margin: 0 auto;
     float: left;
     padding-bottom: 3rem;
+  }
+
+  #contact {
+    width: 100%;
+    padding: 1rem;
   }
 }
 

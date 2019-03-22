@@ -8,13 +8,24 @@ p {
 }
 
 /* hero*/
+nav li a {
+  color: white;
+}
+
 nav li a:hover {
   color: #751B4F;
   font-weight: bold;
 }
 
 .hero {
-  padding: 5rem 0;
+  padding: 20vh 40px;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
 }
 
 .hero a {
@@ -84,9 +95,12 @@ nav li a:hover {
   opacity: .5;
 }
 
-#contact {
-  background: #eaccf8;
+
+#contact h2 {
+  font-size: 36px;
+  line-height: 50px;
 }
+
 
 /*Media Queries*/
 @media screen and (max-width: 425px) {
