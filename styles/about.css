@@ -3,16 +3,16 @@ header.about-me {
 }
 
 nav a {
-  color: #751B4F;
+  color: #e34a4b;
 }
 
 nav li a:hover {
-  color: #751B4F;
+  color: #e34a4b;
   font-weight: bold;
 }
 
 a:hover {
-  color: #751B4F;
+  color: #e34a4b;
   font-weight: bold;
 }
 
@@ -33,9 +33,10 @@ button {
 }
 
 .intro #container {
-  background-color: #124B41;
+  background-color: #e34a4b;
   padding: 3rem;
   width: 37%;
+  color: white;
 }
 
 main h2 {
