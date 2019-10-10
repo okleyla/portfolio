@@ -280,7 +280,7 @@ nav li a {
 }
 
 nav li a:hover {
-  font-weight: 300;
+  font-weight: 500;
   cursor: pointer;
   color: #000000;
 }

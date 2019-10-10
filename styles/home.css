@@ -1,0 +1,159 @@
+*, *::before, *::after {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+html {
+  font-size: 100%;
+}
+
+/* Structure */
+body{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#container {
+  width: 50%;
+  margin: left;
+}
+
+.same-line {
+  float: left;
+}
+
+/* Fonts */
+
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  font-size: 48pt;
+}
+
+h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 24pt;
+}
+
+h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  font-size: 24pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  background-color: white;
+  width: 100%;
+  color: #6F6F6F;
+}
+
+.hero {
+  width: 100%;
+  margin: auto;
+}
+
+/* Nav Bar*/
+nav {
+  padding-top: 8px;
+  padding-bottom: 0;
+  z-index: 1;
+  position: sticky;
+}
+
+.logo {
+  display: inline-block;
+  color: #6F6F6F;
+}
+
+nav a {
+  color: #121360;
+}
+
+nav .hamburger {
+  display: none;
+  box-shadow: none;
+}
+
+nav .closebtn {
+  display: none;
+}
+
+ul#topnav.nav-bar {
+  float: right;
+  padding: 0;
+  margin: 30px 0;
+  display: -webkit-inline-box;
+}
+
+nav li {
+  display: block;
+  height: 100%;
+  padding-left: 50px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .nav-bar a {
+    display: none;
+  }
+
+  nav li {
+    height: 20%;
+    padding-top: 5rem 0 3rem;
+  }
+
+  nav.hamburger a:not(:first-child) {
+    display: none;
+  }
+
+  nav a.hamburger {
+    float: right;
+    display: block;
+    margin-right: 2rem;
+    box-shadow: none;
+  }
+
+  .nav-bar.responsive {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    background-color: white;
+    transition: .3s;
+    margin-top: 0;
+  }
+  .nav-bar.responsive li {
+    display: block;
+  }
+
+  .nav-bar.responsive a:hover {
+    cursor: pointer;
+    padding-bottom: 3rem;
+  }
+
+  .nav-bar.responsive a.hamburger {
+    float: right;
+    display: block;
+    margin-top: .5rem;
+    margin-right: 2.5rem;
+  }
+
+  .nav-bar.responsive li a {
+    text-decoration: none;
+    box-shadow: none;
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    line-height: 55px;
+ }
