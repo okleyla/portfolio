@@ -8,21 +8,21 @@ html {
   font-size: 100%;
 }
 
-body {
-  background-image: url(../images/ottoman-rose.png);
-  background-size: 80%;
+.bg-img img {
+  /*background-image: url(../images/ottoman-rose.png);
+  background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 2;
-  background-position-y: 270px;
+  background-position-y: 265px;*/
+  width: 60%;
+  top: 265px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
 }
 
 /* Structure */
-#container {
-  width: 50%;
-  margin: left;
-}
-
 section {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -33,6 +33,16 @@ section {
 }
 
 /* Fonts */
+::-moz-selection { /* Code for Firefox */
+  color: #3B819D;
+  background: white;
+}
+
+::selection {
+  color: #3B819D;
+  background: white;
+}
+
 h1 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 300;
@@ -65,7 +75,7 @@ a {
 nav li a {
   font-size: 12px;
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 
@@ -79,6 +89,7 @@ header {
 .hero {
   width: 100%;
   margin-left: 50px;
+  clear: both;
 }
 
 /* Nav Bar*/
@@ -125,6 +136,10 @@ nav li {
 /* Projects */
 section.projects {
   color: #fff;
+  padding-top: 5rem;
+  clear: both;
+  position: relative;
+  z-index: -1;
 }
 
 a {
@@ -132,95 +147,111 @@ a {
   color: #fff;
 }
 
-.left-haiti img, .left-coop img {
-  width: 25%;
-  opacity: 0;
-}
 
-.left-haiti {
-  /*transform: rotate(11deg);
-  background: #121360;
-  border-radius: 8px;*/
-  width: 100%;
+.left {
+  border-bottom: 400px solid #121360;
+  border-left: 0px solid transparent;
+  border-right: 50px solid transparent;
+  transform: skew(10deg) rotate(10deg);
+  height: 30px;
+  width: 80%;
+  /*width: 100%;
   padding-top: 1rem;
   padding-bottom: 8rem;
   margin-bottom: -6rem;
   background-image: url(../images/left-rectangle.png);
   background-size: 76%;
   background-position: left;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   clear: both;
 }
 
 .left-text {
   margin: 50px;
-  width: 30%;
+  width: 40%;
+  transform: skew(-10deg) rotate(-10deg);
   float: left;
   display: inline-block;
   clear: none;
 }
 
+.left img {
+  width: 35%;
+  transform: skew(-10deg) rotate(-10deg);
+  padding-top: 100px;
+  /*opacity: 0;*/
+}
+
 .right img {
-  width: 25%;
-  opacity: 0;
+  width: 35%;
+  transform: skew(10deg) rotate(10deg);
+  padding-top: 100px;
+  /*opacity: 0;*/
 }
 
 .right {
-  /*background: #BF2618;
-  transform: rotate(-10deg);
-  border-radius: 8px;
+  border-bottom: 400px solid #BF2618;
+  transform: skew(-10deg) rotate(-10deg);
+  border-left: 50px solid transparent;
+  border-right: 0px solid transparent;
   width: 80%;
-  padding-top: 1rem;
+  height: 30px;
+  float: right;
+  /*padding-top: 1rem;
   padding-bottom: 2rem;
   margin-bottom: 1rem;
   float: right;
   clear: both;*/
-  width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 8rem;
-  margin-bottom: -6rem;
-  background-image: url(../images/right-rectangle.png);
-  background-size: 76%;
-  background-position: right;
-  background-repeat: no-repeat;
-  clear: both;
 }
 
 .right-text {
+  transform: skew(10deg) rotate(10deg);
   margin: 50px;
-  width: 30%;
+  width: 40%;
   float: right;
   text-align: right;
   display: inline-block;
   clear: none;
 }
 
-.left-coop {
-  width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 8rem;
-  margin-bottom: -6rem;
-  background-image: url(../images/left-rectangle2.png);
-  background-size: 76%;
-  background-position: left;
-  background-repeat: no-repeat;
-  clear: both;
-}
 
 /* Services*/
 .services {
   margin-top: 5rem;
-  float: left;
+  z-index: 2;
 }
 
 .services h1 {
   margin-left: 50px;
 }
 
+.services h3 {
+  margin: 0;
+}
+
+li {
+  display: block;
+}
+
 .services-wrap {
   margin-left: 50px;
   margin-right: 50px;
+  position: relative;
 }
+
+/*.services-wrap::before {
+  content:'';
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  z-index: -1;
+  background-color: #121360;
+  border-radius: 8px;
+  border-top: 35px solid white;
+  margin: auto;
+  left: 0;
+  right: 0;
+}*/
 
 .half-left {
   width: 45%;
@@ -236,7 +267,7 @@ a {
 }
 
 #list-color {
-  background-color: #3B819D;
+  background-color: #121360;
   border-radius: 8px;
   color: white;
 }
@@ -248,6 +279,8 @@ a {
   margin-right: 50px;
   padding-top: 5rem;
   color: #6F6F6F;
+  position: relative;
+  z-index: 2;
 }
 
 .about img {
@@ -262,6 +295,7 @@ a {
   color: #121360;
   clear: both;
   padding-top: 5rem;
+  background-color: white;
 }
 
 .contact-container {
