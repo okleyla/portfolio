@@ -295,7 +295,6 @@ li {
   color: #121360;
   clear: both;
   padding-top: 5rem;
-  background-color: white;
 }
 
 .contact-container {
@@ -349,9 +348,11 @@ li {
 }
 
 
+/* Media Queries */
 
-/*NAV*/
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 768px) {
+  /* nav bar*/
   .nav-bar a {
     display: none;
   }
@@ -379,10 +380,11 @@ li {
     z-index: 1;
     right: 0;
     top: 0;
-    background-color: white;
+    background-color: #3B819D;
     transition: .3s;
     margin-top: 0;
   }
+
   .nav-bar.responsive li {
     display: block;
   }
@@ -395,8 +397,6 @@ li {
   .nav-bar.responsive a.hamburger {
     float: right;
     display: block;
-    margin-top: .5rem;
-    margin-right: 2.5rem;
   }
 
   .nav-bar.responsive li a {
@@ -407,3 +407,102 @@ li {
     font-size: 45px;
     line-height: 55px;
  }
+
+ /* Header*/
+ .bg-img img {
+   width: 100%;
+ }
+
+
+ /*Fonts */
+ header h3 {
+   font-size: 21pt;
+ }
+
+ h3 {
+   font-size: 16pt;
+ }
+}
+
+@media screen and (max-width: 600px) {
+  .bg-img {
+    display: none;
+  }
+
+  header, .projects, .services, .about h1, .contact {
+    background-image: url(../images/ottoman-rose.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-position-y: 25px;
+  }
+
+  nav, .hero {
+    margin-left: 10px;
+  }
+
+  .half-left, .half-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* Projects */
+  .left, .right {
+    width: 100%;
+  }
+
+  .left-text, .right-text {
+    width: 75%;
+  }
+
+  .projects img {
+    display: none;
+  }
+
+  .contact p {
+    text-align: center;
+    float: none;
+  }
+
+  .contact .icons {
+    margin: auto;
+  }
+
+  /*Services */
+  .services-wrap {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .services .half-left, .services .half-right {
+    width: 49%;
+    padding: 1rem;
+
+  }
+
+  .services h2 {
+    font-size: 16px;
+  }
+
+  .services h3 {
+    font-size: 14px;
+  }
+
+  .service-list {
+    padding: 0;
+  }
+
+  /*About*/
+  .about {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .about img {
+    width: 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+
+}
