@@ -8,15 +8,24 @@ html {
   font-size: 100%;
 }
 
-/* Structure */
-body{
-  margin-left: 50px;
-  margin-right: 50px;
+body {
+  background-image: url(../images/ottoman-rose.png);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+  background-position-y: 270px;
 }
 
+/* Structure */
 #container {
   width: 50%;
   margin: left;
+}
+
+section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .same-line {
@@ -24,11 +33,11 @@ body{
 }
 
 /* Fonts */
-
 h1 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 300;
   font-size: 48pt;
+  color: #6F6F6F;
 }
 
 h2 {
@@ -40,24 +49,36 @@ h2 {
 h3 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 300;
-  font-size: 24pt;
+  font-size: 21pt;
+}
+
+h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18pt;
 }
 
 a {
   text-decoration: none;
 }
 
+nav li a {
+  font-size: 12px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+
 /* Header */
 
 header {
-  background-color: white;
   width: 100%;
   color: #6F6F6F;
 }
 
 .hero {
   width: 100%;
-  margin: auto;
+  margin-left: 50px;
 }
 
 /* Nav Bar*/
@@ -66,6 +87,7 @@ nav {
   padding-bottom: 0;
   z-index: 1;
   position: sticky;
+  margin-left: 50px;
 }
 
 .logo {
@@ -96,11 +118,205 @@ ul#topnav.nav-bar {
 nav li {
   display: block;
   height: 100%;
-  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+/* Projects */
+section.projects {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.left-haiti img, .left-coop img {
+  width: 25%;
+  opacity: 0;
+}
+
+.left-haiti {
+  /*transform: rotate(11deg);
+  background: #121360;
+  border-radius: 8px;*/
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 8rem;
+  margin-bottom: -6rem;
+  background-image: url(../images/left-rectangle.png);
+  background-size: 76%;
+  background-position: left;
+  background-repeat: no-repeat;
+  clear: both;
+}
+
+.left-text {
+  margin: 50px;
+  width: 30%;
+  float: left;
+  display: inline-block;
+  clear: none;
+}
+
+.right img {
+  width: 25%;
+  opacity: 0;
+}
+
+.right {
+  /*background: #BF2618;
+  transform: rotate(-10deg);
+  border-radius: 8px;
+  width: 80%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  float: right;
+  clear: both;*/
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 8rem;
+  margin-bottom: -6rem;
+  background-image: url(../images/right-rectangle.png);
+  background-size: 76%;
+  background-position: right;
+  background-repeat: no-repeat;
+  clear: both;
+}
+
+.right-text {
+  margin: 50px;
+  width: 30%;
+  float: right;
+  text-align: right;
+  display: inline-block;
+  clear: none;
+}
+
+.left-coop {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 8rem;
+  margin-bottom: -6rem;
+  background-image: url(../images/left-rectangle2.png);
+  background-size: 76%;
+  background-position: left;
+  background-repeat: no-repeat;
+  clear: both;
+}
+
+/* Services*/
+.services {
+  margin-top: 5rem;
+  float: left;
+}
+
+.services h1 {
+  margin-left: 50px;
+}
+
+.services-wrap {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.half-left {
+  width: 45%;
+  padding: 1rem;
+  display: inline-block;
+  float: left;
+}
+
+.half-right {
+  width: 45%;
+  padding: 1rem;
+  float: right;
+}
+
+#list-color {
+  background-color: #3B819D;
+  border-radius: 8px;
+  color: white;
+}
+
+/* About */
+.about {
+  clear: both;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 5rem;
+  color: #6F6F6F;
+}
+
+.about img {
+  width: 100%;
+  padding: 1rem;
+}
+
+/*footer*/
+.contact {
+  width: 93%;
+  margin: auto;
+  color: #121360;
+  clear: both;
+  padding-top: 5rem;
+}
+
+.contact-container {
+  width: 100%;
+  position: ;
+  bottom: 0;
+}
+
+.contact h4 {
+  margin: 0;
+}
+
+.contact p {
+  font-size: 12px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  text-align: right;
+  float: right;
+}
+
+.contact .icons {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 7px;
+}
+
+.contact .icons li {
+  display: inline-block;
+  float: left;
+  padding: .5rem;
+}
+
+.icons li a {
+  box-shadow: none;
+  background: none;
+}
+
+.icons li a i {
+  color: #121360;
+  font-size: 21px;
+}
+
+.icons li a i:hover {
+  opacity: .5;
+}
+
+.copyright {
+  display: inline-block;
+  float: right;
 }
 
 
 
+/*NAV*/
 @media screen and (max-width: 600px) {
   .nav-bar a {
     display: none;
