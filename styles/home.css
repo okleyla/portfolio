@@ -26,6 +26,8 @@ html {
 section {
   margin-top: 5rem;
   margin-bottom: 5rem;
+  clear: both;
+  overflow: auto;
 }
 
 .same-line {
@@ -134,9 +136,8 @@ nav li {
 
 
 /* Projects */
-section.projects {
-  color: #fff;
-  padding-top: 5rem;
+.projects {
+  color: white;
   clear: both;
   position: relative;
   z-index: -1;
@@ -218,6 +219,7 @@ a {
 /* Services*/
 .services {
   margin-top: 5rem;
+  position: relative;
   z-index: 2;
 }
 
@@ -289,11 +291,16 @@ li {
 }
 
 /*footer*/
+
+footer {
+  clear: both;
+}
+
 .contact {
   width: 93%;
   margin: auto;
   color: #121360;
-  clear: both;
+  overflow: auto;
   padding-top: 5rem;
 }
 
@@ -429,6 +436,10 @@ li {
     display: none;
   }
 
+  header h3 {
+    font-size: 16pt;
+  }
+
   header, .projects, .services, .about h1, .contact {
     background-image: url(../images/ottoman-rose.png);
     background-size: 100%;
@@ -439,6 +450,7 @@ li {
 
   nav, .hero {
     margin-left: 10px;
+    margin-right: 10px;
   }
 
   .half-left, .half-right {
@@ -453,6 +465,8 @@ li {
 
   .left-text, .right-text {
     width: 75%;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .projects img {
@@ -496,13 +510,12 @@ li {
   .about {
     margin-left: 5px;
     margin-right: 5px;
+    padding: 0;
   }
 
-  .about img {
-    width: 50%;
-    margin: auto;
-    left: 0;
-    right: 0;
+  /*footer*/
+  .contact {
+    padding: 0;
   }
 
 }
