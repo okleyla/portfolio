@@ -15,7 +15,7 @@ html {
   background-repeat: no-repeat;
   background-position-y: 265px;*/
   width: 60%;
-  top: 265px;
+  top: 10vh;
   position: absolute;
   margin: auto;
   left: 0;
@@ -94,6 +94,7 @@ header {
 .hero {
   width: 100%;
   margin-left: 50px;
+  padding: 20vh 0px;
   clear: both;
 }
 
@@ -181,14 +182,15 @@ a {
 .left img {
   width: 35%;
   transform: skew(-10deg) rotate(-10deg);
-  padding-top: 100px;
+  padding-top: 3rem;
   /*opacity: 0;*/
 }
 
 .right img {
   width: 35%;
   transform: skew(10deg) rotate(10deg);
-  padding-top: 100px;
+  padding-top: 4rem;
+  margin-left: 4rem;
   /*opacity: 0;*/
 }
 
@@ -427,6 +429,7 @@ footer {
  /* Header*/
  .bg-img img {
    width: 100%;
+   top: 10px;
  }
 
 
@@ -441,25 +444,30 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .bg-img {
-    display: none;
+  .bg-img img {
+    top: 55px;
   }
 
-  section {
+  .hero-text {
     overflow: auto;
+  }
+
+  h1 {
+    font-size: 30pt;
+    width: 65%;
   }
 
   header h3 {
     font-size: 16pt;
   }
 
-  header, .projects, .services, .about h1, .contact {
-    background-image: url(../images/ottoman-rose.png);
+  /*header, .projects, .services, .about h1, .contact {
+    background-image: url(../images/ottoman-rose-mini.png);
     background-size: 100%;
     background-position: center;
-    background-repeat: repeat;
-    background-position-y: 55px;
-  }
+    background-repeat: no-repeat;
+    background-position-y: 155px;
+  }*/
 
   .contact {
     background-position-y: 25px;
@@ -476,14 +484,19 @@ footer {
   }
 
   /* Projects */
-  .left, .right {
+  .left {
     width: 100%;
+    border-bottom: 350px solid #121360;
+  }
+
+  .right {
+    width: 100%;
+    border-bottom: 300px solid #BF2618;
   }
 
   .left-text, .right-text {
     width: 75%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
   }
 
   .projects img {
@@ -503,6 +516,10 @@ footer {
   .services-wrap {
     margin-left: 5px;
     margin-right: 5px;
+  }
+
+  .services-text {
+    overflow: auto;
   }
 
   .services .half-left, .services .half-right {
@@ -530,9 +547,19 @@ footer {
     padding: 0;
   }
 
+  .about .half-right img {
+    float: right;
+    width: 50%;
+  }
+
   /*footer*/
   .contact {
     padding: 0;
+    margin: 0;
+  }
+
+  .contact .half-right {
+    display: none;
   }
 
 }
