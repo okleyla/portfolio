@@ -73,6 +73,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #E0BD1D;
+}
+
 nav li a {
   font-size: 12px;
   font-family: 'Fira Sans', sans-serif;
