@@ -95,6 +95,7 @@ header {
   width: 100%;
   margin-left: 50px;
   padding: 20vh 0px;
+  overflow: auto;
   clear: both;
 }
 
