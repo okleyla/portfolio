@@ -99,6 +99,10 @@ header {
   clear: both;
 }
 
+.hero h1 {
+  width: 55%;
+}
+
 /* Nav Bar*/
 nav {
   padding-top: 8px;
