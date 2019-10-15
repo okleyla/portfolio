@@ -1,0 +1,13 @@
+a {
+  color: inherit;
+  font-weight: bold;
+}
+
+h3 {
+  color: #6F6F6F;
+}
+
+#launch, #test, #prototype, #research, #competition, #process {
+  margin-left: 50px;
+  margin-right: 50px;
+}

@@ -364,6 +364,16 @@ footer {
 }
 
 
+/*tools & doodles*/
+.doodles img {
+  float: left;
+  padding: 1rem;
+}
+
+
+
+
+
 /* Media Queries */
 
 
