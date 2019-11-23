@@ -1,3 +1,17 @@
+
+
+section {
+  padding-top: 5rem;
+}
+
+.bg-img img {
+  top: 20vh;
+  right: 0;
+  left: 250px;
+  width: 65%;
+  transform: rotate(25deg)
+}
+
 a {
   color: inherit;
   font-weight: bold;
@@ -7,7 +21,54 @@ h3 {
   color: #6F6F6F;
 }
 
-#launch, #test, #prototype, #research, #competition, #process {
+body {
+  font-size: 12pt;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+.hero {
+  overflow: inherit;
+}
+
+#cases, #takeaways, #launch, #prototype, #research, #process, #summary {
   margin-left: 50px;
   margin-right: 50px;
+  color: #6F6F6F;
+}
+
+img {
+  width: 100%;
+}
+
+.half-left {
+  padding-left: 0;
+}
+
+li {
+  display: list-item;
+}
+
+
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 0;
+  }
+  .half-left, .half-right {
+    width: 100%;
+  }
+
+  #cases, #takeaways, #launch, #prototype, #research, #process, #summary {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #prototype .half-right {
+    display: none;
+  }
+
+  .bg-img img {
+    top: 155px;
+    left: 175px;
+  }
 }
