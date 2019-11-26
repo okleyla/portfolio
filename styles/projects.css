@@ -40,6 +40,17 @@ body {
   padding-top: 5rem;
 }
 
+#cases img {
+  width:80%;
+  float: right;
+  padding: 1rem;
+}
+
+#cases img:hover {
+  opacity: 0.5;
+  background-color: #E0BD1D;
+}
+
 img {
   width: 100%;
 }
@@ -85,6 +96,7 @@ li {
 #blink {
   animation: blinker 1s linear infinite;
   color: #3B819D;
+  font-weight: bold;
 }
 
 @keyframes blinker {
@@ -128,6 +140,8 @@ img .one-fourth {
   width: 100%
   padding: 1rem;
 }
+
+
 
 @media screen and (max-width: 600px) {
   .hero {

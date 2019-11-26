@@ -70,7 +70,8 @@ h4 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+
 }
 
 a:hover {
@@ -142,6 +143,10 @@ nav li {
   padding-right: 50px;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 
 /* Projects */
 .projects {
@@ -154,6 +159,12 @@ nav li {
 a {
   text-decoration: none;
   color: #fff;
+}
+
+.underline {
+  border-bottom: 1px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
 }
 
 
