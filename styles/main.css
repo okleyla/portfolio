@@ -171,10 +171,10 @@ a {
 .left {
   border-bottom: 400px solid #121360;
   border-left: 0px solid transparent;
-  border-right: 50px solid transparent;
-  transform: skew(10deg) rotate(10deg);
+  /*border-right: 50px solid transparent;
+  transform: skew(10deg) rotate(10deg);*/
   height: 30px;
-  width: 80%;
+  width: 100%;
   /*width: 100%;
   padding-top: 1rem;
   padding-bottom: 8rem;
@@ -189,7 +189,7 @@ a {
 .left-text {
   margin: 50px;
   width: 40%;
-  transform: skew(-10deg) rotate(-10deg);
+  /*transform: skew(-10deg) rotate(-10deg);*/
   float: left;
   display: inline-block;
   clear: none;
@@ -197,25 +197,28 @@ a {
 
 .left img {
   width: 35%;
-  transform: skew(-10deg) rotate(-10deg);
+  /*transform: skew(-10deg) rotate(-10deg);*/
   padding-top: 3rem;
+  margin: 1rem;
+  margin-right: 4rem;
   /*opacity: 0;*/
 }
 
 .right img {
   width: 35%;
-  transform: skew(10deg) rotate(10deg);
+  /*transform: skew(10deg) rotate(10deg);*/
   padding-top: 4rem;
+  margin: 1rem;
   margin-left: 4rem;
   /*opacity: 0;*/
 }
 
 .right {
   border-bottom: 400px solid #BF2618;
-  transform: skew(-10deg) rotate(-10deg);
-  border-left: 50px solid transparent;
+  /*transform: skew(-10deg) rotate(-10deg);
+  border-left: 50px solid transparent;*/
   border-right: 0px solid transparent;
-  width: 80%;
+  width: 100%;
   height: 30px;
   float: right;
   /*padding-top: 1rem;
@@ -226,7 +229,7 @@ a {
 }
 
 .right-text {
-  transform: skew(10deg) rotate(10deg);
+  /*transform: skew(10deg) rotate(10deg);*/
   margin: 50px;
   width: 40%;
   float: right;
