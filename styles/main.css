@@ -601,3 +601,23 @@ footer {
   }
 
 }
+
+@media screen and (min-width: 1400px) {
+  .right-text, .left-text {
+    margin: 50px;
+    margin-top: 100px;
+    width: 30%;
+  }
+
+  .right img {
+    width: 30%;
+    margin: 40px;
+    margin-left: 50px;
+  }
+
+  .left img {
+    width: 30%;
+    margin: 40px;
+    margin-right: 50px;
+  }
+}
