@@ -473,6 +473,11 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  .bg-img {
+    z-index: -5;
+    position: relative;
+  }
+
   .bg-img img {
     top: 55px;
   }
