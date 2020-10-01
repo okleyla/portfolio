@@ -611,13 +611,13 @@ footer {
 
   .right img {
     width: 30%;
-    margin: 40px;
     margin-left: 50px;
+    padding-top: 0;
   }
 
   .left img {
     width: 30%;
-    margin: 40px;
     margin-right: 50px;
+    padding-top: 0;
   }
 }
