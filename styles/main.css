@@ -507,6 +507,10 @@ footer {
     margin-right: 10px;
   }
 
+  .hero {
+    padding: 0;
+  }
+
   .half-left, .half-right {
     width: 100%;
     padding: 0;
@@ -515,7 +519,7 @@ footer {
   /* Projects */
   .left {
     width: 100%;
-    border-bottom: 350px solid #121360;
+    border-bottom: 300px solid #121360;
   }
 
   .right {
